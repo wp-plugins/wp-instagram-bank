@@ -1,6 +1,6 @@
 ﻿=== WP Instagram Bank ===
 Contributors: contact-banker
-Tags: instagram, photography, photos, sidebar, simple, widget, widgets, gallery, albums,admin
+Tags: instagram, photography, photos, sidebar, simple, widget, widgets, gallery, albums,admin, gallery, instagram, instagram gallery, Instagram images, photos, widgets
 Requires at least: 3.0
 Tested up to: 3.9.1
 Stable tag: 1.0
