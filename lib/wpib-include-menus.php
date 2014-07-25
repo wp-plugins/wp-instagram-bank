@@ -2,11 +2,32 @@
 //--------------------------------------------------------------------------------------------------------------//
 // CODE FOR CREATING MENUS
 //---------------------------------------------------------------------------------------------------------------//
+global $wpdb,$current_user;
+$role = $wpdb->prefix . "capabilities";
+$current_user->role = array_keys($current_user->$role);
+$role = $current_user->role[0];
 
-add_menu_page("Instagram Bank", __("Instagram Bank", instagram_bank), "read", "instagram_bank", "", INSTAGRAM_BK_PLUGIN_URL . "/assets/images/instagram.png");
-add_submenu_page("instagram_bank", "Dashboard", __("Dashboard", instagram_bank), "read", "instagram_bank",  "instagram_bank");
-add_submenu_page("", "", "", "read", "add_album",  "add_album");
-add_submenu_page("instagram_bank", "System Status", __("System Status",instagram_bank), "read", "wp_system_status",  "wp_system_status");
+switch($role)
+{
+	case "administrator":
+		add_menu_page("Instagram Bank", __("Instagram Bank", instagram_bank), "read", "instagram_bank", "", INSTAGRAM_BK_PLUGIN_URL . "/assets/images/instagram.png");
+		add_submenu_page("instagram_bank", "Dashboard", __("Dashboard", instagram_bank), "read", "instagram_bank",  "instagram_bank");
+		add_submenu_page("", "", "", "read", "add_album",  "add_album");
+		add_submenu_page("instagram_bank", "System Status", __("System Status",instagram_bank), "read", "wp_system_status",  "wp_system_status");
+		break;
+	case "editor":
+		add_menu_page("Instagram Bank", __("Instagram Bank", instagram_bank), "read", "instagram_bank", "", INSTAGRAM_BK_PLUGIN_URL . "/assets/images/instagram.png");
+		add_submenu_page("instagram_bank", "Dashboard", __("Dashboard", instagram_bank), "read", "instagram_bank",  "instagram_bank");
+		add_submenu_page("", "", "", "read", "add_album",  "add_album");
+		add_submenu_page("instagram_bank", "System Status", __("System Status",instagram_bank), "read", "wp_system_status",  "wp_system_status");
+		break;
+	case "author":
+		add_menu_page("Instagram Bank", __("Instagram Bank", instagram_bank), "read", "instagram_bank", "", INSTAGRAM_BK_PLUGIN_URL . "/assets/images/instagram.png");
+		add_submenu_page("instagram_bank", "Dashboard", __("Dashboard", instagram_bank), "read", "instagram_bank",  "instagram_bank");
+		add_submenu_page("", "", "", "read", "add_album",  "add_album");
+		add_submenu_page("instagram_bank", "System Status", __("System Status",instagram_bank), "read", "wp_system_status",  "wp_system_status");
+		break;
+}
 
 //--------------------------------------------------------------------------------------------------------------//
 // CODE FOR CREATING PAGES

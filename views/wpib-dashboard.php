@@ -105,7 +105,7 @@ else
 													[wp_instagram_bank album_id="<?php echo $result[$flag]->album_id;?>" title="false" desc="false"]<br>
 												</td>
 												<td>
-													<?php echo $result[$flag]->album_name;?>.
+													<?php echo $result[$flag]->album_name;?>
 												</td>
 												<td>
 													<?php echo $result[$flag]->user_name;?>
