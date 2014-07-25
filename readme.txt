@@ -12,12 +12,19 @@ WP Instagram Bank is an ultimate WordPress Plugin to showcase your latest Instag
 
 == Description ==
 
-"WP Instagram Bank" contains:
+### [WordPress Instagram Bank]
+
+WP Instagram Bank contains:
 
 * Streamlined code for optimized plugin performance
 * Simple instructions
 * Importing Images & Videos directly from your instagram account
 
+The Plugin is built keeping in mind:
+
+* Use sensible and simple markup
+* Cache where possible - filters are provided to adjust cache timings
+* Require little setup - avoid oAuth for example
 
 == Installation ==
 
