@@ -12,7 +12,7 @@ WP Instagram Bank is an ultimate WordPress Plugin to showcase your latest Instag
 
 == Description ==
 
-### [WordPress Instagram Bank]
+### WordPress Instagram Bank
 
 WP Instagram Bank contains:
 
