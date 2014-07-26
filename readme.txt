@@ -1,6 +1,6 @@
 ﻿=== WP Instagram Bank ===
 Contributors: contact-banker,Gallery-Bank
-Tags: admin, albums, gallery, instagram, instagram gallery, Instagram images, photography, photos, sidebar, simple, widget, widgets
+Tags: admin, albums, gallery, instagram, instagram gallery, Instagram images, photography, photos, sidebar, simple, widget, widgets, plugin
 Requires at least: 3.0
 Tested up to: 3.9.1
 Stable tag: 1.0
@@ -26,7 +26,7 @@ The Plugin is built keeping in mind:
 * Cache where possible - filters are provided to adjust cache timings
 * Require little setup - avoid oAuth for example
 
-IMPORTANT: If you think you found a bug in the WP Instagram Bank or have any problem or question concerning WP Instagram Bank, do not hesitate to contact us at support@tech-banker.com.
+###IMPORTANT: If you think you found a bug in the WP Instagram Bank or have any problem or question concerning WP Instagram Bank, do not hesitate to contact us at support@tech-banker.com.
 
 == Installation ==
 
