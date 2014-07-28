@@ -106,7 +106,7 @@ else
 												<div class="layout-control-group">
 													<label class="layout-control-label"><?php _e("Album Title", instagram_bank); ?> : <span class="error">*</span> </label>
 													<div class="layout-controls">
-														<input type="text" id="ux_txt_album" name="ux_txt_album" class="layout-span12" placeholder="Enter Your Album Title" value="<?php echo stripcslashes(htmlspecialchars_decode($instagram_album->album_name));?>"/>
+														<input type="text" id="ux_txt_album" name="ux_txt_album" class="layout-span12" placeholder="<?php _e("Enter Your Album Title", instagram_bank);?>" value="<?php echo stripcslashes(htmlspecialchars_decode($instagram_album->album_name));?>"/>
 														<p class="wpib-desc-italic">	<?php _e("Enter the Tiltle for your Album here", instagram_bank); ?> </p>
 													</div>
 												</div>
@@ -115,7 +115,7 @@ else
 												<div class="layout-control-group">
 													<label class="layout-control-label"><?php _e("Instagram UserName", instagram_bank); ?> : <span class="error">*</span></label>
 													<div class="layout-controls">
-														<input type="text" id="ux_txt_user" name="ux_txt_user" class="layout-span12"   placeholder="Enter Your Instagram Username" value="<?php echo esc_attr($instagram_album->user_name);?>">
+														<input type="text" id="ux_txt_user" name="ux_txt_user" class="layout-span12"   placeholder="<?php _e("Enter Your Instagram Username", instagram_bank);?>" value="<?php echo esc_attr($instagram_album->user_name);?>">
 													<p class="wpib-desc-italic">	<?php _e("Enter Instagram account from where to import images", instagram_bank); ?> </p>
 													</div>
 												</div>
@@ -123,7 +123,7 @@ else
 											<div class="layout-control-group">
 												<label class="layout-control-label"><?php _e("Description", instagram_bank); ?> : </label>
 												<div class="layout-controls">
-													<textarea name="ux_album_desc" id="ux_album_desc" rows="7" class="layout-span12"  placeholder="Enter Your Album Description"/ ><?php echo stripslashes(htmlspecialchars_decode($instagram_album->description));?></textarea>
+													<textarea name="ux_album_desc" id="ux_album_desc" rows="7" class="layout-span12"  placeholder="<?php _e("Enter Your Album Description", instagram_bank);?>"/ ><?php echo stripslashes(htmlspecialchars_decode($instagram_album->description));?></textarea>
 													<p class="wpib-desc-italic">	<?php _e("Enter the description for your Album here", instagram_bank); ?> </p>
 												</div>
 											</div>
@@ -197,11 +197,11 @@ else
 																<img src="<?php echo $instagram_pics[$flag]->thumbnail_url;?>" image_id = "<?php echo $instagram_pics[$flag]->pic_id;?>" type="<?php echo $type;?>" />
 															</td>
 															<td>
-																<input type="text" id="ux_txt_insta_title" name="ux_txt_insta_title" placeholder="Enter your Title" value="<?php echo html_entity_decode(stripcslashes(htmlspecialchars($instagram_pics[$flag]->title))); ?>" style="margin-bottom: 10px;"><br/>
-																<textarea name="ux_txt_insta_desc" id="ux_txt_insta_desc" rows="4" cols="20" placeholder="Enter your Description"><?php echo html_entity_decode(stripcslashes(htmlspecialchars($instagram_pics[$flag]->description)));?></textarea>
+																<input type="text" id="ux_txt_insta_title" name="ux_txt_insta_title" placeholder="<?php _e("Enter your Title", instagram_bank);?>" value="<?php echo html_entity_decode(stripcslashes(htmlspecialchars($instagram_pics[$flag]->title))); ?>" style="margin-bottom: 10px;"><br/>
+																<textarea name="ux_txt_insta_desc" id="ux_txt_insta_desc" rows="4" cols="20" placeholder="<?php _e("Enter your Description", instagram_bank);?>"><?php echo html_entity_decode(stripcslashes(htmlspecialchars($instagram_pics[$flag]->description)));?></textarea>
 															</td>
 															<td>
-																<textarea name="ux_txt_insta_tags" id="ux_txt_insta_tags" rows="6" cols="20"placeholder="Enter your Tags"/><?php echo html_entity_decode(stripcslashes(htmlspecialchars($instagram_pics[$flag]->tags))); ?></textarea>
+																<textarea name="ux_txt_insta_tags" id="ux_txt_insta_tags" rows="6" cols="20" placeholder="<?php _e("Enter your Tags", instagram_bank);?>"/><?php echo html_entity_decode(stripcslashes(htmlspecialchars($instagram_pics[$flag]->tags))); ?></textarea>
 															</td>
 														</tr>
 														<?php 

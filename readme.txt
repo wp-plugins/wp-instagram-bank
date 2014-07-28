@@ -28,6 +28,45 @@ The Plugin is built keeping in mind:
 
 ###IMPORTANT: If you think you found a bug in the WP Instagram Bank or have any problem or question concerning WP Instagram Bank, do not hesitate to contact us at support@tech-banker.com.
 
+
+
+### WP Instagram Bank is now available in the following Languages
+
+* Albanian (sq_AL)
+* Arabic (ar)
+* Belarusian(be_BY)
+* Brazilian Portuguese (pt_BR)
+* Bulgarian (bg_BG)
+* Chinese (zh_CN)
+* Czech (cs_CZ)
+* Danish (da_DK)
+* Dutch (nl_NL)
+* English (en_GB)
+* Estonian (et)
+* Finnish (fi_FI)
+* French (fr_FR)
+* German (de_DE)
+* Hebrew (he_IL)
+* Hungarian (hu_HU)
+* Korean (ko_KR)
+* Malay Malaysia (ms_MY)
+* Indonesian (id_ID)
+* Italian (it_IT)
+* Japanese (ja)
+* Korean (hu_HU)
+* Polish (pl_PL)
+* Portuguese (pt_PT)
+* Romanian (ro_RO)
+* Russian (ru_RU)
+* Serbian (sr_RS)
+* Slovenian (sl_SI)
+* Slovak (sk_SK)
+* Spanish (es_ES)
+* Swedish (sv_SE)
+* Turkish (tr)
+* Thai (th)
+* Ukrainian (uk)
+
 == Installation ==
 
 ### Minimum requirements.  
@@ -53,5 +92,10 @@ If any problem occurs, please contact us at [support@tech-banker.com](mailto:sup
 
 == Changelog ==
 
+= 1.0.1 =
+
+* 33 Languages Added
+
 = 1.0 =
-Initial Release
+
+* Initial Release

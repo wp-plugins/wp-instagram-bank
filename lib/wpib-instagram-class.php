@@ -94,11 +94,11 @@ else
 							<img src="<?php echo esc_url($content["thumbnail"]["url"]);?>" image_id = "<?php echo $pic_id;?>" type="<?php echo $content["type"];?>" image_link="<?php echo esc_url( $content["link"] );?>" />
 						</td>
 						<td>
-							<input type="text" id="ux_txt_insta_title" name="ux_txt_insta_title" placeholder="Enter your Title" value="<?php echo  esc_attr($content["description"]); ?>" style="margin-bottom: 10px;"><br/>
-							<textarea name="ux_txt_insta_desc" id="ux_txt_insta_desc" rows="4" cols="20" placeholder="Enter your Description"/ ></textarea>
+							<input type="text" id="ux_txt_insta_title" name="ux_txt_insta_title" placeholder="<?php _e("Enter your Title", instagram_bank );?>" value="<?php echo  esc_attr($content["description"]); ?>" style="margin-bottom: 10px;"><br/>
+							<textarea name="ux_txt_insta_desc" id="ux_txt_insta_desc" rows="4" cols="20" placeholder="<?php _e("Enter your Description", instagram_bank );?>"/ ></textarea>
 						</td>
 						<td>
-							<textarea name="ux_txt_insta_tags" id="ux_txt_insta_tags" rows="6" cols="20" placeholder="Enter your Tags"/></textarea>
+							<textarea name="ux_txt_insta_tags" id="ux_txt_insta_tags" rows="6" cols="20" placeholder="<?php _e("Enter your Tags", instagram_bank );?>"/></textarea>
 						</td>
 					</tr>
 					<?php
