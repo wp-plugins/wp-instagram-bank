@@ -3,7 +3,7 @@ Contributors: contact-banker,Gallery-Bank
 Tags: admin, albums, gallery, instagram, instagram gallery, Instagram images, photography, photos, sidebar, simple, widget, widgets, plugin
 Requires at least: 3.0
 Tested up to: 3.9.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
