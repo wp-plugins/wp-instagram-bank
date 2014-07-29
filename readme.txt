@@ -94,7 +94,7 @@ If any problem occurs, please contact us at [support@tech-banker.com](mailto:sup
 
 = 1.0.2 =
 
-* 33 Languages Updated
+* All Languages Updated
 * Few Bugs Fixed
 
 = 1.0.1 =
