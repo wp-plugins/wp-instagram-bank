@@ -10,19 +10,19 @@ $role = $current_user->role[0];
 switch($role)
 {
 	case "administrator":
-		add_menu_page("Instagram Bank", __("Instagram Bank", instagram_bank), "read", "instagram_bank", "", INSTAGRAM_BK_PLUGIN_URL . "/assets/images/instagram.png");
+		add_menu_page("Instagram Bank", __("Instagram Bank", instagram_bank), "read", "instagram_bank", "",plugins_url("/assets/images/instagram.png" , dirname(__FILE__)));
 		add_submenu_page("instagram_bank", "Dashboard", __("Dashboard", instagram_bank), "read", "instagram_bank",  "instagram_bank");
 		add_submenu_page("", "", "", "read", "add_album",  "add_album");
 		add_submenu_page("instagram_bank", "System Status", __("System Status",instagram_bank), "read", "wp_system_status",  "wp_system_status");
 		break;
 	case "editor":
-		add_menu_page("Instagram Bank", __("Instagram Bank", instagram_bank), "read", "instagram_bank", "", INSTAGRAM_BK_PLUGIN_URL . "/assets/images/instagram.png");
+		add_menu_page("Instagram Bank", __("Instagram Bank", instagram_bank), "read", "instagram_bank", "", plugins_url("/assets/images/instagram.png" , dirname(__FILE__)));
 		add_submenu_page("instagram_bank", "Dashboard", __("Dashboard", instagram_bank), "read", "instagram_bank",  "instagram_bank");
 		add_submenu_page("", "", "", "read", "add_album",  "add_album");
 		add_submenu_page("instagram_bank", "System Status", __("System Status",instagram_bank), "read", "wp_system_status",  "wp_system_status");
 		break;
 	case "author":
-		add_menu_page("Instagram Bank", __("Instagram Bank", instagram_bank), "read", "instagram_bank", "", INSTAGRAM_BK_PLUGIN_URL . "/assets/images/instagram.png");
+		add_menu_page("Instagram Bank", __("Instagram Bank", instagram_bank), "read", "instagram_bank", "", plugins_url("/assets/images/instagram.png" , dirname(__FILE__)));
 		add_submenu_page("instagram_bank", "Dashboard", __("Dashboard", instagram_bank), "read", "instagram_bank",  "instagram_bank");
 		add_submenu_page("", "", "", "read", "add_album",  "add_album");
 		add_submenu_page("instagram_bank", "System Status", __("System Status",instagram_bank), "read", "wp_system_status",  "wp_system_status");

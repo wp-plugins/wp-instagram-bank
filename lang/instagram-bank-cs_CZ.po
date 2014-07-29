@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Instagram Bank\n"
-"POT-Creation-Date: 2014-07-28 10:56+0530\n"
+"POT-Creation-Date: 2014-07-29 10:29+0530\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.6\n"
+"X-Generator: Poedit 1.5.7\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
 "\\wp-instagram-bank\\\n"
@@ -48,6 +48,18 @@ msgstr "Smazat"
 #: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
 msgid "Enable redirect on Instagram"
 msgstr "Povolit přesměrování na Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Vložte Název"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Zadejte svůj popis"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Vložte Tagy"
 
 #: lib/wpib-instagram-class.php:213
 msgid "Unable to communicate with Instagram."
@@ -117,6 +129,10 @@ msgstr "Podrobnosti Alba"
 msgid "Album Title"
 msgstr "Název alba"
 
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Zadejte své alba Název"
+
 #: views/wpib-instagram-view.php:110
 msgid "Enter the Tiltle for your Album here"
 msgstr "zadejte Název pro vaše alba zde"
@@ -125,6 +141,10 @@ msgstr "zadejte Název pro vaše alba zde"
 msgid "Instagram UserName"
 msgstr "Instagram Uživatelské jméno"
 
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Zadejte své Instagram Užívatelské jméno"
+
 #: views/wpib-instagram-view.php:119
 msgid "Enter Instagram account from where to import images"
 msgstr "Zadejte Instagram účet, ze kterého chcete importovat obrázky"
@@ -132,6 +152,10 @@ msgstr "Zadejte Instagram účet, ze kterého chcete importovat obrázky"
 #: views/wpib-instagram-view.php:124
 msgid "Description"
 msgstr "Popis"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Zadejte své alba popis"
 
 #: views/wpib-instagram-view.php:127
 msgid "Enter the description for your Album here"
@@ -281,15 +305,6 @@ msgstr "Výchozí"
 
 #~ msgid "Purchase Pro Version"
 #~ msgstr "Kupte si Pro verzi"
-
-#~ msgid "Enter your Title"
-#~ msgstr "Vložte Název"
-
-#~ msgid "Enter your Description "
-#~ msgstr "Vložte popis "
-
-#~ msgid "Enter your Tags"
-#~ msgstr "Vložte Tagy"
 
 #~ msgid "Delete Image"
 #~ msgstr "Smazat obrázek"

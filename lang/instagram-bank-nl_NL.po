@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Instagram Bank\n"
-"POT-Creation-Date: 2014-07-28 11:04+0530\n"
+"POT-Creation-Date: 2014-07-29 10:28+0530\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -48,6 +48,18 @@ msgstr "Verwijderen"
 #: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
 msgid "Enable redirect on Instagram"
 msgstr "Staat stellen omleiden op Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Voer Titel in"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Voer jouw Omschrijving"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Voer uw tags in"
 
 #: lib/wpib-instagram-class.php:213
 msgid "Unable to communicate with Instagram."
@@ -118,6 +130,10 @@ msgstr "bekijken Album Afbeelding in detail"
 msgid "Album Title"
 msgstr "Album Titel"
 
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Voer Uw bekijken Album van titel"
+
 #: views/wpib-instagram-view.php:110
 msgid "Enter the Tiltle for your Album here"
 msgstr "Voer de titel voor uw bekijken Album hier"
@@ -126,6 +142,10 @@ msgstr "Voer de titel voor uw bekijken Album hier"
 msgid "Instagram UserName"
 msgstr "Instagram Gebruikersbenaming"
 
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Voer uw Instagram gebruikersnaam"
+
 #: views/wpib-instagram-view.php:119
 msgid "Enter Instagram account from where to import images"
 msgstr "Voer Instagram account vanaf waar aan invoer afbeeldingen"
@@ -133,6 +153,10 @@ msgstr "Voer Instagram account vanaf waar aan invoer afbeeldingen"
 #: views/wpib-instagram-view.php:124
 msgid "Description"
 msgstr "Omschrijving"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Voer Uw bekijken Album Beschrijving"
 
 #: views/wpib-instagram-view.php:127
 msgid "Enter the description for your Album here"
@@ -282,15 +306,6 @@ msgstr "Default"
 
 #~ msgid "Purchase Pro Version"
 #~ msgstr "Kopen Pro Versie"
-
-#~ msgid "Enter your Title"
-#~ msgstr "Voer Titel in"
-
-#~ msgid "Enter your Description "
-#~ msgstr "Voer uw Omschrijving in"
-
-#~ msgid "Enter your Tags"
-#~ msgstr "Voer uw tags in"
 
 #~ msgid "Delete Image"
 #~ msgstr "Verwijder Afbeelding"

@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Instagram Bank\n"
-"POT-Creation-Date: 2014-07-28 11:10+0530\n"
-"PO-Revision-Date: 2014-07-28 16:32+0530\n"
+"POT-Creation-Date: 2014-07-29 10:22+0530\n"
+"PO-Revision-Date: 2014-07-29 11:37+0530\n"
 "Last-Translator: \n"
 "Language-Team: Tech-Banker <support@tech-banker.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.6\n"
 "X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
 "\\wp-instagram-bank\\\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -49,6 +49,18 @@ msgstr "删除"
 #: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
 msgid "Enable redirect on Instagram"
 msgstr "启用重新导向 - 上 Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "输入您的题名"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "输入您的描述"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "输入您的标签"
 
 #: lib/wpib-instagram-class.php:213
 msgid "Unable to communicate with Instagram."
@@ -118,6 +130,10 @@ msgstr "相册细节"
 msgid "Album Title"
 msgstr "专辑标题"
 
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "进入你的相册称号"
+
 #: views/wpib-instagram-view.php:110
 msgid "Enter the Tiltle for your Album here"
 msgstr "回车 该 标题为-你的相册，在这里"
@@ -126,6 +142,10 @@ msgstr "回车 该 标题为-你的相册，在这里"
 msgid "Instagram UserName"
 msgstr "Instagram的用户名"
 
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "输入您的Instagram - 用户名的"
+
 #: views/wpib-instagram-view.php:119
 msgid "Enter Instagram account from where to import images"
 msgstr "进入 - Instagram从哪里导入图像的账户"
@@ -133,6 +153,10 @@ msgstr "进入 - Instagram从哪里导入图像的账户"
 #: views/wpib-instagram-view.php:124
 msgid "Description"
 msgstr "描述"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "回车你的相册说明"
 
 #: views/wpib-instagram-view.php:127
 msgid "Enter the description for your Album here"
@@ -277,15 +301,6 @@ msgstr "默认"
 #, fuzzy
 #~ msgid "Purchase Pro Version"
 #~ msgstr "采购Pro版主要"
-
-#~ msgid "Enter your Title"
-#~ msgstr "输入您的题名"
-
-#~ msgid "Enter your Description "
-#~ msgstr "输入您的-描述"
-
-#~ msgid "Enter your Tags"
-#~ msgstr "输入您的标签"
 
 #~ msgid "Delete Image"
 #~ msgstr "删除形象"

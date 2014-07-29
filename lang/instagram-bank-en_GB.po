@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Instagram Bank\n"
-"POT-Creation-Date: 2014-07-28 10:58+0530\n"
-"PO-Revision-Date: 2014-07-28 16:54+0530\n"
+"POT-Creation-Date: 2014-07-29 10:29+0530\n"
+"PO-Revision-Date: 2014-07-29 10:29+0530\n"
 "Last-Translator: \n"
 "Language-Team: Tech-Banker <support@tech-banker.com>\n"
 "Language: en_US\n"
@@ -48,6 +48,18 @@ msgstr ""
 
 #: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
 msgid "Enable redirect on Instagram"
+msgstr ""
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr ""
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr ""
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
 msgstr ""
 
 #: lib/wpib-instagram-class.php:213
@@ -118,6 +130,10 @@ msgstr ""
 msgid "Album Title"
 msgstr ""
 
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr ""
+
 #: views/wpib-instagram-view.php:110
 msgid "Enter the Tiltle for your Album here"
 msgstr ""
@@ -126,12 +142,20 @@ msgstr ""
 msgid "Instagram UserName"
 msgstr ""
 
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr ""
+
 #: views/wpib-instagram-view.php:119
 msgid "Enter Instagram account from where to import images"
 msgstr ""
 
 #: views/wpib-instagram-view.php:124
 msgid "Description"
+msgstr ""
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
 msgstr ""
 
 #: views/wpib-instagram-view.php:127

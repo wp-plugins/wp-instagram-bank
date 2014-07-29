@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Instagram Bank\n"
-"POT-Creation-Date: 2014-07-28 10:59+0530\n"
+"POT-Creation-Date: 2014-07-29 10:28+0530\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.6\n"
+"X-Generator: Poedit 1.5.7\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
 "\\wp-instagram-bank\\\n"
@@ -48,6 +48,18 @@ msgstr "Poista"
 #: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
 msgid "Enable redirect on Instagram"
 msgstr "Ota käyttöön uudelleenohjata Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Syötä otsikko"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Anna sinun Kuvaus "
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Syötä tagit"
 
 #: lib/wpib-instagram-class.php:213
 msgid "Unable to communicate with Instagram."
@@ -118,6 +130,10 @@ msgstr "Albumin Yksityiskohta"
 msgid "Album Title"
 msgstr "Albumin otsikko"
 
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Anna  sinun albumi Otsikko"
+
 #: views/wpib-instagram-view.php:110
 msgid "Enter the Tiltle for your Album here"
 msgstr "Kirjoita otsikko teidän Albumin täällä"
@@ -126,6 +142,10 @@ msgstr "Kirjoita otsikko teidän Albumin täällä"
 msgid "Instagram UserName"
 msgstr "Instagram Käyttäjänimi"
 
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Anna sinun Instagram Käyttäjätunnus"
+
 #: views/wpib-instagram-view.php:119
 msgid "Enter Instagram account from where to import images"
 msgstr "Anna Instagram tilin mistä tuoda kuvia"
@@ -133,6 +153,10 @@ msgstr "Anna Instagram tilin mistä tuoda kuvia"
 #: views/wpib-instagram-view.php:124
 msgid "Description"
 msgstr "Kuvaus"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Anna Sinun Albumi Kuvaus"
 
 #: views/wpib-instagram-view.php:127
 msgid "Enter the description for your Album here"
@@ -282,15 +306,6 @@ msgstr "Oletus"
 
 #~ msgid "Purchase Pro Version"
 #~ msgstr "Ostaa Pro versio"
-
-#~ msgid "Enter your Title"
-#~ msgstr "Syötä otsikko"
-
-#~ msgid "Enter your Description "
-#~ msgstr "Syötä kuvateksti "
-
-#~ msgid "Enter your Tags"
-#~ msgstr "Syötä tagit"
 
 #~ msgid "Delete Image"
 #~ msgstr "Poista kuva"

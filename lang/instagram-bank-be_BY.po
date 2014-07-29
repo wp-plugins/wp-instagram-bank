@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Instagram Bank\n"
-"POT-Creation-Date: 2014-07-28 10:53+0530\n"
-"PO-Revision-Date: 2014-07-28 12:24+0530\n"
+"POT-Creation-Date: 2014-07-29 10:29+0530\n"
+"PO-Revision-Date: 2014-07-29 10:47+0530\n"
 "Last-Translator: Zmicier <zmija@tut.by>\n"
 "Language-Team: Tech-Banker <support@tech-banker.com>\n"
 "Language: be_BY\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.6\n"
+"X-Generator: Poedit 1.5.7\n"
 "X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
 "\\wp-instagram-bank\\\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -49,6 +49,18 @@ msgstr "Выдаліць"
 #: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
 msgid "Enable redirect on Instagram"
 msgstr "Ўключыць перанакіраванне на Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Увядзіце вашу назву "
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr " Калі ласка, увядзіце ваш Апісанне"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Увядзіце вашы тэгі"
 
 #: lib/wpib-instagram-class.php:213
 msgid "Unable to communicate with Instagram."
@@ -118,6 +130,10 @@ msgstr "альбом падрабязна"
 msgid "Album Title"
 msgstr "Назва альбома"
 
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "ваш ласка, увядзіце альбома загаловак"
+
 #: views/wpib-instagram-view.php:110
 msgid "Enter the Tiltle for your Album here"
 msgstr "Калі ласка, увядзіце назву для вашага альбома тут"
@@ -126,6 +142,10 @@ msgstr "Калі ласка, увядзіце назву для вашага а�
 msgid "Instagram UserName"
 msgstr "Instagram Імя карыстальніка"
 
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "ваш ласка, увядзіце Інстаграм Імя карыстальніка "
+
 #: views/wpib-instagram-view.php:119
 msgid "Enter Instagram account from where to import images"
 msgstr "Калі ласка, увядзіце Instagram рахунак ад дзе  ў імпарт малюнка"
@@ -133,6 +153,10 @@ msgstr "Калі ласка, увядзіце Instagram рахунак ад дз
 #: views/wpib-instagram-view.php:124
 msgid "Description"
 msgstr "Апісанне"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "ваш ласка, увядзіце Апісанне Альбом"
 
 #: views/wpib-instagram-view.php:127
 msgid "Enter the description for your Album here"
@@ -282,15 +306,6 @@ msgstr "Стандартны"
 
 #~ msgid "Purchase Pro Version"
 #~ msgstr "Купіць Pro версію"
-
-#~ msgid "Enter your Title"
-#~ msgstr "Увядзіце вашу назву "
-
-#~ msgid "Enter your Description "
-#~ msgstr "Увядзіце вашае апісанне"
-
-#~ msgid "Enter your Tags"
-#~ msgstr "Увядзіце вашы тэгі"
 
 #~ msgid "Delete Image"
 #~ msgstr "Выдаліць фота"

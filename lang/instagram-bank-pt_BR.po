@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Instagram Bank\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-28 11:05+0530\n"
-"PO-Revision-Date: 2014-07-28 16:56+0530\n"
+"POT-Creation-Date: 2014-07-29 10:28+0530\n"
+"PO-Revision-Date: 2014-07-29 10:52+0530\n"
 "Last-Translator: \n"
 "Language-Team: Tech-Banker <support@tech-banker.com>\n"
 "Language: pt_PT\n"
@@ -57,6 +57,19 @@ msgstr "Apagar"
 #: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
 msgid "Enable redirect on Instagram"
 msgstr "Habilitar redirecionar no Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Digite o seu Título"
+
+# @ gallery-bank
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Digite Sua Descrição"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Introduza Suas Tags"
 
 #: lib/wpib-instagram-class.php:213
 msgid "Unable to communicate with Instagram."
@@ -137,6 +150,11 @@ msgid "Album Title"
 msgstr "Título do Álbum "
 
 # @ gallery-bank
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Introduza seu Album Título"
+
+# @ gallery-bank
 #: views/wpib-instagram-view.php:110
 msgid "Enter the Tiltle for your Album here"
 msgstr "Digite o título para o seu Álbum aqui"
@@ -144,6 +162,10 @@ msgstr "Digite o título para o seu Álbum aqui"
 #: views/wpib-instagram-view.php:116
 msgid "Instagram UserName"
 msgstr "Instagram NomeUtilizador"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Introduza seu Instagram Nome de utilizador"
 
 #: views/wpib-instagram-view.php:119
 msgid "Enter Instagram account from where to import images"
@@ -153,6 +175,11 @@ msgstr "Digite conta Instagram De Onde importar imagens"
 #: views/wpib-instagram-view.php:124
 msgid "Description"
 msgstr "Descrição"
+
+# @ gallery-bank
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Introduza seu Album Descrição"
 
 #: views/wpib-instagram-view.php:127
 msgid "Enter the description for your Album here"

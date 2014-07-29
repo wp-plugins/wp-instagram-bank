@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Instagram Bank\n"
-"POT-Creation-Date: 2014-07-28 10:58+0530\n"
+"POT-Creation-Date: 2014-07-29 10:29+0530\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.6\n"
+"X-Generator: Poedit 1.5.7\n"
 "X-Poedit-KeywordsList: _e;__\n"
 "X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
 "\\wp-instagram-bank\\\n"
@@ -48,6 +48,18 @@ msgstr "Borrar"
 #: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
 msgid "Enable redirect on Instagram"
 msgstr "Habilitar redirigir en Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Escriba su titulo"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Ingrese  su Descripción"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Escriba sus tags"
 
 #: lib/wpib-instagram-class.php:213
 msgid "Unable to communicate with Instagram."
@@ -117,6 +129,10 @@ msgstr "Detalle de álbum"
 msgid "Album Title"
 msgstr "Titulo del album"
 
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Ingrese su Título del álbum"
+
 #: views/wpib-instagram-view.php:110
 msgid "Enter the Tiltle for your Album here"
 msgstr "Escriba el título de su álbum aquí"
@@ -125,6 +141,10 @@ msgstr "Escriba el título de su álbum aquí"
 msgid "Instagram UserName"
 msgstr "Instagram Nombre de Usuario"
 
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Ingrese su  Instagram nombre de usuario de"
+
 #: views/wpib-instagram-view.php:119
 msgid "Enter Instagram account from where to import images"
 msgstr "Introduzca cuenta Instagram de donde importar imágenes"
@@ -132,6 +152,10 @@ msgstr "Introduzca cuenta Instagram de donde importar imágenes"
 #: views/wpib-instagram-view.php:124
 msgid "Description"
 msgstr "Descripcion"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Ingrese su Álbum de Descripción de"
 
 #: views/wpib-instagram-view.php:127
 msgid "Enter the description for your Album here"
@@ -281,15 +305,6 @@ msgstr "Defecto"
 
 #~ msgid "Purchase Pro Version"
 #~ msgstr "Compra Pro la versión"
-
-#~ msgid "Enter your Title"
-#~ msgstr "Escriba su titulo"
-
-#~ msgid "Enter your Description "
-#~ msgstr "Escriba su descripcion"
-
-#~ msgid "Enter your Tags"
-#~ msgstr "Escriba sus tags"
 
 #~ msgid "Delete Image"
 #~ msgstr "Borrar imagen"

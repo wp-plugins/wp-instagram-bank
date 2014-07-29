@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Instagram Bank\n"
-"POT-Creation-Date: 2014-07-28 11:09+0530\n"
+"POT-Creation-Date: 2014-07-29 10:23+0530\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.6\n"
 "X-Poedit-KeywordsList: _e;__\n"
 "X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
 "\\wp-instagram-bank\\\n"
@@ -48,6 +48,18 @@ msgstr "Radera"
 #: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
 msgid "Enable redirect on Instagram"
 msgstr "Göra det möjligt för omdirigera på Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Fyll i titel"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Ange ditt Beskrivning"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Fyll i taggar"
 
 #: lib/wpib-instagram-class.php:213
 msgid "Unable to communicate with Instagram."
@@ -117,6 +129,10 @@ msgstr "Albumet - Detalj"
 msgid "Album Title"
 msgstr "Albumtitel"
 
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Ange Din albumet Titel"
+
 #: views/wpib-instagram-view.php:110
 msgid "Enter the Tiltle for your Album here"
 msgstr "Ange - titel för ditt Albumet här"
@@ -125,6 +141,10 @@ msgstr "Ange - titel för ditt Albumet här"
 msgid "Instagram UserName"
 msgstr "Instagram - Användarnamn"
 
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Ange din Instagram Användarnamn"
+
 #: views/wpib-instagram-view.php:119
 msgid "Enter Instagram account from where to import images"
 msgstr "Ange Instagram konto från var man importera bilder"
@@ -132,6 +152,10 @@ msgstr "Ange Instagram konto från var man importera bilder"
 #: views/wpib-instagram-view.php:124
 msgid "Description"
 msgstr "Beskrivning"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Skriv in din Albumet Beskrivning"
 
 #: views/wpib-instagram-view.php:127
 msgid "Enter the description for your Album here"
@@ -275,15 +299,6 @@ msgstr "Förinställt"
 
 #~ msgid "Purchase Pro Version"
 #~ msgstr "Inköp -Pro versionen"
-
-#~ msgid "Enter your Title"
-#~ msgstr "Fyll i titel"
-
-#~ msgid "Enter your Description "
-#~ msgstr "Fyll i beskrivning"
-
-#~ msgid "Enter your Tags"
-#~ msgstr "Fyll i taggar"
 
 #~ msgid "Delete Image"
 #~ msgstr "Radera bild"

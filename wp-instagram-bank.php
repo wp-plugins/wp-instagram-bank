@@ -4,19 +4,15 @@ Plugin Name: Wp Instagram Bank
 Plugin URI: http://tech-banker.com
 Description: WP Instagram Bank is an ultimate WordPress Plugin to showcase your latest Instagram pics.
 Author: Tech Banker
-Version: 1.0.1
+Version: 1.0.2
 Author URI: http://tech-banker.com
 */
 
 
 /////////////////////////////////////  Define  WP Instagam Bank  Constants  ////////////////////////////////////////
 
-if (!defined("INSTAGRAM_DEBUG_MODE")) define("INSTAGRAM_DEBUG_MODE", false);
-if (!defined("INSTAGRAM_PLUGIN_DIR")) define("INSTAGRAM_PLUGIN_DIR", ABSPATH . "wp-content/plugins");
-if (!defined("INSTAGRAM_PLUGIN_URL")) define("INSTAGRAM_PLUGIN_URL", site_url() . "/wp-content/plugins");
+if (!defined("INSTAGRAM_BK_PLUGIN_DIR")) define("INSTAGRAM_BK_PLUGIN_DIR",  plugin_dir_path( __FILE__ ));
 if (!defined("INSTAGRAM_BK_PLUGIN_DIRNAME")) define("INSTAGRAM_BK_PLUGIN_DIRNAME", plugin_basename(dirname(__FILE__)));
-if (!defined("INSTAGRAM_BK_PLUGIN_DIR")) define("INSTAGRAM_BK_PLUGIN_DIR", INSTAGRAM_PLUGIN_DIR . "/" . INSTAGRAM_BK_PLUGIN_DIRNAME);
-if (!defined("INSTAGRAM_BK_PLUGIN_URL")) define("INSTAGRAM_BK_PLUGIN_URL", site_url() . "/wp-content/plugins/" . INSTAGRAM_BK_PLUGIN_DIRNAME);
 if (!defined("instagram_bank")) define("instagram_bank", "instagram-bank");
 
 
@@ -25,12 +21,12 @@ if (!defined("instagram_bank")) define("instagram_bank", "instagram-bank");
 function front_end_js_calls()
 {
 	wp_enqueue_script("jquery");
-	wp_enqueue_script("jquery.prettyPhoto.js", INSTAGRAM_BK_PLUGIN_URL . "/assets/js/jquery.prettyPhoto.js");
+	wp_enqueue_script("jquery.prettyPhoto.js", plugins_url("/assets/js/jquery.prettyPhoto.js",__FILE__));
 }
 
 function front_end_css_calls()
 {
-	wp_enqueue_style("prettyPhoto.css", INSTAGRAM_BK_PLUGIN_URL . "/assets/css/prettyPhoto.css");
+	wp_enqueue_style("prettyPhoto.css", plugins_url("/assets/css/prettyPhoto.css",__FILE__));
 }
 
 /////////////////////////////////////  Call CSS & JS Scripts - Back End ////////////////////////////////////////
@@ -39,15 +35,15 @@ function admin_panel_js_calls()
 {
 	wp_enqueue_script("jquery");
 	wp_enqueue_script("farbtastic");
-	wp_enqueue_script("jquery.dataTables.min.js", INSTAGRAM_BK_PLUGIN_URL . "/assets/js/jquery.dataTables.min.js");
-	wp_enqueue_script("jquery.validate.min.js", INSTAGRAM_BK_PLUGIN_URL . "/assets/js/jquery.validate.min.js");
+	wp_enqueue_script("jquery.dataTables.min.js", plugins_url("/assets/js/jquery.dataTables.min.js",__FILE__));
+	wp_enqueue_script("jquery.validate.min.js", plugins_url("/assets/js/jquery.validate.min.js",__FILE__));
 }
 
 function admin_panel_css_calls()
 {
 	wp_enqueue_style("farbtastic");
-	wp_enqueue_style("stylesheet.css", INSTAGRAM_BK_PLUGIN_URL . "/assets/css/stylesheet.css");
-	wp_enqueue_style("system-message.css", INSTAGRAM_BK_PLUGIN_URL . "/assets/css/system-message.css");
+	wp_enqueue_style("stylesheet.css", plugins_url("/assets/css/stylesheet.css",__FILE__));
+	wp_enqueue_style("system-message.css", plugins_url("/assets/css/system-message.css",__FILE__));
 }
 
 

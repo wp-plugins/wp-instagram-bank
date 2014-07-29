@@ -85,13 +85,13 @@ else
 													if(count($albumCover) != 0)
 													{
 														?>
-														<img src="<?php echo $albumCover->thumbnail_url;?> "/>
+														<img src="<?php echo $albumCover->thumbnail_url;?> " style="border:2px solid #000000;"/>
 														<?php
 													}
 													else 
 													{
 														?>
-														<img src="<?php echo stripcslashes(INSTAGRAM_BK_PLUGIN_URL . "/assets/images/album-cover.jpg"); ?> " style="width:150px;height:150px"/>
+														<img src="<?php echo stripcslashes(plugins_url( "/assets/images/album-cover.jpg" , dirname(__FILE__))); ?>" style="width:150px;height:150px;border:2px solid #000000;"/>
 														<?php
 													}
 													?>

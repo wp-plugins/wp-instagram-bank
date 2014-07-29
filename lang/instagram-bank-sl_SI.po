@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Instagram Bank\n"
-"POT-Creation-Date: 2014-07-28 11:08+0530\n"
-"PO-Revision-Date: 2014-07-28 13:51+0530\n"
+"POT-Creation-Date: 2014-07-29 10:23+0530\n"
+"PO-Revision-Date: 2014-07-29 11:09+0530\n"
 "Last-Translator: \n"
 "Language-Team: Tech-Banker <support@tech-banker.com>\n"
 "Language: sl_SI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.6\n"
 "X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
 "\\wp-instagram-bank\\\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -49,6 +49,18 @@ msgstr "Izbriši"
 #: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
 msgid "Enable redirect on Instagram"
 msgstr "Omogoči  na preusmeriti - o Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Vnesite vaš Naslovno"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Vnesite svoj opis"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Vnesite vaš oznake"
 
 #: lib/wpib-instagram-class.php:213
 msgid "Unable to communicate with Instagram."
@@ -118,6 +130,10 @@ msgstr "albuma Podrobnost "
 msgid "Album Title"
 msgstr "Naslov albuma"
 
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Vnesite vaš albumov naslovu"
+
 #: views/wpib-instagram-view.php:110
 msgid "Enter the Tiltle for your Album here"
 msgstr "Vnesite Title za svoj albuma tukaj"
@@ -126,6 +142,10 @@ msgstr "Vnesite Title za svoj albuma tukaj"
 msgid "Instagram UserName"
 msgstr "Instagram Uporabniškoime"
 
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Vnesite Vaš Instagram Uporabniško ime"
+
 #: views/wpib-instagram-view.php:119
 msgid "Enter Instagram account from where to import images"
 msgstr "Vnesite - Instagram račun, - od koder uvoziti slike"
@@ -133,6 +153,10 @@ msgstr "Vnesite - Instagram račun, - od koder uvoziti slike"
 #: views/wpib-instagram-view.php:124
 msgid "Description"
 msgstr "Opis Na"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Vnesite Vaš opis albuma"
 
 #: views/wpib-instagram-view.php:127
 msgid "Enter the description for your Album here"
@@ -276,15 +300,6 @@ msgstr "Privzeto"
 
 #~ msgid "Purchase Pro Version"
 #~ msgstr "Nakupu- PRO Verzija"
-
-#~ msgid "Enter your Title"
-#~ msgstr "Vnesite vaš Naslovno"
-
-#~ msgid "Enter your Description "
-#~ msgstr "Enter your Description "
-
-#~ msgid "Enter your Tags"
-#~ msgstr "Vnesite vaš oznake"
 
 #~ msgid "Delete Image"
 #~ msgstr "Izbriši sliko"

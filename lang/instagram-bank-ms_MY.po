@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Instagram Bank\n"
-"POT-Creation-Date: 2014-07-28 11:04+0530\n"
-"PO-Revision-Date: 2014-07-28 15:50+0530\n"
+"POT-Creation-Date: 2014-07-29 10:28+0530\n"
+"PO-Revision-Date: 2014-07-29 10:39+0530\n"
 "Last-Translator: \n"
 "Language-Team: Tech-Banker <support@tech-banker.com>\n"
 "Language: ms_MY\n"
@@ -49,6 +49,18 @@ msgstr "memadam"
 #: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
 msgid "Enable redirect on Instagram"
 msgstr "Membolehkan mengubah hala pada Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Masukkan anda Tajuk"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Masukkan Penerangan anda"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Masukkan anda-tag"
 
 #: lib/wpib-instagram-class.php:213
 msgid "Unable to communicate with Instagram."
@@ -118,6 +130,10 @@ msgstr "Butiran Album yang"
 msgid "Album Title"
 msgstr "album  Tajuk"
 
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Masukkan Tajuk Album Anda"
+
 #: views/wpib-instagram-view.php:110
 msgid "Enter the Tiltle for your Album here"
 msgstr "Masukkan Tiltle untuk Album yang anda di sini"
@@ -126,6 +142,10 @@ msgstr "Masukkan Tiltle untuk Album yang anda di sini"
 msgid "Instagram UserName"
 msgstr "Instagram Nama Pengguna"
 
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Masukkan Nama pengguna Instagram  anda"
+
 #: views/wpib-instagram-view.php:119
 msgid "Enter Instagram account from where to import images"
 msgstr "Masukkan akaun Instagram dari mana untuk mengimport imej-imej"
@@ -133,6 +153,10 @@ msgstr "Masukkan akaun Instagram dari mana untuk mengimport imej-imej"
 #: views/wpib-instagram-view.php:124
 msgid "Description"
 msgstr "Huraian"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Masukkan  Anda Album yang Penerangan"
 
 #: views/wpib-instagram-view.php:127
 msgid "Enter the description for your Album here"
@@ -277,15 +301,6 @@ msgstr "lalai"
 
 #~ msgid "Purchase Pro Version"
 #~ msgstr "Membeli Pro Versi"
-
-#~ msgid "Enter your Title"
-#~ msgstr "Masukkan anda Tajuk"
-
-#~ msgid "Enter your Description "
-#~ msgstr "Masukkan anda-Huraian"
-
-#~ msgid "Enter your Tags"
-#~ msgstr "Masukkan anda-tag"
 
 #~ msgid "Delete Image"
 #~ msgstr "memadam-imej"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Instagram Bank\n"
-"POT-Creation-Date: 2014-07-28 11:05+0530\n"
+"POT-Creation-Date: 2014-07-29 10:28+0530\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -48,6 +48,18 @@ msgstr "Usuń"
 #: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
 msgid "Enable redirect on Instagram"
 msgstr "Nie stanie przekierować na Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Podaj tytuł"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Wpisz swój opis"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Podaj tagi"
 
 #: lib/wpib-instagram-class.php:213
 msgid "Unable to communicate with Instagram."
@@ -117,6 +129,10 @@ msgstr "Szczegóły Albumu"
 msgid "Album Title"
 msgstr "Tytuł albumu"
 
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Wpisz Swój Albumu tytuł "
+
 #: views/wpib-instagram-view.php:110
 msgid "Enter the Tiltle for your Album here"
 msgstr "Wprowadź tytuł do albumu tutaj"
@@ -125,6 +141,10 @@ msgstr "Wprowadź tytuł do albumu tutaj"
 msgid "Instagram UserName"
 msgstr "Instagram nazwa_użytkownika"
 
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Wpisz swój Instagram Nazwa użytkownika"
+
 #: views/wpib-instagram-view.php:119
 msgid "Enter Instagram account from where to import images"
 msgstr "Enter your Instagram account from which to import photos"
@@ -132,6 +152,10 @@ msgstr "Enter your Instagram account from which to import photos"
 #: views/wpib-instagram-view.php:124
 msgid "Description"
 msgstr "Opis"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Wpisz swój Opis Albumu"
 
 #: views/wpib-instagram-view.php:127
 msgid "Enter the description for your Album here"
@@ -278,15 +302,6 @@ msgstr "Domyślnie"
 
 #~ msgid "Global Settings"
 #~ msgstr "Ustawienia globalne"
-
-#~ msgid "Enter your Title"
-#~ msgstr "Podaj tytuł"
-
-#~ msgid "Enter your Description "
-#~ msgstr "Podaj opis "
-
-#~ msgid "Enter your Tags"
-#~ msgstr "Podaj tagi"
 
 #~ msgid "Delete Image"
 #~ msgstr "Usuń obraz"
