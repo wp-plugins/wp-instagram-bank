@@ -28,7 +28,7 @@ The Plugin is built keeping in mind:
 
 ###IMPORTANT: If you think you found a bug in the WP Instagram Bank or have any problem or question concerning WP Instagram Bank, do not hesitate to contact us at support@tech-banker.com.
 
-
+***August 6, 2014: We're happy to announce that WP Instagram Bank reached 300+ plugin downloads in only 1 week. We frequently receive positive feedback from people using our WP Instagram Bank Plugin for WordPress. Thanks so much for your support!***
 
 ### WP Instagram Bank is now available in the following Languages
 
