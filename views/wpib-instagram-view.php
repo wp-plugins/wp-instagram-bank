@@ -101,36 +101,30 @@ else
 										<h4><?php _e("Album Detail", instagram_bank); ?></h4>
 									</div>
 									<div class="widget-layout-body">
-										<div class="fluid-layout">
-											<div class="layout-span6">
-												<div class="layout-control-group">
-													<label class="layout-control-label"><?php _e("Album Title", instagram_bank); ?> : <span class="error">*</span> </label>
-													<div class="layout-controls">
-														<input type="text" id="ux_txt_album" name="ux_txt_album" class="layout-span12" placeholder="<?php _e("Enter Your Album Title", instagram_bank);?>" value="<?php echo stripcslashes(htmlspecialchars_decode($instagram_album->album_name));?>"/>
-														<p class="wpib-desc-italic">	<?php _e("Enter the Tiltle for your Album here", instagram_bank); ?> </p>
-													</div>
-												</div>
+										<div class="layout-control-group">
+											<label class="layout-control-label"><?php _e("Album Title", instagram_bank); ?> : <span class="error">*</span> </label>
+											<div class="layout-controls">
+												<input type="text" id="ux_txt_album" name="ux_txt_album" class="layout-span12" placeholder="<?php _e("Enter Your Album Title", instagram_bank);?>" value="<?php echo stripcslashes(htmlspecialchars_decode($instagram_album->album_name));?>"/>
+												<p class="wpib-desc-italic">	<?php _e("Enter the Tiltle for your Album here", instagram_bank); ?> </p>
 											</div>
-											<div class="layout-span6">
-												<div class="layout-control-group">
-													<label class="layout-control-label"><?php _e("Instagram UserName", instagram_bank); ?> : <span class="error">*</span></label>
-													<div class="layout-controls">
-														<input type="text" id="ux_txt_user" name="ux_txt_user" class="layout-span12"   placeholder="<?php _e("Enter Your Instagram Username", instagram_bank);?>" value="<?php echo esc_attr($instagram_album->user_name);?>">
-													<p class="wpib-desc-italic">	<?php _e("Enter Instagram account from where to import images", instagram_bank); ?> </p>
-													</div>
-												</div>
+										</div>
+										<div class="layout-control-group">
+											<label class="layout-control-label"><?php _e("Instagram UserName/Hashtag", instagram_bank); ?> : <span class="error">*</span></label>
+											<div class="layout-controls">
+												<input type="text" id="ux_txt_user" name="ux_txt_user" class="layout-span12"   placeholder="<?php _e("Enter Your Instagram Username", instagram_bank);?>" value="<?php echo esc_attr($instagram_album->user_name);?>">
+											<p class="wpib-desc-italic">	<?php _e("Enter Instagram account or Instagram hashtag to import images", instagram_bank); ?> </p>
 											</div>
-											<div class="layout-control-group">
-												<label class="layout-control-label"><?php _e("Description", instagram_bank); ?> : </label>
-												<div class="layout-controls">
-													<textarea name="ux_album_desc" id="ux_album_desc" rows="7" class="layout-span12"  placeholder="<?php _e("Enter Your Album Description", instagram_bank);?>"/ ><?php echo stripslashes(htmlspecialchars_decode($instagram_album->description));?></textarea>
-													<p class="wpib-desc-italic">	<?php _e("Enter the description for your Album here", instagram_bank); ?> </p>
-												</div>
+										</div>
+										<div class="layout-control-group">
+											<label class="layout-control-label"><?php _e("Description", instagram_bank); ?> : </label>
+											<div class="layout-controls">
+												<textarea name="ux_album_desc" id="ux_album_desc" rows="7" class="layout-span12"  placeholder="<?php _e("Enter Your Album Description", instagram_bank);?>"/ ><?php echo stripslashes(htmlspecialchars_decode($instagram_album->description));?></textarea>
+												<p class="wpib-desc-italic">	<?php _e("Enter the description for your Album here", instagram_bank); ?> </p>
 											</div>
-											<div class="layout-control-group">
-												<div class="layout-controls">
-													<a class="btn btn-success" onclick = "wpib_get_instagram_gallery();"><?php _e("Import Images from Instagram", instagram_bank);?></a>
-												</div>
+										</div>
+										<div class="layout-control-group">
+											<div class="layout-controls">
+												<a class="btn btn-success" onclick = "wpib_get_instagram_gallery();"><?php _e("Import Images from Instagram", instagram_bank);?></a>
 											</div>
 										</div>
 									</div>
@@ -186,7 +180,7 @@ else
 																	<?php 
 																}
 																?>
-																<a onclick="delete_pic(this);" control_id = "<?php echo $instagram_pics[$flag]->pic_id;?>" ><?php _e("Delete", instagram_bank );?></a><br>
+																<a onclick="delete_pic(this);" control_id = "<?php echo $instagram_pics[$flag]->pic_id;?>" style="cursor: pointer;" ><?php _e("Delete", instagram_bank );?></a><br>
 																<?php 
 																$checked = ($instagram_pics[$flag]->enable_redirect == "1" ? "checked" : "");
 																?>

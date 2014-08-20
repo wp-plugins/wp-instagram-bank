@@ -87,7 +87,7 @@ else
 							<?php echo date("F j, Y");?><br>
 							<?php echo intval($content["thumbnail"]["width"])." x ".intval($content["thumbnail"]["height"]); ?><br>
 							<input type="radio" name="ux_rdl_album_cover" id="ux_rdl_album_cover<?php echo $pic_id;?>" ><?php  _e( "Set as album cover", instagram_bank );?><br>
-							<a onclick="delete_pic(this)" control_id="<?php echo $pic_id;?>"><?php _e("Delete", instagram_bank );?></a>
+							<a onclick="delete_pic(this)" control_id="<?php echo $pic_id;?>" style="cursor: pointer;"><?php _e("Delete", instagram_bank );?></a>
 							<br><input type="checkbox" name="ux_chk_insta_redirect" id="ux_chk_insta_redirect" /> <?php _e( "Enable redirect on Instagram", instagram_bank );?>
 						</td>
 						<td>
