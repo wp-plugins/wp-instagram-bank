@@ -1,0 +1,595 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:27+0530\n"
+"PO-Revision-Date: 2014-07-29 11:06+0530\n"
+"Last-Translator: \n"
+"Language-Team: Tech-Banker <support@tech-banker.com>\n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "POHĽAD všetko"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "palubná doska"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "Systém - Postavenie"
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "Nastaviť ako obal albumu"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "Vymaza"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "Zapnúť presmerovať - na Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Vstúpiť tvoj titul"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Zadajte Svoj ​​Popis"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Zadajte svoje značky"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "Nemožno komunikovať s Instagram."
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagram robiť nie vrátiť -200."
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "Instagram má  sa vrátila neplatné údaje."
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "palubná doska - Wp Instagram Bank"
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "Pridať - Nový Instagram albumov"
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "albumov kryt"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "Krátky-Kód"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "albumov - Meno"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "Instagram - účet"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "Počet snímok"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "Upraviť"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "Ste si istí, že chcete zmazať tento albumov?"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "Späť na prístrojovej doske"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "Uložiť Zmeny"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr "albumov uložený. Láskavo čakať na presmerovať, aby sa stalo."
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "albumov - Podrobnos"
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "Názov albumu"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Zadajte svoje Oslovenie albumu"
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "Zadajte Tiltle pre vaše albumov tu"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Instagram Užívateľské meno"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Zadajte svoje Instagram užívateľské meno"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "Zadajte Instagram účet, z ktorého na importovať obrázky"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "opis"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Zadajte svoje Album Popis"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "Zadajte popis pre vášho Albumu tu"
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "Importovať obrázkov z Instagram"
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr "Vaša Instagram obrazmi"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "Hromadná - akcia"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "obrázok Podrobné informácie"
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "Náhľady"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "titul a Opis"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "Tagy (oddelené čiarkou zoznam)"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "Ste si istí, že chcete zmazať tento obrázok?"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "Ste si istí, že chcete zmazať tieto obrázky"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "Wp-Instagram - Stave Systému"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "Získať - Systémová - Správe"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "Zavrieť Systémová-správu"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "štandardnej"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "vložka Gallery - Bank Krátky kód"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr ""
+#~ "Vyberte album nižšie a pridajte ju do svojho príspevku alebo stránky."
+
+#~ msgid "Gallery Type"
+#~ msgstr "galérie Typu"
+
+#~ msgid "Albums with Images"
+#~ msgstr "Albumu s obrázkami"
+
+#~ msgid "Only Images"
+#~ msgstr "iba Obrázky"
+
+#~ msgid "Album Format"
+#~ msgstr " albumu Formát"
+
+#~ msgid "Select Album Format"
+#~ msgstr "Vyberte Albumu formát"
+
+#~ msgid "Select Album"
+#~ msgstr "Vyberte albumu"
+
+#~ msgid "Select an Album"
+#~ msgstr "vybrať albumu"
+
+#~ msgid "Gallery Format"
+#~ msgstr "galérie Formát"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "Vyberte galérie formát"
+
+#~ msgid "Images in Row"
+#~ msgstr "obrázky v riadok"
+
+#~ msgid "Image Width"
+#~ msgstr "šírka obrázka"
+
+#~ msgid "Albums in Row"
+#~ msgstr "Albumy V Linka"
+
+#~ msgid "Text Format"
+#~ msgstr "Textu formát"
+
+#~ msgid "Select Format "
+#~ msgstr "Vyberte Formát"
+
+#~ msgid "Special Effects"
+#~ msgstr "Špeciálna účinky"
+
+#~ msgid "Animation Effects"
+#~ msgstr "animácie efekty"
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "šou responsive Galéria"
+
+#~ msgid "Show Album Title"
+#~ msgstr "šou Názov Albumu"
+
+#~ msgid "Insert Album"
+#~ msgstr "vložit -Albumov"
+
+#~ msgid "Cancel"
+#~ msgstr "zrušiť"
+
+#~ msgid "Please select an Album"
+#~ msgstr "prosím vybrať  albumu"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "Prosím vyberte albumu formát"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "prosím Vybrať  galérie - Obrázky Formát"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "prosím Vybrať Textu Formát  pre galéria"
+
+#~ msgid "Album Sorting"
+#~ msgstr "albumov - Triedenie"
+
+#~ msgid "Global Settings"
+#~ msgstr "globálne nastavenia"
+
+#~ msgid "Purchase Pro Version"
+#~ msgstr "Nákup- Pre verziu"
+
+#~ msgid "Delete Image"
+#~ msgstr "vymaza obrázok"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "Gallery Bank"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "Pridať Galériu - použitím - Gallery - Bank"
+
+#~ msgid "Back to Albums"
+#~ msgstr "späť na albumy"
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr "albumu uverejnené. Láskavo počkajte na presmerovanie sa."
+
+#~ msgid "Upload Images"
+#~ msgstr "Nahrať Obrázkov"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr "Váš prehliadač Nemá 't mať Flash, Silverlight alebo HTML5 podporu."
+
+#~ msgid "Upload Videos"
+#~ msgstr "Nahrať Videá"
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "(K dispozícii poistné vo verziách)"
+
+#~ msgid "Video Url"
+#~ msgstr "videa Url"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr "vstúpiť tvoj videa url"
+
+#~ msgid "Upload Video"
+#~ msgstr "Nahrať videa"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "albumu"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr "URL na presmerovanie "
+
+#~ msgid ""
+#~ "You will be only allowed to add 2 galleries. Kindly purchase Premium "
+#~ "Version for full access!"
+#~ msgstr ""
+#~ "Budete mať iba možnosť pridať 2 galérie. Láskavo kúpiť Premium verzia pre "
+#~ "plný prístup!"
+
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr "Táto funkcia je k dispozícii iba v platenej poistné verzii! "
+
+#~ msgid "Album Preview"
+#~ msgstr "albumu náhľad"
+
+#~ msgid "Please Choose"
+#~ msgstr "vyberte prosím"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr "Re-Objednať Albumy"
+
+#~ msgid "Update Order"
+#~ msgstr "aktualizácie objednat"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "Triedenie objednat bol aktualizovaný."
+
+#~ msgid "Delete All Albums"
+#~ msgstr "vymaza všetko albumy"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "čistka obrázky- a albumy"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "Obnovenie-nastavení z výroby"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "Existujúce Albumy prehľad"
+
+#~ msgid "Title"
+#~ msgstr "titul"
+
+#~ msgid "Date"
+#~ msgstr "Dátum"
+
+#~ msgid "Edit Album"
+#~ msgstr "Upraviť Albumov"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "Re-Objednat Obrázkami"
+
+#~ msgid "Preview Album"
+#~ msgstr "Náhľad - Albumu"
+
+#~ msgid "Delete Album"
+#~ msgstr "Vymaza albumu"
+
+#~ msgid "Update Album"
+#~ msgstr "Aktualizácie albumu"
+
+#~ msgid "Delete Video"
+#~ msgstr "vymaza - videa"
+
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "Gallery Bank cien"
+
+#~ msgid "Update Settings"
+#~ msgstr "aktualizácie nastavenia"
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "náhľadmov nastavenia"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "Veľkosť miniatúr"
+
+#~ msgid "Original"
+#~ msgstr "Pôvodný"
+
+#~ msgid "Custom"
+#~ msgstr "zákaznícky"
+
+#~ msgid "Width"
+#~ msgstr "šírka"
+
+#~ msgid "Height"
+#~ msgstr "výška"
+
+#~ msgid "Opacity"
+#~ msgstr "Nepriesvitnosť"
+
+#~ msgid "Border Size"
+#~ msgstr "hranice veľkosť"
+
+#~ msgid "Border Radius"
+#~ msgstr "hranice polomer"
+
+#~ msgid "Border Color"
+#~ msgstr "Farba Rámčeku"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "Rozpätie prechod medzi snímkami"
+
+#~ msgid "Text Color"
+#~ msgstr "Farba Textu"
+
+#~ msgid "Text-Align"
+#~ msgstr "Textu-Vyrovnajte"
+
+#~ msgid "Font-Family"
+#~ msgstr "Písma-rodiny"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "Nadpis písmo -veľkosť"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "Textu písma-veľkosť"
+
+#~ msgid "Description Length"
+#~ msgstr "Opis Dlžka"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "Albumov pokrytie Nastavenia"
+
+#~ msgid "Cover Size"
+#~ msgstr "pokrytie veľkosť"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "rozpätia medzi albumy"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "Textu pre albumov - kliknutie"
+
+#~ msgid "Filter Settings"
+#~ msgstr "Nastavenia Filtr"
+
+#~ msgid "Filters"
+#~ msgstr "filtre"
+
+#~ msgid "Enable"
+#~ msgstr "umožňovať"
+
+#~ msgid "Disable"
+#~ msgstr "deaktivovať"
+
+#~ msgid "Filter Color"
+#~ msgstr "filtr-Farba"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "filtr Farba textu"
+
+#~ msgid "Font-Size"
+#~ msgstr "Písmo-Veľkosť"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "Role a Schopnosti"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "Oprávnenia pre Autor"
+
+#~ msgid "Full Control"
+#~ msgstr "Úplné riadenie"
+
+#~ msgid "Read"
+#~ msgstr "čítať"
+
+#~ msgid "Write"
+#~ msgstr "napísať"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "Oprávnenia pre editora"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "Oprávnenia pre Autor"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "Oprávnenia pre Prispievateľ"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "Oprávnenia pre predplatiteľ"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr "svetla box Nastavenia"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "Svetla-box typ"
+
+#~ msgid "Inline Background"
+#~ msgstr "pozadia"
+
+#~ msgid "Overlay Background"
+#~ msgstr "prekrytie pozadia"
+
+#~ msgid "Fade In Time"
+#~ msgstr "Zmiznúť z dohľadu V čas"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "Zmiznúť z dohľadu von  čas"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "Tvář-kniha Pripomienky"
+
+#~ msgid "Social Sharing"
+#~ msgstr "sociálne zdieľanie"
+
+#~ msgid "Image Title"
+#~ msgstr "obraz-titul"
+
+#~ msgid "Image Description"
+#~ msgstr "Popis Obrázku"
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr "predné - Nastavenia Koniec rozvrhnutie"
+
+#~ msgid "Text for Back Button"
+#~ msgstr "Textu pre Tlačidlo Späť"
+
+#~ msgid "Button Color"
+#~ msgstr "Tlačidlo-Farba"
+
+#~ msgid "Button Text Color"
+#~ msgstr "Tlačidlo Farba textu"
+
+#~ msgid "Album Seperator"
+#~ msgstr "albumov oddeľovač"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr "Stránkovania Nastavenia pre Obrázkami"
+
+#~ msgid "Paging"
+#~ msgstr "stránkovaní"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "Skluzavka šou Nastavenia"
+
+#~ msgid "Auto Play"
+#~ msgstr "Automatická Prehrať"
+
+#~ msgid "Interval"
+#~ msgstr "intervalu"
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "Jazyk Smer Nastavenia"
+
+#~ msgid "Language Direction"
+#~ msgstr "Jazyk smer"
+
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr "Táto funkcia je k dispozícii iba v platenej poistné verzii !"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "Gallery Bank Krátke kódy"
