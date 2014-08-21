@@ -1,0 +1,596 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:28+0530\n"
+"PO-Revision-Date: 2014-07-29 11:54+0530\n"
+"Last-Translator: \n"
+"Language-Team: Tech-Banker <support@tech-banker.com>\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "모두보기"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "계기판"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "시스템 상태"
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "앨범 커버로 설정"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "삭제를"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "인스 타 그램에 리다이렉트활성화"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr " 입력하십시오 당신표제"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "당신의 설명입력"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr " 입력하십시오당신 태그"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "인스 타 그램과 통신 할 수 없습니다."
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagram 하지 않았다 반환200."
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "Instagram 잘못된 데이터를 반환했습니다."
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "대시 보드 - Wp Instagram Bank"
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "추가 새로운 Instagram 앨범"
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "앨범 커버"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "단축 코드"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "앨범 이름"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "Instagram 계정"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "이미지의 번호"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "편집"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "당신은 당신이이 앨범을 삭제 하시겠습니까?"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "돌아 가기 대시 보드"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "변경 사항 저장"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr "앨범-저장. 좋은 말 기다려야 리디렉션이 발생합니다."
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "앨범 세부 정보"
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "앨범 타이틀"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "입력합니-귀하의앨범제목 "
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr " 귀하의 앨범의 제목을 입력합니다여기에"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr " Instagram사용자 이름"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "입력합니-귀하의Instagram사용자 이름"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "이미지를 가져 오는 곳에서 인스 타 그램 계정을 입력"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "서술"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr " 입력합니-귀하의앨범설명"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "여기 앨범에 대한 설명을 입력"
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "Instagram의에서 가져 오기 이미지"
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr "당신의 Instagram이미지"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "벌크액션"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "이미지 상세 정보"
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "썸네일"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "권리 증서 및 설명"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "태그 (쉼표로 구분 된 목록)"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "당신은 당신이이 이미지를 삭제 하시겠습니까?"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr " 당신이이 이미지를 삭제 하시겠습니까"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "WP-Instagram -시스템 상태"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "시스템 보고서 얻으십시오"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "닫기 시스템 보고서"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "디폴트 값"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "인서트- Gallery Bank 숏 코드"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr "앨범 게시물 또는 페이지에 추가 를 선택합니다."
+
+#~ msgid "Gallery Type"
+#~ msgstr "갤러리 유형"
+
+#~ msgid "Albums with Images"
+#~ msgstr ".사진이있는 -앨범들"
+
+#~ msgid "Only Images"
+#~ msgstr "있는 이미지 만"
+
+#~ msgid "Album Format"
+#~ msgstr "앨범 포맷"
+
+#~ msgid "Select Album Format"
+#~ msgstr "를 선택앨범체재"
+
+#~ msgid "Select Album"
+#~ msgstr "앨범 를 선택"
+
+#~ msgid "Select an Album"
+#~ msgstr "자형의 것"
+
+#~ msgid "Gallery Format"
+#~ msgstr "갤러리-서식"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr " 선택 갤러리-서식"
+
+#~ msgid "Images in Row"
+#~ msgstr " 이미지를-에있는-단지내"
+
+#~ msgid "Image Width"
+#~ msgstr "이미지 폭"
+
+#~ msgid "Albums in Row"
+#~ msgstr " 앨범을-에있는 단지내"
+
+#~ msgid "Text Format"
+#~ msgstr "텍스트 형식"
+
+#~ msgid "Select Format "
+#~ msgstr "포맷 선택"
+
+#~ msgid "Special Effects"
+#~ msgstr "특수 효과"
+
+#~ msgid "Animation Effects"
+#~ msgstr "애니메이션 효과"
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "표시-Responsive갤러리"
+
+#~ msgid "Show Album Title"
+#~ msgstr "쇼 앨범 권리 증서"
+
+#~ msgid "Insert Album"
+#~ msgstr "앨범 에 삽입"
+
+#~ msgid "Cancel"
+#~ msgstr "취소"
+
+#~ msgid "Please select an Album"
+#~ msgstr "의 앨범 선택 해주세요"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "의 앨범 선택 해주세요 체재"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr " 선택하세요  갤러  미지  포맷"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "      텍스트 형식 선택하세요 용 갤러리"
+
+#~ msgid "Album Sorting"
+#~ msgstr "앨범을- 정렬"
+
+#~ msgid "Global Settings"
+#~ msgstr "전역 설정"
+
+#~ msgid "Purchase Pro Version"
+#~ msgstr "프로 버전 구입"
+
+#~ msgid "Delete Image"
+#~ msgstr "를 삭제-이미지"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "Gallery Bank"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "Gallery Bank사용하여 갤러리를 추가 "
+
+#~ msgid "Back to Albums"
+#~ msgstr "돌아 에게 이미지 앨범"
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr " 간행앨범.  리디렉션친절하게 기다려-에게 일어날"
+
+#~ msgid "Upload Images"
+#~ msgstr "이미지를 업로드"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr ""
+#~ "있다  하지 않습니다  브라우저  당신의 플래시, 실버 라이트 또는 HTML5를 지"
+#~ "원합니다."
+
+#~ msgid "Upload Videos"
+#~ msgstr "동영상을 올릴"
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "(프리미엄 버전에서 에 사용 가능)"
+
+#~ msgid "Video Url"
+#~ msgstr "동영상 URL"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr "입력하십시오 당신의동영상 URL"
+
+#~ msgid "Upload Video"
+#~ msgstr "동영상 업로드"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "귀하의 갤러리-뱅크 앨범"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr " URL-에게- 리디렉션"
+
+#~ msgid ""
+#~ "You will be only allowed to add 2 galleries. Kindly purchase Premium "
+#~ "Version for full access!"
+#~ msgstr ""
+#~ "당신은 단지 2 갤러리를 추가 할 수됩니다. 친절하게 가득 차있는 접근위한 프"
+#~ "리미엄 버전 구입!"
+
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr "이 기능은 유료 프리미엄 버전에서만 사용할 수 있습니다!"
+
+#~ msgid "Album Preview"
+#~ msgstr "앨범 미리보기"
+
+#~ msgid "Please Choose"
+#~ msgstr "주십시오-선택할"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr " 다시 주문- 이미지 앨범"
+
+#~ msgid "Update Order"
+#~ msgstr "업데이트-순서"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "정렬-순서있다되었습니다업데이트 된"
+
+#~ msgid "Delete All Albums"
+#~ msgstr "모든 이미지 앨범 을 삭제"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "Purge 이미지를 과 이미지 앨범"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "을 복원-공장 설정"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "기존 이미지 앨범-개요를"
+
+#~ msgid "Title"
+#~ msgstr "표제"
+
+#~ msgid "Date"
+#~ msgstr "날짜"
+
+#~ msgid "Edit Album"
+#~ msgstr "편집 할 앨범"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "를 다시 주문 이미지를"
+
+#~ msgid "Preview Album"
+#~ msgstr "미리보기 앨범"
+
+#~ msgid "Delete Album"
+#~ msgstr "앨범 삭제를"
+
+#~ msgid "Update Album"
+#~ msgstr "업데이트하기-앨범"
+
+#~ msgid "Delete Video"
+#~ msgstr "을 삭제 동영상"
+
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "갤러리 은행 가격 설정"
+
+#~ msgid "Update Settings"
+#~ msgstr "업데이트 설정"
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "섬네일 설정을"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "엄지 손톱 크기"
+
+#~ msgid "Original"
+#~ msgstr "독창적 인"
+
+#~ msgid "Custom"
+#~ msgstr "사용자 지정"
+
+#~ msgid "Width"
+#~ msgstr "폭"
+
+#~ msgid "Height"
+#~ msgstr "신장"
+
+#~ msgid "Opacity"
+#~ msgstr "불투명"
+
+#~ msgid "Border Size"
+#~ msgstr "국경 크기"
+
+#~ msgid "Border Radius"
+#~ msgstr "국경 반경"
+
+#~ msgid "Border Color"
+#~ msgstr "테두리 색상"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "난외-이미지 사이의 "
+
+#~ msgid "Text Color"
+#~ msgstr "텍스트 색상"
+
+#~ msgid "Text-Align"
+#~ msgstr "원본-에 맞 춥니 다"
+
+#~ msgid "Font-Family"
+#~ msgstr "글꼴 가족"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "향하고 글꼴 크기"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "텍스트 글꼴 크기"
+
+#~ msgid "Description Length"
+#~ msgstr "설명을 길이"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "앨범 커버-설정-"
+
+#~ msgid "Cover Size"
+#~ msgstr "커버 사이즈"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "이익률 사이에 이미지 앨범"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "원본-용-앨범-클릭"
+
+#~ msgid "Filter Settings"
+#~ msgstr "필터 설정을"
+
+#~ msgid "Filters"
+#~ msgstr "일남"
+
+#~ msgid "Enable"
+#~ msgstr "을 허용"
+
+#~ msgid "Disable"
+#~ msgstr "무능하게 "
+
+#~ msgid "Filter Color"
+#~ msgstr "필터- 색상"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "필터- 텍스트 색상"
+
+#~ msgid "Font-Size"
+#~ msgstr "글꼴 크기"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "역할 과 능력"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "사용 권한-에 대한- 관리자"
+
+#~ msgid "Full Control"
+#~ msgstr "전체 제어"
+
+#~ msgid "Read"
+#~ msgstr "읽기"
+
+#~ msgid "Write"
+#~ msgstr "에 작성해"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "사용 권한-에 대한-편집기"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "사용 권한-에 대한-저작권자"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "사용 권한-에 대한-리뷰어"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "사용 권한-에 대한-가입자"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr "라이트-박스 설정을"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "라이트 박스 타입"
+
+#~ msgid "Inline Background"
+#~ msgstr "인라인으로- 배경"
+
+#~ msgid "Overlay Background"
+#~ msgstr "오버레이 배경"
+
+#~ msgid "Fade In Time"
+#~ msgstr "페이드 인 시간"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "시간페이드 아웃"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "페이스 북의 댓글"
+
+#~ msgid "Social Sharing"
+#~ msgstr "사회적 나눔"
+
+#~ msgid "Image Title"
+#~ msgstr "이미지-타이틀"
+
+#~ msgid "Image Description"
+#~ msgstr "이미지 설명"
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr "프론트 - 엔드 레이아웃 설정을"
+
+#~ msgid "Text for Back Button"
+#~ msgstr "뒤로 단추용 텍스트를"
+
+#~ msgid "Button Color"
+#~ msgstr "단추 색"
+
+#~ msgid "Button Text Color"
+#~ msgstr "단추 텍스트 색상"
+
+#~ msgid "Album Seperator"
+#~ msgstr "앨범 분리기"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr " 페이지 매김 설정을- 용 이미지를"
+
+#~ msgid "Paging"
+#~ msgstr "페이징"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "슬라이드 쇼 설정을"
+
+#~ msgid "Auto Play"
+#~ msgstr "자동 재생"
+
+#~ msgid "Interval"
+#~ msgstr "간격"
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "언어 방향-설정"
+
+#~ msgid "Language Direction"
+#~ msgstr "언어 방향"
+
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr "이 기능은 유료 프리미엄 버전에서만 사용할 수 있습니다!"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "갤러리 은행 단기 코드"

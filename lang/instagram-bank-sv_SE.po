@@ -1,0 +1,607 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:23+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "VIEW Visa ALLA"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "Översikt"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "Systemstatus"
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "Ange som skivomslag"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "Radera"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "Göra det möjligt för omdirigera på Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Fyll i titel"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Ange ditt Beskrivning"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Fyll i taggar"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "Det går inte att kommunicera med Instagram."
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagram vände inte en -200."
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "Instagram har återvänt ogiltiga data."
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "Instrumentbräda - Wp Instagram Bank"
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "Lägg till ny Instagram Albumet"
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "Albumomslag"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "här Snabbtryck"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "Albumnamn"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "Instagram - Konto"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "Antal bilder"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "Redigera"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "Är du säker på att du vill radera detta album?"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "Tillbaka till Instrumentbräda"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "på Spara ändringar"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr "Albumet - sparade. Vänligen vänta omdirigeringen ska hända."
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "Albumet - Detalj"
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "Albumtitel"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Ange Din albumet Titel"
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "Ange - titel för ditt Albumet här"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Instagram - Användarnamn"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Ange din Instagram Användarnamn"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "Ange Instagram konto från var man importera bilder"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "Beskrivning"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Skriv in din Albumet Beskrivning"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "Ange beskrivningen för ditt album här"
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "Importera bilder som från Instagram"
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr "Dina Instagram Bilder"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "Massåtgärd"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "Bild Specificerar"
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "Minibilder"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "Titel & Beskrivning"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "Taggar(kommaseparerad lista)"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "Är du säker på att du vill radera denna bild?"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "Är du säker på att du vill ta bort dessa Bilder"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "Wp-Instagram Systemstatus"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "Hämta systemrapport"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "Stäng systemrapport"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "Förinställt"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "Infoga Gallery Bank shortcode"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr "Välj ett album nedan för att infoga det i ditt inlägg eller sida"
+
+#~ msgid "Gallery Type"
+#~ msgstr "Gallerityp"
+
+#~ msgid "Albums with Images"
+#~ msgstr "Album med bilder"
+
+#~ msgid "Only Images"
+#~ msgstr "Endast bilder"
+
+#~ msgid "Album Format"
+#~ msgstr "Albumformat"
+
+#~ msgid "Select Album Format"
+#~ msgstr "Välj albumformat"
+
+#~ msgid "Select Album"
+#~ msgstr "Välj album"
+
+#~ msgid "Select an Album"
+#~ msgstr "Välj ett album"
+
+#~ msgid "Gallery Format"
+#~ msgstr "Galleri-format"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "Välj galleriformat"
+
+#~ msgid "Images in Row"
+#~ msgstr "Bilder i rad"
+
+#~ msgid "Image Width"
+#~ msgstr "Bildbredd"
+
+#~ msgid "Albums in Row"
+#~ msgstr "Album i rad"
+
+#~ msgid "Text Format"
+#~ msgstr "Textformat"
+
+#~ msgid "Select Format "
+#~ msgstr "Välj format"
+
+#~ msgid "Special Effects"
+#~ msgstr "Specialeffekter"
+
+#~ msgid "Animation Effects"
+#~ msgstr "Animationseffekter"
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "Visa tillgängligt galleri"
+
+#~ msgid "Show Album Title"
+#~ msgstr "Visa albumtitel"
+
+#~ msgid "Insert Album"
+#~ msgstr "Infoga album"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "Please select an Album"
+#~ msgstr "Vänligen välj ett album"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "Vänligen välj ett albumformat"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "Vänligen välj ett bildformat för galleri"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "Vänligen välj ett textformat för galleriet"
+
+#~ msgid "Album Sorting"
+#~ msgstr "Sortera album"
+
+#~ msgid "Global Settings"
+#~ msgstr "Globala inställningar"
+
+#~ msgid "Purchase Pro Version"
+#~ msgstr "Inköp -Pro versionen"
+
+#~ msgid "Delete Image"
+#~ msgstr "Radera bild"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "Galleribank"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "Lägg till galleri med Gallery Bank"
+
+#~ msgid "Back to Albums"
+#~ msgstr "Tillbaka till album"
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr "Albumet är publicerat. Vänligen invänta ändringen."
+
+#~ msgid "Upload Images"
+#~ msgstr "Ladda upp bilder"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr "Din webläsare saknar Flash, Silverlight eller HTML5-stöd"
+
+#~ msgid "Upload Videos"
+#~ msgstr "Ladda upp videos"
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "((Finns på högkvalitetspapper versioner)"
+
+#~ msgid "Video Url"
+#~ msgstr "Video Url"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr "Fyll i video url"
+
+#~ msgid "Upload Video"
+#~ msgstr "Ladda upp video"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "Ditt Gallery Bank album"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr "Url att omdirigera till vid klick på en bild"
+
+#~ msgid ""
+#~ "You will be only allowed to add 2 galleries. Kindly purchase Premium "
+#~ "Version for full access!"
+#~ msgstr ""
+#~ "Du kommer endast tillåtet att lägga till två gallerier. Vänligen köper "
+#~ "högkvalitetspapper versionen för full tillgång!"
+
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr ""
+#~ "Den här funktionen är endast tillgänglig på betald högkvalitetspapper "
+#~ "versionen!"
+
+#~ msgid "Album Preview"
+#~ msgstr "Förhandsvisning av album"
+
+#~ msgid "Please Choose"
+#~ msgstr "Vänligen välj"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr "Ordna om album"
+
+#~ msgid "Update Order"
+#~ msgstr "Uppdatera ordning"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "Ordningen har blivit uppdaterad."
+
+#~ msgid "Delete All Albums"
+#~ msgstr "Radera alla album"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "Rensa upp bilder & album"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "Återställ fabriksinställningarna"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "Översikt befintliga album"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Date"
+#~ msgstr "Födelse"
+
+#~ msgid "Edit Album"
+#~ msgstr "Ändra album"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "Ordna om bilder"
+
+#~ msgid "Preview Album"
+#~ msgstr "Förhandsvisa album"
+
+#~ msgid "Delete Album"
+#~ msgstr "Radera album"
+
+#, fuzzy
+#~ msgid "Lets get in touch!"
+#~ msgstr "Hämta systemrapport"
+
+#, fuzzy
+#~ msgid "Order Now!"
+#~ msgstr "Uppdatera ordning"
+
+#~ msgid "Update Album"
+#~ msgstr "Uppdatera album"
+
+#~ msgid "Delete Video"
+#~ msgstr "Radera video"
+
+#, fuzzy
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "Gallery Bank Prissättning"
+
+#~ msgid "Update Settings"
+#~ msgstr "Uppdatera inställningarna"
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "Inställningar för miniatyrer"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "Storlek på miniatyr"
+
+#~ msgid "Original"
+#~ msgstr "Original"
+
+#~ msgid "Custom"
+#~ msgstr "Modifierad"
+
+#~ msgid "Width"
+#~ msgstr "Bredd"
+
+#~ msgid "Height"
+#~ msgstr "Höjd"
+
+#~ msgid "Opacity"
+#~ msgstr "Opacitet"
+
+#~ msgid "Border Size"
+#~ msgstr "Storlek på kant"
+
+#~ msgid "Border Radius"
+#~ msgstr "Kantradie"
+
+#~ msgid "Border Color"
+#~ msgstr "Färg på kant"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "Marginal mellan bilder"
+
+#~ msgid "Text Color"
+#~ msgstr "Textfärg"
+
+#~ msgid "Text-Align"
+#~ msgstr "Textplacering"
+
+#~ msgid "Font-Family"
+#~ msgstr "Teckensnitt"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "Rubrik teckenstorlek"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "Text teckenstorlek"
+
+#~ msgid "Description Length"
+#~ msgstr "Beskrivningens längd"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "Albumomslag inställningar"
+
+#~ msgid "Cover Size"
+#~ msgstr "Omslagsstorlek"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "Marginal mellan album"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "Text för klick på album"
+
+#~ msgid "Filter Settings"
+#~ msgstr "Filter inställningar"
+
+#~ msgid "Filters"
+#~ msgstr "Filter"
+
+#~ msgid "Enable"
+#~ msgstr "Aktivera"
+
+#~ msgid "Disable"
+#~ msgstr "Inaktivera"
+
+#~ msgid "Filter Color"
+#~ msgstr "Filterfärg"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "Filter textfärg"
+
+#~ msgid "Font-Size"
+#~ msgstr "Teckenstorlek"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "Roller & möjligheter"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "Privilegier för admin"
+
+#~ msgid "Full Control"
+#~ msgstr "Full kontroll"
+
+#~ msgid "Read"
+#~ msgstr "Läsa"
+
+#~ msgid "Write"
+#~ msgstr "Skriva"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "Privilegier för redaktör"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "Privilegier för upphovsman"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "Privilegier för medverkande"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "Privilegier för prenumerant"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr "Lightbox inställningar"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "Lightbox typ"
+
+#~ msgid "Inline Background"
+#~ msgstr "Inline bakgrund"
+
+#~ msgid "Overlay Background"
+#~ msgstr "Overlay bakgrund"
+
+#~ msgid "Fade In Time"
+#~ msgstr "Tona in tid"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "Tona ut tid"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "Facebook kommentarer"
+
+#~ msgid "Social Sharing"
+#~ msgstr "Sociala nätverk"
+
+#~ msgid "Image Title"
+#~ msgstr "Bildtitel"
+
+#~ msgid "Image Description"
+#~ msgstr "Bildbeskrivning"
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr "Framsida - layoutinställningar"
+
+#~ msgid "Text for Back Button"
+#~ msgstr "Text för Tillbaka-knapp"
+
+#~ msgid "Button Color"
+#~ msgstr "Knappfärg"
+
+#~ msgid "Button Text Color"
+#~ msgstr "Knapp textfärg"
+
+#~ msgid "Album Seperator"
+#~ msgstr "Albumavskiljare"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr "Paginering - inställningar för bilder"
+
+#~ msgid "Paging"
+#~ msgstr "Paging"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "Slideshow inställningar"
+
+#~ msgid "Auto Play"
+#~ msgstr "Autoplay"
+
+#~ msgid "Interval"
+#~ msgstr "Intervall"
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "Inställningar för språkriktning"
+
+#~ msgid "Language Direction"
+#~ msgstr "Språkriktning"
+
+#, fuzzy
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr ""
+#~ "Den här funktionen är endast tillgänglig i betald högkvalitetspapper "
+#~ "versionen!"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "Gallery Bank Korta-koder"

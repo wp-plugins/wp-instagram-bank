@@ -1,0 +1,596 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:28+0530\n"
+"PO-Revision-Date: 2014-07-29 11:49+0530\n"
+"Last-Translator: \n"
+"Language-Team: Tech-Banker <support@tech-banker.com>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "ビューすべて"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "システムステータス"
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "アルバムカバーとして設定"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "削除"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "Instagramの上でリダイレクトにし有効"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "あなたのタイトルを-入力"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "説明 - あなたの 入力して "
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "自分のタグを入力"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "Instagramのと通信できません。"
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagramのは200を返しませんでした。"
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "無効な データ 返さ Instagram。"
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "ダッシュボード - Wp Instagram Bank"
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "新しいInstagramアルバムを追加"
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "アルバムカバー"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "アルバム名"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "Instagramアカウント"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "画像の数"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "エディット"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "このアルバムを削除してもよろしいですか？"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "戻るへダッシュボード"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "[変更の保存"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr "アルバム保存。リダイレクトが発生するのため親切に待つ。"
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "アルバム詳細"
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "アルバムタイトル"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr " あなたの 入力して - アルバムタイトル"
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "ここにあなたのアルバムのためタイトルを入力"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Instagramユーザー名"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "ユーザー名 -  Instagram あなたの 入力して "
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "イメージをインポートする場所からエンターInstagram アカウント"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "説明"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "説明-アルバム あなたの 入力して "
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "ここにアルバム説明あなたのためを入力し"
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr " インポートイメージズ からInstagram "
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr "あなたInstagram画像"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "バルク アクション"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "画像詳細"
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "サムネイル"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "タイトルと説明"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "タグ（カンマ区切りのリスト）"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "本気？あなたはこのイメージを削除してよ？"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "あなたはこれらの画像を削除してもよろしいですか"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "WP-Instagramシステムステータス"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "システムレポートを取得"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "システムレポート閉じ"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "デフォルト"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "インサートギャラリー銀行ショートコード"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr "支柱またはページを追加するアルバムを選択し。"
+
+#~ msgid "Gallery Type"
+#~ msgstr "ギャラリータイプ"
+
+#~ msgid "Albums with Images"
+#~ msgstr " イメージズ  とともに アルバム"
+
+#~ msgid "Only Images"
+#~ msgstr "イメージだけ"
+
+#~ msgid "Album Format"
+#~ msgstr "フォーマット- アルバムの"
+
+#~ msgid "Select Album Format"
+#~ msgstr "アルバム形式を選択"
+
+#~ msgid "Select Album"
+#~ msgstr "アルバム-を選択し"
+
+#~ msgid "Select an Album"
+#~ msgstr "選択し-ある-アルバム"
+
+#~ msgid "Gallery Format"
+#~ msgstr "ギャラリーの-フォーマット"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "セレクトギャラリー形式"
+
+#~ msgid "Images in Row"
+#~ msgstr "行内でイメージズ"
+
+#~ msgid "Image Width"
+#~ msgstr "画像幅"
+
+#~ msgid "Albums in Row"
+#~ msgstr "行内のアルバム"
+
+#~ msgid "Text Format"
+#~ msgstr "テキスト形式"
+
+#~ msgid "Select Format "
+#~ msgstr "-フォーマット-を選択し"
+
+#~ msgid "Special Effects"
+#~ msgstr "特殊効果"
+
+#~ msgid "Animation Effects"
+#~ msgstr "のアニメーション効果"
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "Show Responsive Gallery "
+
+#~ msgid "Show Album Title"
+#~ msgstr "ショーアルバムタイトル"
+
+#~ msgid "Insert Album"
+#~ msgstr "アルバム挿入"
+
+#~ msgid "Cancel"
+#~ msgstr "取り消す"
+
+#~ msgid "Please select an Album"
+#~ msgstr "アルバムを選択してください"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "アルバム形式を選択しください"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "ギャラリーイメージズフォーマットを選択してください"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "ギャラリー-を-のためにテキスト形式を選択してください"
+
+#~ msgid "Album Sorting"
+#~ msgstr "アルバムソート"
+
+#~ msgid "Global Settings"
+#~ msgstr "グローバル設定"
+
+#~ msgid "Purchase Pro Version"
+#~ msgstr "Proバージョンを購入"
+
+#~ msgid "Delete Image"
+#~ msgstr "削除イメージ"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "Gallery Bank"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "インサートギャラリーで"
+
+#~ msgid "Back to Albums"
+#~ msgstr "  アルバム-に 戻って"
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr ""
+#~ "公開された-アルバム 。リダイレクションが発生するためにを待ち親切に。"
+
+#~ msgid "Upload Images"
+#~ msgstr "画像をアップロード"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr ""
+#~ "お使いのブラウザはFlashやSilverlightのか、HTML5のをサポートしていない。"
+
+#~ msgid "Upload Videos"
+#~ msgstr "アップロード 動画"
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "（プレミアムバージョンで利用可能）"
+
+#~ msgid "Video Url"
+#~ msgstr "動画のURL"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr " 動画 URL - あなたの 入る"
+
+#~ msgid "Upload Video"
+#~ msgstr "アップロード 動画"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "あなた- ギャラリー銀行アルバム"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr "画像をクリックするだけでリダイレクトするURL"
+
+#~ msgid ""
+#~ "You will be only allowed to add 2 galleries. Kindly purchase Premium "
+#~ "Version for full access!"
+#~ msgstr ""
+#~ "あなただけ2ギャラリーを追加することが許可されます。親切にフルアクセスのた"
+#~ "めにプレミアムバージョンを購入！"
+
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr "この機能は、プレミアムバージョンでのみ可能です！"
+
+#~ msgid "Album Preview"
+#~ msgstr "アルバムプレビュー"
+
+#~ msgid "Please Choose"
+#~ msgstr "お選び下さい"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr "リオーダーアルバム"
+
+#~ msgid "Update Order"
+#~ msgstr "アップデート順"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "仕分け オーダー が更新されました。"
+
+#~ msgid "Delete All Albums"
+#~ msgstr "アルバム削除すべて"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "パージ画像＆アルバム"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "復元工場[設定]"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "既存アルバム概要"
+
+#~ msgid "Title"
+#~ msgstr "タイトル"
+
+#~ msgid "Date"
+#~ msgstr "日付"
+
+#~ msgid "Edit Album"
+#~ msgstr "アルバム編集"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "リオーダーイメージズ"
+
+#~ msgid "Preview Album"
+#~ msgstr "プレビューアルバム"
+
+#~ msgid "Delete Album"
+#~ msgstr "アルバムを削除"
+
+#~ msgid "Update Album"
+#~ msgstr "アルバムの更新"
+
+#~ msgid "Delete Video"
+#~ msgstr "ビデオ削除"
+
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "ギャラリー銀行価格"
+
+#~ msgid "Update Settings"
+#~ msgstr "アップデート設定"
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "サムネイル設定]"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "サムネイルサイズ"
+
+#~ msgid "Original"
+#~ msgstr "オリジナル"
+
+#~ msgid "Custom"
+#~ msgstr "カスタム"
+
+#~ msgid "Width"
+#~ msgstr "幅"
+
+#~ msgid "Height"
+#~ msgstr "高さ"
+
+#~ msgid "Opacity"
+#~ msgstr "不透明"
+
+#~ msgid "Border Size"
+#~ msgstr "境界線サイズ"
+
+#~ msgid "Border Radius"
+#~ msgstr "国境半径"
+
+#~ msgid "Border Color"
+#~ msgstr "枠線の色"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "マージン 間 イメージズ"
+
+#~ msgid "Text Color"
+#~ msgstr "テキストの色"
+
+#~ msgid "Text-Align"
+#~ msgstr "テキストが整列"
+
+#~ msgid "Font-Family"
+#~ msgstr "フォントファミリー"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "見出しのフォント-、サイズ"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "テキストフォントサイズ"
+
+#~ msgid "Description Length"
+#~ msgstr "記述長"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "アルバムカバー-セッティング"
+
+#~ msgid "Cover Size"
+#~ msgstr "カバーサイズ"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "アルバム間マージン"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "テキスト アルバムため-クリック"
+
+#~ msgid "Filter Settings"
+#~ msgstr "フィルタ設定"
+
+#~ msgid "Filters"
+#~ msgstr "のフィルタ"
+
+#~ msgid "Enable"
+#~ msgstr "有効にします"
+
+#~ msgid "Disable"
+#~ msgstr "無効にする"
+
+#~ msgid "Filter Color"
+#~ msgstr "フィルターの色"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "フィルターテキスト色"
+
+#~ msgid "Font-Size"
+#~ msgstr "フォントサイズ"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "役割とケイパビリティ"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "-管理者のための特権"
+
+#~ msgid "Full Control"
+#~ msgstr "フルコントロール"
+
+#~ msgid "Read"
+#~ msgstr "読む"
+
+#~ msgid "Write"
+#~ msgstr "書く"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "-エディタ-ため特権"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "-著者-ため特権"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "-投稿者のみ特権"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "加入者のため-の特権"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr " ライトボックス [設定]"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "ライトボックスタイプ"
+
+#~ msgid "Inline Background"
+#~ msgstr "インライン背景"
+
+#~ msgid "Overlay Background"
+#~ msgstr "オーバーレイの-背景"
+
+#~ msgid "Fade In Time"
+#~ msgstr "時間フェードイン"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "時間フェードアウト"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "フェイスブックコメント"
+
+#~ msgid "Social Sharing"
+#~ msgstr "ソーシャル共有"
+
+#~ msgid "Image Title"
+#~ msgstr "画像タイトル"
+
+#~ msgid "Image Description"
+#~ msgstr "画像記述"
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr "フロント - エンドレイアウト設定"
+
+#~ msgid "Text for Back Button"
+#~ msgstr "裏 ボタン-ためのテキスト"
+
+#~ msgid "Button Color"
+#~ msgstr "ボタン色"
+
+#~ msgid "Button Text Color"
+#~ msgstr "ボタンテキストカラー"
+
+#~ msgid "Album Seperator"
+#~ msgstr "アルバムセパレータ"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr "ページネーション[設定] ため- イメージズ"
+
+#~ msgid "Paging"
+#~ msgstr "ページング"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "スライドショーの[設定]"
+
+#~ msgid "Auto Play"
+#~ msgstr "自動再生"
+
+#~ msgid "Interval"
+#~ msgstr "インターバル"
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "言語方向[設定]"
+
+#~ msgid "Language Direction"
+#~ msgstr "言語ディレクション"
+
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr "この機能は、プレミアムバージョンでのみ可能です！"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "ギャラリー銀行ショートコード"
