@@ -25,7 +25,7 @@ else
 			$user_name = esc_attr($_REQUEST["user_name"]);
 			$album_id = intval($_REQUEST["album_id"]);
 			$insta_array = wp_get_instagram_gallery($user_name);
-			if(!is_wp_error($insta_array))
+			if(!is_wp_error($insta_array) && !empty($insta_array))
 			{
 				foreach ($insta_array as $content)
 				{
@@ -91,7 +91,7 @@ else
 							<br><input type="checkbox" name="ux_chk_insta_redirect" id="ux_chk_insta_redirect" /> <?php _e( "Enable redirect on Instagram", instagram_bank );?>
 						</td>
 						<td>
-							<img src="<?php echo esc_url($content["thumbnail"]["url"]);?>" image_id = "<?php echo $pic_id;?>" type="<?php echo $content["type"];?>" image_link="<?php echo esc_url( $content["link"] );?>" />
+							<img src="<?php echo esc_url($content["thumbnail"]["url"]);?>" image_id = "<?php echo $pic_id;?>" type="<?php echo $content["type"];?>" image_link="<?php echo esc_url( $content["link"] );?>" style="border:2px solid #000000;" />
 						</td>
 						<td>
 							<input type="text" id="ux_txt_insta_title" name="ux_txt_insta_title" placeholder="<?php _e("Enter your Title", instagram_bank );?>" value="<?php echo  esc_attr($content["description"]); ?>" style="margin-bottom: 10px;"><br/>
@@ -103,6 +103,86 @@ else
 					</tr>
 					<?php
 					
+				}
+			}
+			else
+			{
+				$tag_array = get_tag_media_files($user_name,"1000");
+				foreach ($tag_array->data as $content)
+				{
+					$file_name_exct = explode("/", esc_url($content->images->thumbnail->url));
+					$file_name = $file_name_exct[count($file_name_exct) - 1];
+					if ($content->type == "image")
+					{
+						$wpdb->query
+						(
+								$wpdb->prepare
+								(
+										"INSERT INTO " . wpib_album_pics() .
+										" (album_id,title,description,thumbnail_url,image_url,tags,album_cover,enable_redirect,url,video,pic_name,date)
+									VALUES(%d,%s,%s,%s,%s,%s,%d,%d,%s,%d,%s,CURDATE())",
+										$album_id,
+										esc_attr($content->caption->text),
+										"",
+										esc_url($content->images->thumbnail->url),
+										esc_url($content->images->standard_resolution->url),
+										"",
+										0,
+										0,
+										esc_url($content->link),
+										0,
+										$file_name
+								)
+						);
+						echo $pic_id = $wpdb->insert_id;
+					}
+					else
+					{
+						$wpdb->query
+						(
+								$wpdb->prepare
+								(
+										"INSERT INTO " . wpib_album_pics() .
+										" (album_id,title,description,thumbnail_url,image_url,tags,album_cover,enable_redirect,url,video,pic_name,date)
+								VALUES(%d,%s,%s,%s,%s,%s,%d,%d,%s,%d,%s,CURDATE())",
+										$album_id,
+										esc_attr($content->caption->text),
+										"",
+										esc_url($content->images->thumbnail->url),
+										esc_url($content->images->standard_resolution->url),
+										"",
+										0,
+										0,
+										esc_url($content->link),
+										1,
+										$file_name
+								)
+						);
+						echo $pic_id = $wpdb->insert_id;
+					}
+					?>
+					<tr>
+						<td><input type="checkbox" id="ux_chk_select_items" name="ux_chk_select_items" value="<?php echo $pic_id;?>"/></td>
+						<td>
+							<?php echo esc_attr($file_name);?><br>
+							<?php echo date("F j, Y");?><br>
+							<?php echo intval($content->images->thumbnail->width)." x ".intval($content->images->thumbnail->height); ?><br>
+							<input type="radio" name="ux_rdl_album_cover" id="ux_rdl_album_cover<?php echo $pic_id;?>" ><?php  _e( "Set as album cover", instagram_bank );?><br>
+							<a onclick="delete_pic(this)" control_id="<?php echo $pic_id;?>" style="cursor: pointer;"><?php _e("Delete", instagram_bank );?></a>
+							<br><input type="checkbox" name="ux_chk_insta_redirect" id="ux_chk_insta_redirect" /> <?php _e( "Enable redirect on Instagram", instagram_bank );?>
+						</td>
+						<td>
+							<img src="<?php echo esc_url($content->images->thumbnail->url);?>" image_id = "<?php echo $pic_id;?>" type="<?php echo $content->type;?>" image_link="<?php echo esc_url( $content->link );?>" style="border:2px solid #000000;" />
+						</td>
+						<td>
+							<input type="text" id="ux_txt_insta_title" name="ux_txt_insta_title" placeholder="<?php _e("Enter your Title", instagram_bank );?>" value="<?php echo  esc_attr($content->caption->text); ?>" style="margin-bottom: 10px;"><br/>
+							<textarea name="ux_txt_insta_desc" id="ux_txt_insta_desc" rows="4" cols="20" placeholder="<?php _e("Enter your Description", instagram_bank );?>"/ ></textarea>
+						</td>
+						<td>
+							<textarea name="ux_txt_insta_tags" id="ux_txt_insta_tags" rows="6" cols="20" placeholder="<?php _e("Enter your Tags", instagram_bank );?>"/></textarea>
+						</td>
+					</tr>
+					<?php
 				}
 			}
 			?>
@@ -203,8 +283,12 @@ else
 	}
 }
 
+function get_tag_media_files($name, $limit) {
+	return get_tag_images('tags/' . $name . '/media/recent', false, array('count' => $limit));
+}
 function wp_get_instagram_gallery($username)
 {
+	
 	if (false === ($instagram = get_transient("instagram-media-".sanitize_title_with_dashes($username)))) {
 
 		$remote = wp_remote_get("http://instagram.com/".trim($username));
@@ -253,5 +337,49 @@ function wp_get_instagram_gallery($username)
 
 	$instagram = unserialize( base64_decode( $instagram ) );
 	return $instagram;
+}
+
+function get_tag_images($function, $auth = false, $params = null, $method = 'GET') {
+	if (false === $auth) {
+		// if the call doesn't requires authentication
+		$authMethod = '?client_id=6271cc18471d429e9d2ba1895023a0f2';
+	} else {
+		// if the call needs an authenticated user
+		if (true === isset($this->_accesstoken)) {
+			$authMethod = '?access_token=' . $this->getAccessToken();
+		} else {
+			throw new Exception("Error: _makeCall() | $function - This method requires an authenticated users access token.");
+		}
+	}
+
+	if (isset($params) && is_array($params)) {
+		$paramString = '&' . http_build_query($params);
+	} else {
+		$paramString = null;
+	}
+
+	$apiCall = 'https://api.instagram.com/v1/' . $function . $authMethod . (('GET' === $method) ? $paramString : null);
+
+	$ch = curl_init();
+	curl_setopt($ch, CURLOPT_URL, $apiCall);
+	curl_setopt($ch, CURLOPT_HTTPHEADER, array('Accept: application/json'));
+	curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+
+	if ('POST' === $method) {
+		curl_setopt($ch, CURLOPT_POST, count($params));
+		curl_setopt($ch, CURLOPT_POSTFIELDS, ltrim($paramString, '&'));
+	} else if ('DELETE' === $method) {
+		curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'DELETE');
+	}
+
+	$jsonData = curl_exec($ch);
+	if (false === $jsonData) {
+		throw new Exception("Error: _makeCall() - cURL error: " . curl_error($ch));
+	}
+	curl_close($ch);
+
+	return json_decode($jsonData);
 }
 ?>

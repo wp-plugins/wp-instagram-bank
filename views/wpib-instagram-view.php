@@ -111,8 +111,8 @@ else
 										<div class="layout-control-group">
 											<label class="layout-control-label"><?php _e("Instagram UserName/Hashtag", instagram_bank); ?> : <span class="error">*</span></label>
 											<div class="layout-controls">
-												<input type="text" id="ux_txt_user" name="ux_txt_user" class="layout-span12"   placeholder="<?php _e("Enter Your Instagram Username", instagram_bank);?>" value="<?php echo esc_attr($instagram_album->user_name);?>">
-											<p class="wpib-desc-italic">	<?php _e("Enter Instagram account or Instagram hashtag to import images", instagram_bank); ?> </p>
+												<input type="text" id="ux_txt_user" name="ux_txt_user" class="layout-span12" placeholder="<?php _e("Enter Your Instagram Username or Instagram hashtag", instagram_bank);?>" value="<?php echo esc_attr($instagram_album->user_name);?>">
+											<p class="wpib-desc-italic">	<?php _e("Enter Instagram account or Instagram hashtag without using # to import images", instagram_bank); ?> </p>
 											</div>
 										</div>
 										<div class="layout-control-group">
@@ -188,7 +188,7 @@ else
 															</td>
 															<?php $type = $instagram_pics[$flag]->video == 1 ? "video" : "image";?>
 															<td>
-																<img src="<?php echo $instagram_pics[$flag]->thumbnail_url;?>" image_id = "<?php echo $instagram_pics[$flag]->pic_id;?>" type="<?php echo $type;?>" />
+																<img src="<?php echo $instagram_pics[$flag]->thumbnail_url;?>" image_id = "<?php echo $instagram_pics[$flag]->pic_id;?>" type="<?php echo $type;?>" style="border:2px solid #000000;" />
 															</td>
 															<td>
 																<input type="text" id="ux_txt_insta_title" name="ux_txt_insta_title" placeholder="<?php _e("Enter your Title", instagram_bank);?>" value="<?php echo html_entity_decode(stripcslashes(htmlspecialchars($instagram_pics[$flag]->title))); ?>" style="margin-bottom: 10px;"><br/>
@@ -251,12 +251,12 @@ else
 		var album_id = "<?php echo $albumId;?>";
 		jQuery.post(ajaxurl, "user_name=" + user_name + "&album_id=" +album_id+ "&param=get_insta_gallery&action=instagram_library", function (data)
 		{
-				var oTable = jQuery("#ux_data-instagram-images").dataTable();
-				oTable.fnDestroy();
-				jQuery("#ux_tbl_show_data").empty();
-				jQuery("#ux_tbl_show_data").append(data);
-				oTable.fnDraw();
-				select_radio();
+ 			var oTable = jQuery("#ux_data-instagram-images").dataTable();
+			oTable.fnDestroy();
+			jQuery("#ux_tbl_show_data").empty();
+			jQuery("#ux_tbl_show_data").append(data);
+ 			oTable.fnDraw();
+ 			select_radio();
 		});
 	}
 	
@@ -371,6 +371,7 @@ else
 			jQuery("input[type=radio][name=ux_rdl_album_cover]:first").attr("checked","checked");
 		}
 	}
+
 	</script>
 <?php 
 }

@@ -53,7 +53,7 @@ else
 											<th style="width:18%"><?php _e( "Album Cover", instagram_bank ); ?></th>
 											<th style="width:25%"><?php _e( "Shortcode", instagram_bank ); ?></th>
 											<th style="width:15%"><?php _e( "Album Name", instagram_bank ); ?></th>
-											<th style="width:15%"><?php _e( "Instagram Account", instagram_bank ); ?></th>
+											<th style="width:15%"><?php _e( "Instagram Account/Hashtag", instagram_bank ); ?></th>
 											<th style="width:15%"><?php _e( "No. of Images", instagram_bank ); ?></th>
 											
 										</tr>

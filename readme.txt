@@ -3,7 +3,7 @@ Contributors: contact-banker,Gallery-Bank
 Tags: admin, albums, gallery, instagram, instagram gallery, Instagram images, photography, photos, sidebar, simple, widget, widgets, plugin
 Requires at least: 3.0
 Tested up to: 3.9.2
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,7 +29,7 @@ The Plugin is built keeping in mind:
 
 ###IMPORTANT: If you think you found a bug in the WP Instagram Bank or have any problem or question concerning WP Instagram Bank, do not hesitate to contact us at support@tech-banker.com.
 
-***August 20, 2014: We're happy to announce that WP Instagram Bank reached 500+ plugin downloads in only 2 weeks. We frequently receive positive feedback from people using our WP Instagram Bank Plugin for WordPress. Thanks so much for your support!***
+***August 21, 2014: We're happy to announce that WP Instagram Bank reached 600+ plugin downloads in only 3 weeks. We frequently receive positive feedback from people using our WP Instagram Bank Plugin for WordPress. Thanks so much for your support!***
 
 ### WP Instagram Bank is now available in the following Languages
 
@@ -93,10 +93,15 @@ If any problem occurs, please contact us at [support@tech-banker.com](mailto:sup
 
 == Changelog ==
 
-= 1.0.3 =
+= 1.0.4 =
 
 
 * Add Images by Hastag Added
+
+= 1.0.3 =
+
+
+* Few Bugs Fixed
 
 = 1.0.2 =
 
