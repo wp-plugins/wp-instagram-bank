@@ -21,6 +21,15 @@ WP Instagram Bank contains:
 * Importing Images & Videos directly from your instagram account
 * Importing Images & Videos directly using hastags from instagram
 
+= Features =
+* Super **simple to set up**
+* Completely **responsive** and mobile ready - layout looks great on any screen size and in any container width
+* **Completely customizable** - Customize the width, height, number of photos, number of columns, image size, background color, image spacing and more!
+* Display **multiple Instagram feeds** on the same page or on different pages throughout your site
+* Use the built-in **shortcode options** to completely customize each of your Instagram feeds
+* Display thumbnail, medium or **full-size photos** from your Instagram feed
+* **Infinitely load more** of your Instagram photos with the 'Load More' button
+
 The Plugin is built keeping in mind:
 
 * Use sensible and simple markup
@@ -29,7 +38,7 @@ The Plugin is built keeping in mind:
 
 ###IMPORTANT: If you think you found a bug in the WP Instagram Bank or have any problem or question concerning WP Instagram Bank, do not hesitate to contact us at support@tech-banker.com.
 
-***August 21, 2014: We're happy to announce that WP Instagram Bank reached 600+ plugin downloads in only 3 weeks. We frequently receive positive feedback from people using our WP Instagram Bank Plugin for WordPress. Thanks so much for your support!***
+***September 16, 2014: We're happy to announce that WP Instagram Bank reached 800+ plugin downloads in only 1 month. We frequently receive positive feedback from people using our WP Instagram Bank Plugin for WordPress. Thanks so much for your support!***
 
 ### WP Instagram Bank is now available in the following Languages
 
