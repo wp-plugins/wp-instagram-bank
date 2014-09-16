@@ -1,6 +1,6 @@
 ﻿=== WP Instagram Bank ===
 Contributors: contact-banker,Gallery-Bank
-Tags: admin, instagram, photos, widgets
+Tags: admin, Custom Instagram Feed, instagram, Instagram account, Instagram feed, Instagram photos, Instagram plugin, Instagram posts, Instagram stream, Instagram wall, mobile Instagram, responsive Instagram
 Requires at least: 3.0
 Tested up to: 3.9.2
 Stable tag: 1.0.4
