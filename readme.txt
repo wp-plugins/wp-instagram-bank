@@ -1,15 +1,13 @@
 ﻿=== WP Instagram Bank ===
 Contributors: contact-banker,Gallery-Bank
-Tags: admin, albums, gallery, instagram, instagram gallery, Instagram images, photography, photos, sidebar, simple, widget, widgets, plugin
+Tags: admin, instagram, photos, widgets
 Requires at least: 3.0
 Tested up to: 3.9.2
 Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-
-WP Instagram Bank is an ultimate WordPress Plugin to showcase your latest Instagram pics.
-
+WP Instagram Bank adds a beautifully clean, customizable, and responsive Instagram images to your website 
 == Description ==
 
 ### WordPress Instagram Bank
