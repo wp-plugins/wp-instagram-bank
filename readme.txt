@@ -2,15 +2,16 @@
 Contributors: contact-banker,Gallery-Bank
 Tags: admin, Custom Instagram Feed, instagram, Instagram account, Instagram feed, Instagram photos, Instagram plugin, Instagram posts, Instagram stream, Instagram wall, mobile Instagram, responsive Instagram
 Requires at least: 3.0
-Tested up to: 3.9.2
+Tested up to: 4.0
 Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-WP Instagram Bank adds a beautifully clean, customizable, and responsive Instagram images to your website 
+Add a beautifully clean, customizable, and responsive Instagram feed to your website
+
 == Description ==
 
-### WordPress Instagram Bank
+Display the Instagram photo feed of any non-private Instagram account.
 
 WP Instagram Bank contains:
 
@@ -33,10 +34,6 @@ The Plugin is built keeping in mind:
 * Use sensible and simple markup
 * Cache where possible - filters are provided to adjust cache timings
 * Require little setup - avoid oAuth for example
-
-###IMPORTANT: If you think you found a bug in the WP Instagram Bank or have any problem or question concerning WP Instagram Bank, do not hesitate to contact us at support@tech-banker.com.
-
-***September 16, 2014: We're happy to announce that WP Instagram Bank reached 800+ plugin downloads in only 1 month. We frequently receive positive feedback from people using our WP Instagram Bank Plugin for WordPress. Thanks so much for your support!***
 
 ### WP Instagram Bank is now available in the following Languages
 
@@ -75,28 +72,26 @@ The Plugin is built keeping in mind:
 * Thai (th)
 * Ukrainian (uk)
 
+= Benefits =
+* Increase your Instagram followers by displaying your Instagram content on your website
+* Save time and increase efficiency by only posting your photos to Instagram and automatically displaying them on your website
+
+= Feedback or Support =
+We're dedicated to providing the most customizable, robust and well supported Instagram feed plugin in the world, so if you have an issue or have any feedback on how to improve the plugin then please open a ticket in the [Support forum](http://wordpress.org/support/plugin/wp-instagram-bank 'WP Instagram Bank Support Forum').
+
+Lots more features coming soon!
+
 == Installation ==
 
-### Minimum requirements.  
-*   Wordpress 3.0+  
-*   PHP 5.x  
-*   MySQL 5.x  
+1. Install the Instagram plugin either via the WordPress plugin directory, or by uploading the files to your web server (in the `/wp-content/plugins/` directory).
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Navigate to the 'WP Instagram Bank' settings page to configure your Instagram feed.
 
-### Performing a new installation  
-
-After downloading the ZIP file,  
-
-1. Log in to the administrator panel.  
-2. Go to Plugins Add > New > Upload.  
-3. Click “Choose file” (“Browse”) and select the downloaded zip file.  
-
-*For Mac Users*  
-*Go to your Downloads folder and locate the folder with the plugin. Right-click on the folder and select Compress. Now you have a newly created .zip file which can be installed as described here.*  
-
-1. Click “Install Now” button.  
-2. Click “Activate Plugin” button for activating the plugin.  
+== Frequently Asked Questions ==
 
 If any problem occurs, please contact us at [support@tech-banker.com](mailto:support@tech-banker.com).
+
+== Screenshots ==
 
 == Changelog ==
 
