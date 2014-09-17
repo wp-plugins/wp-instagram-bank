@@ -11,6 +11,7 @@ Add a beautifully clean, customizable, and responsive Instagram feed to your web
 
 == Description ==
 
+### WP Instagram - Best Instagram Plugin on WordPress
 Display the Instagram photo feed of any non-private Instagram account.
 
 WP Instagram Bank contains:
