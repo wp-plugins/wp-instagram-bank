@@ -7,21 +7,21 @@ Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add a beautifully clean, customizable, and responsive Instagram feed to your website
+WP Instagram Bank adds a clean, customizable, and responsive Instagram feed to your website
 
 == Description ==
 
 ### WP Instagram - Best Instagram Plugin on WordPress
 Display the Instagram photo feed of any non-private Instagram account.
 
-WP Instagram Bank contains:
+### WP Instagram Bank contains:
 
 * Streamlined code for optimized plugin performance
 * Simple instructions
 * Importing Images & Videos directly from your instagram account
 * Importing Images & Videos directly using hastags from instagram
 
-= Features =
+### WP Instagram Bank Features ###
 * Super **simple to set up**
 * Completely **responsive** and mobile ready - layout looks great on any screen size and in any container width
 * **Completely customizable** - Customize the width, height, number of photos, number of columns, image size, background color, image spacing and more!
@@ -84,9 +84,26 @@ Lots more features coming soon!
 
 == Installation ==
 
-1. Install the Instagram plugin either via the WordPress plugin directory, or by uploading the files to your web server (in the `/wp-content/plugins/` directory).
-2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Navigate to the 'WP Instagram Bank' settings page to configure your Instagram feed.
+### Minimum requirements for WP Instagram Bank.
+*   Wordpress 3.3+  
+*   PHP 5.x  
+*   MySQL 5.x  
+
+### Performing a new installation for WP Instagram Bank.
+
+After downloading the ZIP file,  
+
+1. Log in to the administrator panel.  
+2. Go to Plugins Add > New > Upload.  
+3. Click “Choose file” (“Browse”) and select the downloaded zip file.  
+
+*For Mac Users*  
+*Go to your Downloads folder and locate the folder with the plugin. Right-click on the folder and select Compress. Now you have a newly created .zip file which can be installed as described here.*  
+
+1. Click “Install Now” button.  
+2. Click “Activate Plugin” button for activating the plugin.  
+
+If any problem occurs, please contact us at [support@tech-banker.com](mailto:support@tech-banker.com).
 
 == Frequently Asked Questions ==
 
@@ -107,6 +124,7 @@ If any problem occurs, please contact us at [support@tech-banker.com](mailto:sup
 * Few Bugs Fixed
 
 = 1.0.2 =
+
 
 * All Languages Updated
 * Few Bugs Fixed
