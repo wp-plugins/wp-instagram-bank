@@ -4,7 +4,7 @@ Plugin Name: Wp Instagram Bank
 Plugin URI: http://tech-banker.com
 Description: WP Instagram Bank is an ultimate WordPress Plugin to showcase your latest Instagram pics.
 Author: Tech Banker
-Version: 1.0.4
+Version: 1.0.5
 Author URI: http://tech-banker.com
 */
 
@@ -14,6 +14,8 @@ Author URI: http://tech-banker.com
 if (!defined("INSTAGRAM_BK_PLUGIN_DIR")) define("INSTAGRAM_BK_PLUGIN_DIR",  plugin_dir_path( __FILE__ ));
 if (!defined("INSTAGRAM_BK_PLUGIN_DIRNAME")) define("INSTAGRAM_BK_PLUGIN_DIRNAME", plugin_basename(dirname(__FILE__)));
 if (!defined("instagram_bank")) define("instagram_bank", "instagram-bank");
+if (!defined("tech_bank")) define("tech_bank", "tech-banker");
+if (!defined("INSTAGRAM_FILE")) define("INSTAGRAM_FILE","wp-instagram-bank/wp-instagram-bank.php");
 
 
 /////////////////////////////////////  Call CSS & JS Scripts - Front End ////////////////////////////////////////
@@ -42,7 +44,7 @@ function admin_panel_js_calls()
 function admin_panel_css_calls()
 {
 	wp_enqueue_style("farbtastic");
-	wp_enqueue_style("stylesheet.css", plugins_url("/assets/css/stylesheet.css",__FILE__));
+	wp_enqueue_style("framework.css", plugins_url("/assets/css/framework.css",__FILE__));
 	wp_enqueue_style("system-message.css", plugins_url("/assets/css/system-message.css",__FILE__));
 }
 
@@ -61,13 +63,30 @@ function wpib_album_pics()
 }
 
 /////////////////////////////////////  Call Install Script on Plugin Activation ////////////////////////////////////////
-
-function plugin_install_script_for_instagram_bank()
+if(!function_exists("plugin_install_script_for_instagram_bank"))
 {
-	include_once INSTAGRAM_BK_PLUGIN_DIR . "/lib/wpib-install-script.php";
+	function plugin_install_script_for_instagram_bank()
+	{
+		global $wpdb;
+		if (is_multisite())
+		{
+			$blog_ids = $wpdb->get_col("SELECT blog_id FROM $wpdb->blogs");
+			foreach($blog_ids as $blog_id)
+			{
+				switch_to_blog($blog_id);
+				include INSTAGRAM_BK_PLUGIN_DIR . "/lib/wpib-install-script.php";
+				restore_current_blog();
+			}
+		}
+		else
+		{
+			include_once INSTAGRAM_BK_PLUGIN_DIR . "/lib/wpib-install-script.php";
+		}
+	}
 }
 
 /////////////////////////////////////  Call Languages for Multi-Lingual ////////////////////////////////////////
+
 function instagram_bank_plugin_load_text_domain()
 {
 	if (function_exists("load_plugin_textdomain"))
@@ -75,7 +94,148 @@ function instagram_bank_plugin_load_text_domain()
 		load_plugin_textdomain(instagram_bank, false, INSTAGRAM_BK_PLUGIN_DIRNAME . "/lang");
 	}
 }
-//
+
+/////////////////////////////////////  admin menu////////////////////////////////////////
+
+function add_instagram_icon($meta = TRUE)
+{
+	global $wp_admin_bar, $wpdb, $current_user;
+	if(is_super_admin())
+	{
+		$role = "administrator";
+	}
+	else
+	{
+		$role = $wpdb->prefix . "capabilities";
+		$current_user->role = array_keys($current_user->$role);
+		$role = $current_user->role[0];
+	}
+	switch ($role)
+	{
+		case "administrator":
+			$wp_admin_bar->add_menu(array(
+			"id" => "instagram_bank",
+			"title" => __("<img src=\"" . plugins_url("/assets/images/instagram.png",__FILE__)."\" width=\"25\"
+			height=\"25\" style=\"vertical-align:text-top; margin-right:5px;\" />Instagram Bank"),
+			"href" => __(site_url() . "/wp-admin/admin.php?page=instagram_bank"),
+			));
+				
+			$wp_admin_bar->add_menu(array(
+					"parent" => "instagram_bank",
+					"id" => "dashboard",
+					"href" => site_url() . "/wp-admin/admin.php?page=instagram_bank",
+					"title" => __("Dashboard", instagram_bank))
+			);
+			$wp_admin_bar->add_menu(array(
+					"parent" => "instagram_bank",
+					"id" => "add_new_album",
+					"href" => site_url() . "/wp-admin/admin.php?page=add_album",
+					"title" => __("Add New Album", instagram_bank))
+			);
+			$wp_admin_bar->add_menu(array(
+					"parent" => "instagram_bank",
+					"id" => "short_code",
+					"href" => site_url() . "/wp-admin/admin.php?page=short_code",
+					"title" => __("Short Codes", instagram_bank))
+			);
+			$wp_admin_bar->add_menu(array(
+					"parent" => "instagram_bank",
+					"id" => "recommendation_instagram",
+					"href" => site_url() . "/wp-admin/admin.php?page=recommended_plugins_instagram",
+					"title" => __("Recommendations", instagram_bank))
+			);
+			$wp_admin_bar->add_menu(array(
+					"parent" => "instagram_bank",
+					"id" => "other_services_instagram",
+					"href" => site_url() . "/wp-admin/admin.php?page=other_services_instagram",
+					"title" => __("Our Other Services", instagram_bank))
+			);
+			$wp_admin_bar->add_menu(array(
+					"parent" => "instagram_bank",
+					"id" => "wp_system_status_instagram",
+					"href" => site_url() . "/wp-admin/admin.php?page=wp_system_status",
+					"title" => __("System Status", instagram_bank))
+			);
+		break;
+		case "editor":
+			$wp_admin_bar->add_menu(array(
+					"parent" => "instagram_bank",
+					"id" => "dashboard",
+					"href" => site_url() . "/wp-admin/admin.php?page=instagram_bank",
+					"title" => __("Dashboard", instagram_bank))
+			);
+			$wp_admin_bar->add_menu(array(
+					"parent" => "instagram_bank",
+					"id" => "add_new_album",
+					"href" => site_url() . "/wp-admin/admin.php?page=add_album",
+					"title" => __("Add New Album", instagram_bank))
+			);
+			$wp_admin_bar->add_menu(array(
+					"parent" => "instagram_bank",
+					"id" => "short_code",
+					"href" => site_url() . "/wp-admin/admin.php?page=short_code",
+					"title" => __("Short Codes", instagram_bank))
+			);
+			$wp_admin_bar->add_menu(array(
+					"parent" => "instagram_bank",
+					"id" => "recommendation_instagram",
+					"href" => site_url() . "/wp-admin/admin.php?page=recommended_plugins_instagram",
+					"title" => __("Recommendations", instagram_bank))
+			);
+			$wp_admin_bar->add_menu(array(
+					"parent" => "instagram_bank",
+					"id" => "other_services_instagram",
+					"href" => site_url() . "/wp-admin/admin.php?page=other_services_instagram",
+					"title" => __("Our Other Services", instagram_bank))
+			);
+			$wp_admin_bar->add_menu(array(
+					"parent" => "instagram_bank",
+					"id" => "wp_system_status_instagram",
+					"href" => site_url() . "/wp-admin/admin.php?page=wp_system_status",
+					"title" => __("System Status", instagram_bank))
+			);
+		break;
+		case "author":
+			$wp_admin_bar->add_menu(array(
+					"parent" => "instagram_bank",
+					"id" => "dashboard",
+					"href" => site_url() . "/wp-admin/admin.php?page=instagram_bank",
+					"title" => __("Dashboard", instagram_bank))
+			);
+			$wp_admin_bar->add_menu(array(
+					"parent" => "instagram_bank",
+					"id" => "add_new_album",
+					"href" => site_url() . "/wp-admin/admin.php?page=add_album",
+					"title" => __("Add New Album", instagram_bank))
+			);
+			$wp_admin_bar->add_menu(array(
+					"parent" => "instagram_bank",
+					"id" => "short_code",
+					"href" => site_url() . "/wp-admin/admin.php?page=short_code",
+					"title" => __("Short Codes", instagram_bank))
+			);
+			$wp_admin_bar->add_menu(array(
+					"parent" => "instagram_bank",
+					"id" => "recommendation_instagram",
+					"href" => site_url() . "/wp-admin/admin.php?page=recommended_plugins_instagram",
+					"title" => __("Recommendations", instagram_bank))
+			);
+			$wp_admin_bar->add_menu(array(
+					"parent" => "instagram_bank",
+					"id" => "other_services_instagram",
+					"href" => site_url() . "/wp-admin/admin.php?page=other_services_instagram",
+					"title" => __("Our Other Services", instagram_bank))
+			);
+			$wp_admin_bar->add_menu(array(
+					"parent" => "instagram_bank",
+					"id" => "wp_system_status_instagram",
+					"href" => site_url() . "/wp-admin/admin.php?page=wp_system_status",
+					"title" => __("System Status", instagram_bank))
+			);
+		break;
+	}
+}
+
 ///////////////////////////////////  Call Shortcodes for Front End ////////////////////////////////////////
 function instagram_bank_short_code($atts)
 {
@@ -113,9 +273,45 @@ function array_iunique_instagram($array)
 /////////////////////////////////////  Include Menus on Dashboard ////////////////////////////////////////
 function create_global_menus_for_instagram_bank()
 {
-	include_once INSTAGRAM_BK_PLUGIN_DIR . "/lib/wpib-include-menus.php";
+	global $wpdb,$current_user;
+	if(is_super_admin())
+	{
+		$role = "administrator";
+	}
+	else
+	{
+		$role = $wpdb->prefix . "capabilities";
+		$current_user->role = array_keys($current_user->$role);
+		$role = $current_user->role[0];
+	}
+	include INSTAGRAM_BK_PLUGIN_DIR . "/lib/wpib-include-menus.php";
 }
 
+///////////////////////////////////// Shortcodes Generator Functions /////////////////////////////////////
+if(!function_exists("add_instagram_shortcode_button"))
+{
+	function add_instagram_shortcode_button($context) {
+		add_thickbox();
+		$context .= "<a href=\"#TB_inline?width=300&height=400&inlineId=instagram_bank\"  class=\"button thickbox\"  title=\"" . __("Add Instagram Bank Shortcode", instagram_bank) . "\">
+		<span class=\"contact_icon\"></span> Add Instagram Bank Shortcode</a>";
+		return $context;
+	}
+}
+if(!function_exists("add_instagram_mce_popup"))
+{
+	function add_instagram_mce_popup()
+	{
+		add_thickbox();
+		global $wpdb,$current_user,$user_role_permission;
+		$role = $wpdb->prefix . "capabilities";
+		$current_user->role = array_keys($current_user->$role);
+		$role = $current_user->role[0];
+		if(file_exists(INSTAGRAM_BK_PLUGIN_DIR ."/views/shortcode.php"))
+		{
+			include INSTAGRAM_BK_PLUGIN_DIR."/views/shortcode.php";
+		}
+	}
+}
 
 ///////////////////////////////////// Register Ajax Based Functions /////////////////////////////////////
 
@@ -125,25 +321,61 @@ if (isset($_REQUEST["action"])) {
 		add_action("admin_init", "instagram_library");
 		function instagram_library()
 		{
-			
-			global $wpdb,$current_user,$user_role_permission;
-			$role = $wpdb->prefix . "capabilities";
-			$current_user->role = array_keys($current_user->$role);
-			$role = $current_user->role[0];
-			include_once INSTAGRAM_BK_PLUGIN_DIR . "/lib/wpib-instagram-class.php";
+			global $wpdb,$current_user;
+			if(is_super_admin())
+			{
+				$role = "administrator";
+			}
+			else
+			{
+				$role = $wpdb->prefix . "capabilities";
+				$current_user->role = array_keys($current_user->$role);
+				$role = $current_user->role[0];
+			}
+			include INSTAGRAM_BK_PLUGIN_DIR . "/lib/wpib-instagram-class.php";
 		}
 		break;
 	}
 }
 
-///////////////////////////////////  Call Hooks   /////////////////////////////////////////////////////
+function instagram_bank_plugin_update_message($args)
+{
+	$response = wp_remote_get( 'http://plugins.svn.wordpress.org/wp-instagram-bank/trunk/readme.txt' );
+	if ( ! is_wp_error( $response ) && ! empty( $response['body'] ) )
+	{
+		// Output Upgrade Notice
+		$matches        = null;
+		$regexp         = '~==\s*Changelog\s*==\s*=\s*[0-9.]+\s*=(.*)(=\s*' . preg_quote($args['Version']) . '\s*=|$)~Uis';
+		$upgrade_notice = '';
+		if ( preg_match( $regexp, $response['body'], $matches ) ) {
+			$changelog = (array) preg_split('~[\r\n]+~', trim($matches[1]));
+			$upgrade_notice .= '<div class="framework_plugin_message">';
+			foreach ( $changelog as $index => $line ) {
+				$upgrade_notice .= "<p>".$line."</p>";
+			}
+			$upgrade_notice .= '</div> ';
+			echo $upgrade_notice;
+		}
+	}
+}
 
+
+
+
+///////////////////////////////////  Call Hooks   /////////////////////////////////////////////////////
+register_activation_hook(__FILE__, "plugin_install_script_for_instagram_bank");
+add_action("network_admin_menu", "create_global_menus_for_instagram_bank" );
+add_action("admin_bar_menu", "add_instagram_icon",100);
 add_shortcode("wp_instagram_bank", "instagram_bank_short_code");
 add_action("plugins_loaded", "instagram_bank_plugin_load_text_domain");
 add_action("admin_menu", "create_global_menus_for_instagram_bank");
+add_shortcode("instagram_bank", "instagram_bank_short_code");
 add_action("admin_init", "admin_panel_css_calls");
 add_action("admin_init", "admin_panel_js_calls");
 add_action("init", "front_end_js_calls");
 add_action("init", "front_end_css_calls");
-register_activation_hook(__FILE__, "plugin_install_script_for_instagram_bank");
+add_action("in_plugin_update_message-".INSTAGRAM_FILE,"instagram_bank_plugin_update_message" );
+add_action( "media_buttons_context", "add_instagram_shortcode_button", 1);
+add_action("admin_footer","add_instagram_mce_popup");
+
 ?>

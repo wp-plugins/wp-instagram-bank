@@ -19,7 +19,7 @@ if (!current_user_can($user_role_permission))
 else
 {
 	?>
-	<form id="frm_system_status" class="layout-form wpib-page-width" method="post">
+	<form id="frm_system_status" class="layout-form wpib-page-width" method="post" style="width:1000px;">
 		<div class="fluid-layout">
 			<div class="layout-span12">
 				<div class="widget-layout wpib-body-background">

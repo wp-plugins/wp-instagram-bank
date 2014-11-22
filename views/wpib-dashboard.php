@@ -31,7 +31,7 @@ else
 	);
 	?>
 	
-	<form id="ux_frm_dashboard" class="layout-form wpib-page-width">
+	<form id="ux_frm_dashboard" class="layout-form wpib-page-width" style="width:1000px;">
 		<div class="fluid-layout">
 			<div class="layout-span12">
 				<div class="widget-layout wpib-body-background">
@@ -46,15 +46,14 @@ else
 								<div class="layout-control-group" style="margin-bottom:10px;">
 									<a class="btn btn-success" href="admin.php?page=add_album&albumId=<?php echo $id;?>"><?php _e("Add New Instagram Album", instagram_bank);?></a>
 								</div>
-								<div class="wpib-separator-doubled"></div>
+								<div class="separator-doubled"></div>
 								<table id="ux_data-instagram-album" class="table wpib-tbl-backgound">
 									<thead>
 										<tr class="wpib-tr">
-											<th style="width:18%"><?php _e( "Album Cover", instagram_bank ); ?></th>
-											<th style="width:25%"><?php _e( "Shortcode", instagram_bank ); ?></th>
+											<th style="width:20%"><?php _e( "Album Cover", instagram_bank ); ?></th>
 											<th style="width:15%"><?php _e( "Album Name", instagram_bank ); ?></th>
-											<th style="width:15%"><?php _e( "Instagram Account/Hashtag", instagram_bank ); ?></th>
-											<th style="width:15%"><?php _e( "No. of Images", instagram_bank ); ?></th>
+											<th style="width:25%"><?php _e( "Instagram Account/Hashtag", instagram_bank ); ?></th>
+											<th style="width:25%"><?php _e( "No. of Images", instagram_bank ); ?></th>
 											
 										</tr>
 									</thead>
@@ -100,11 +99,6 @@ else
 													<a href="#" onclick="delete_album(<?php echo $result[$flag]->album_id;?>);"><?php _e( "Delete", instagram_bank ); ?></a>
 												</td>
 												<td>
-													[wp_instagram_bank album_id="<?php echo $result[$flag]->album_id;?>" title="true" desc="false"]<br>
-													[wp_instagram_bank album_id="<?php echo $result[$flag]->album_id;?>" title="true" desc="true"]<br>
-													[wp_instagram_bank album_id="<?php echo $result[$flag]->album_id;?>" title="false" desc="false"]<br>
-												</td>
-												<td>
 													<?php echo $result[$flag]->album_name;?>
 												</td>
 												<td>
@@ -142,8 +136,9 @@ else
 				"aaSorting": [[ 1, "asc" ]],
 				"aoColumnDefs": [{ "bSortable": false, "aTargets": [0] }]
 			});
-			
 			jQuery(".dataTables_length").css("margin-top","5px");
+			jQuery(".datatable-header").css("float","right");
+			jQuery(".datatable-header").css("margin-bottom","8px");
 		});
 		
 		function delete_album(id)

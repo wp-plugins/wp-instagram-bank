@@ -18,8 +18,15 @@ if (!current_user_can($user_role_permission))
 }
 else
 {
-	$albumId = intval($_REQUEST["albumId"]);
-	
+	$wpib_album_id = $wpdb->get_var
+	(
+			"SELECT album_id FROM " .wpib_albums(). " order by album_id desc limit 1"
+	);
+	$albumId = (count($wpib_album_id) == 0 ? "1" : (intval($wpib_album_id) + 1));
+	if(isset($_REQUEST["albumId"]))
+	{
+		$albumId = intval($_REQUEST["albumId"]);
+	}
 	$albumId_exist = $wpdb->get_var
 	(
 		$wpdb->prepare
@@ -76,7 +83,7 @@ else
 	
 	?>
 	
-	<form id="ux_frm_instagram_album" class="layout-form wpib-page-width">
+	<form id="ux_frm_instagram_album" class="layout-form wpib-page-width" style="width:1000px;">
 		<div class="fluid-layout">
 			<div class="layout-span12">
 				<div class="widget-layout wpib-body-background">
@@ -88,8 +95,8 @@ else
 					<div class="widget-layout-body">
 						<a class="btn btn-success" href="admin.php?page=instagram_bank" style="margin-bottom:4px;"><?php _e("Back to Dashboard", instagram_bank);?></a>
 						<input type="submit" class="btn btn-success" style="margin-bottom:4px; float:right" value="<?php _e("Save Changes", instagram_bank);?>" />
-						<div class="wpib-separator-doubled"></div>
-						<div id="update_album_added_message" class="message green" style="display: none;">
+						<div class="separator-doubled"></div>
+						<div id="update_album_added_message" class="custom-message green" style="display: none;">
 							<span>
 								<strong><?php _e("Album Saved. Kindly wait for the redirect to happen.", instagram_bank); ?></strong>
 							</span>
@@ -215,7 +222,7 @@ else
 								</div>
 							</div>
 						</div>
-						<div class="wpib-separator-doubled"></div>
+						<div class="separator-doubled"></div>
 						<a class="btn btn-success" href="admin.php?page=instagram_bank" style="margin-top:10px;"><?php _e("Back to Dashboard", instagram_bank);?></a>
 						<input type="submit" class="btn btn-success" style="margin-top:10px; float:right" value="<?php _e("Save Changes", instagram_bank);?>" />
 					</div>
