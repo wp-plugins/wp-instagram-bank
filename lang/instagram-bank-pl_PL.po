@@ -1,0 +1,703 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:28+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "WYŚWIETL WSZYSTKIE"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "deska rozdzielcza"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "Status systemu"
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "Ustaw jako okładkę albumu"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "Usuń"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "Nie stanie przekierować na Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Podaj tytuł"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Wpisz swój opis"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Podaj tagi"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "Nie jest w stanie komunikować się z Instagram."
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagram nie zwróci 200."
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "Instagram powrócił nieprawidłowe dane."
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "Deska rozdzielcza - Wp Instagram Bank"
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "Dodaj nowe Instagram albumu"
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "Okładka albumu"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "Krótki kod"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "Nazwa Albumu"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "Instagram konto"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "Liczba zdjęć"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "Edytuj"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "Jesteś pewien, że chcesz usunąć ten album?"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "Powrót do deska rozdzielcza"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr "Zapisane Albumu. Prosimy czekać na przekierowanie wydarzy."
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "Szczegóły Albumu"
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "Tytuł albumu"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Wpisz Swój Albumu tytuł "
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "Wprowadź tytuł do albumu tutaj"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Instagram nazwa_użytkownika"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Wpisz swój Instagram Nazwa użytkownika"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "Enter your Instagram account from which to import photos"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "Opis"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Wpisz swój Opis Albumu"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "Wprowadź opis dla Albumu tutaj"
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "Importuj zdjęcia z Instagram"
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr "Twoje Instagram obrazów"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "Luzem Akcja"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "Szczegóły Obrazu"
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "Miniatury"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "Tytuł i opis"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "Tagi (oddzielone przecinkami lista)"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "Jesteś pewien, że chcesz usunąć ten obraz?"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "Czy jesteś pewien, że chcesz usunąć te obrazów"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "Wp-Instagram stanu systemu"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "Pobierz raport systemowy"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "Zamknij raport systemowy"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "Domyślnie"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "Wstaw shortcode Gallery Bank"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr "Wybierz album poniżej by dodać go do wpisu lub strony."
+
+#~ msgid "Gallery Type"
+#~ msgstr "Typ galerii"
+
+#~ msgid "Albums with Images"
+#~ msgstr "Albumy z obrazami"
+
+#~ msgid "Only Images"
+#~ msgstr "Tylko obrazy"
+
+#~ msgid "Album Format"
+#~ msgstr "Format albumu"
+
+#~ msgid "Select Album Format"
+#~ msgstr "Wybierz format albumu"
+
+#~ msgid "Select Album"
+#~ msgstr "Wybierz album"
+
+#~ msgid "Select an Album"
+#~ msgstr "Wybierz album"
+
+#~ msgid "Gallery Format"
+#~ msgstr "Format galerii"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "Wybierz format galerii "
+
+#~ msgid "Images in Row"
+#~ msgstr "Obrazów w rzędzie"
+
+#~ msgid "Image Width"
+#~ msgstr "Szerokość obrazu"
+
+#~ msgid "Albums in Row"
+#~ msgstr "Albumów w rzędzie"
+
+#~ msgid "Text Format"
+#~ msgstr "Format tekstu"
+
+#~ msgid "Select Format "
+#~ msgstr "Wybierz format "
+
+#~ msgid "Special Effects"
+#~ msgstr "Efekty specjalne"
+
+#~ msgid "Animation Effects"
+#~ msgstr "Efekty animacji"
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "Pokaż galerię responsywną (RWD)"
+
+#~ msgid "Show Album Title"
+#~ msgstr "Pokaż tytuł albumu"
+
+#~ msgid "Insert Album"
+#~ msgstr "Wstaw album"
+
+#~ msgid "Cancel"
+#~ msgstr "Anuluj"
+
+#~ msgid "Please select an Album"
+#~ msgstr "Proszę wybrać album"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "Proszę wybrać format albumu"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "Proszę wybrać format obrazów w galerii"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "Proszę wybrać format tekstu w galerii"
+
+#~ msgid "<img src=\""
+#~ msgstr "<img src=\""
+
+#~ msgid "/wp-admin/admin.php?page=gallery_bank"
+#~ msgstr "/wp-admin/admin.php?page=gallery_bank"
+
+#~ msgid "Album Sorting"
+#~ msgstr "Sortowanie albumu"
+
+#~ msgid "Global Settings"
+#~ msgstr "Ustawienia globalne"
+
+#~ msgid "Delete Image"
+#~ msgstr "Usuń obraz"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "Gallery Bank"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "Dodaj galerię używają Gallery Bank"
+
+#~ msgid "Album Preview"
+#~ msgstr "Podgląd albumu"
+
+#~ msgid "Back to Albums"
+#~ msgstr "Powrót do albumów"
+
+#~ msgid "Please Choose"
+#~ msgstr "Proszę wybrać"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr "Zmień kolejność albumów"
+
+#~ msgid "Update Order"
+#~ msgstr "Aktualizuj kolejność"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "Kolejność została zaktualizowana."
+
+#~ msgid "Delete All Albums"
+#~ msgstr "Usuń wszystkie albumy"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "Wyczyść obrazy i albumy"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "Przywróć ustawienia fabryczne"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "Przegląd istniejących albumów"
+
+#~ msgid "Title"
+#~ msgstr "Tytuł"
+
+#~ msgid "Date"
+#~ msgstr "Data"
+
+#~ msgid "Edit Album"
+#~ msgstr "Edytuj album"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "Zmień kolejność obrazów"
+
+#~ msgid "Preview Album"
+#~ msgstr "Podgląd albumu"
+
+#~ msgid "Delete Album"
+#~ msgstr "Usuń album"
+
+#~ msgid "Album"
+#~ msgstr "Albumu"
+
+#~ msgid "Save Album"
+#~ msgstr "Zapisz Albumu"
+
+#~ msgid "Upload Images"
+#~ msgstr "Załaduj zdjęcia"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr "Twoja przeglądarka nie obsługuje Flash, Silverlight lub HTML5."
+
+#~ msgid "Upload Videos"
+#~ msgstr "Załaduj wideo"
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "(Dostępne w wersjach składka)"
+
+#~ msgid "Video Url"
+#~ msgstr "URL wideo"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr "Wpisz URL wideo"
+
+#~ msgid "Upload Video"
+#~ msgstr "Załaduj wideo"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "Album Gallery Bank"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr "URL do przekierowania po kliknięciu na obraz"
+
+#~ msgid "Delete Video"
+#~ msgstr "Usuń wideo"
+
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "Gallery Bank cennik"
+
+#~ msgid "Update Settings"
+#~ msgstr "Aktualizuj ustawienia"
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "Ustawienia miniatur"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "Rozmiar miniatury"
+
+#~ msgid "Original"
+#~ msgstr "Oryginał"
+
+#~ msgid "Custom"
+#~ msgstr "Własny"
+
+#~ msgid "Width"
+#~ msgstr "Szerokość"
+
+#~ msgid "Height"
+#~ msgstr "Wysokość"
+
+#~ msgid "Opacity"
+#~ msgstr "Przeźroczystość"
+
+#~ msgid "Border Size"
+#~ msgstr "Grubość ramki"
+
+#~ msgid "Border Radius"
+#~ msgstr "Zaokrąglenie ramki"
+
+#~ msgid "Border Color"
+#~ msgstr "Kolor ramki"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "Margines między obrazami"
+
+#~ msgid "Text Color"
+#~ msgstr "Kolor tekstu"
+
+#~ msgid "Text-Align"
+#~ msgstr "Wyrównanie tekstu"
+
+#~ msgid "Font-Family"
+#~ msgstr "Krój czcionki"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "Krój czcionki nagłówka"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "Wielkość tekstu"
+
+#~ msgid "Description Length"
+#~ msgstr "Długość opisu"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "Ustawienia miniatury albumu"
+
+#~ msgid "Cover Size"
+#~ msgstr "Rozmiar miniatury albumu"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "Margines między albumami"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "Tekst przycisku albumu"
+
+#~ msgid "Filter Settings"
+#~ msgstr "Ustawienia filtrów"
+
+#~ msgid "Filters"
+#~ msgstr "Filtry"
+
+#~ msgid "Enable"
+#~ msgstr "Włącz"
+
+#~ msgid "Disable"
+#~ msgstr "Wyłącz"
+
+#~ msgid "Filter Color"
+#~ msgstr "Kolor filtru"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "Kolor tekstu filtru"
+
+#~ msgid "Font-Size"
+#~ msgstr "Rozmiar czcionki"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "Role i możliwości"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "Przywileje Administratora"
+
+#~ msgid "Full Control"
+#~ msgstr "Pełna kontrola"
+
+#~ msgid "Read"
+#~ msgstr "Odczytaj"
+
+#~ msgid "Write"
+#~ msgstr "Zapisz"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "Przywileje Edytora"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "Przywileje Autora"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "Przywileje Współtwórcy"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "Przywileje Subskrybenta"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr "Ustawienia Lightbox'a"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "Typ Lightbox'a"
+
+#~ msgid "Inline Background"
+#~ msgstr "Tło wewnętrzne"
+
+#~ msgid "Overlay Background"
+#~ msgstr "Tło zewnętrzne"
+
+#~ msgid "Fade In Time"
+#~ msgstr "Czas animacji wejścia"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "Czas animacji wyjścia"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "Komentarze z Facebook'a"
+
+#~ msgid "Social Sharing"
+#~ msgstr "Dzielenie ze znajomymi"
+
+#~ msgid "Image Title"
+#~ msgstr "Tytuł obrazu"
+
+#~ msgid "Image Description"
+#~ msgstr "Opis obrazu"
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr "Ustawienia layoutu"
+
+#~ msgid "Text for Back Button"
+#~ msgstr "Tekst przycisku Wstecz"
+
+#~ msgid "Button Color"
+#~ msgstr "Kolor przycisku"
+
+#~ msgid "Button Text Color"
+#~ msgstr "Kolor tekstu przycisku"
+
+#~ msgid "Album Seperator"
+#~ msgstr "Separator albumu"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr "Ustawienia paginacji obrazów"
+
+#~ msgid "Paging"
+#~ msgstr "Paginacja"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "Ustawienia pokazu slajdów"
+
+#~ msgid "Auto Play"
+#~ msgstr "Autoodtwarzanie"
+
+#~ msgid "Interval"
+#~ msgstr "Interwał"
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "Ustawienia kierunku tekstu"
+
+#~ msgid "Language Direction"
+#~ msgstr "Kierunek tekstu"
+
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr "tego funkcja jest dostępna tylko w płatnej wersji składka!"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "Gallery Bank Krótki-Codes"
+
+#~ msgid "Licensing"
+#~ msgstr "Licencja"
+
+#~ msgid "Select Gallery"
+#~ msgstr "Wybierz galerię"
+
+#~ msgid "Select Gallery Format"
+#~ msgstr "Wybierz format galerii"
+
+#~ msgid "Images In Row"
+#~ msgstr "Obrazów w rzędzie"
+
+#~ msgid "Select Text Format"
+#~ msgstr "Wybierz format tekstu"
+
+#~ msgid "Special Effect"
+#~ msgstr "Efekt specjalny"
+
+#~ msgid "Select Special Effect"
+#~ msgstr "Wybierz efekt specjalny"
+
+#~ msgid "Animation Effect"
+#~ msgstr "Efekt animacji"
+
+#~ msgid "Responsive Gallery"
+#~ msgstr "Galeria responsywna (RWD)"
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr "Album opublikowany. Proszę czekać na przekierowanie."
+
+#~ msgid "Attention! A new vesion of Gallery Bank is available for download."
+#~ msgstr "Uwaga! Nowa wersja Gallery Bank jest dostępna do pobrania."
+
+#~ msgid "Click"
+#~ msgstr "Kliknij"
+
+#~ msgid "here"
+#~ msgstr "tutaj"
+
+#~ msgid "to upgrade your version of Gallery Bank."
+#~ msgstr ", aby zaktualizować wersję Gallery Bank."
+
+#~ msgid "Date of Creation"
+#~ msgstr "Data utworzenia"
+
+#~ msgid "Are you sure you want to delete all Albums?"
+#~ msgstr "Jesteś pewien, że chcesz usunąć wszystkie albumy?"
+
+#~ msgid "Are you sure you want to Restore Factory Settings?"
+#~ msgstr "Jesteś pewien, że chcesz przywrócić ustawienia fabryczne?"
+
+#~ msgid "Are you sure you want to Purge all Images & Albums?"
+#~ msgstr "Jesteś pewien, że chcesz wyczyścić wszystkie obrazy i albumy?"
+
+#~ msgid "Gallery Bank Documentation"
+#~ msgstr "Dokumentacja Gallery Bank"
+
+#~ msgid "Gallery Bank Licensing Module"
+#~ msgstr "Moduł licencjonowania Gallery Bank"
+
+#~ msgid "Success! Settings have been updated."
+#~ msgstr "Sukces! Ustawienia zostały zaktualizowane."
+
+#~ msgid "Update"
+#~ msgstr "Aktualizuj"
+
+#~ msgid "Restore Settings"
+#~ msgstr "Przywróć ustawienia"
+
+#~ msgid "Settings has been updated."
+#~ msgstr "Ustawienia zostały zaktualizowane."
+
+#~ msgid "Success! Settings have been restored."
+#~ msgstr "Sukces! Ustawienia zostały przywrócone."
+
+#~ msgid "Are you sure you want to restore settings?"
+#~ msgstr "Jesteś pewien, że chcesz przywrócić ustawienia?"
+
+#~ msgid " Rotate Image"
+#~ msgstr " Obróć obraz"
+
+#~ msgid "Upload Images "
+#~ msgstr "Załaduj obrazy "
+
+#~ msgid "Your Wordpress Version doesn\"t support Wp-media."
+#~ msgstr "Twoja wersja Wordpress'a nie obsługuje WP-Media"
+
+#~ msgid "Upload Thumbnails "
+#~ msgstr "Załaduj miniatury"
+
+#~ msgid "Show Albums"
+#~ msgstr "Pokaż albumy"
+
+#~ msgid "Responsive"
+#~ msgstr "Responsywny"
+
+#~ msgid "With Albums in Row"
+#~ msgstr "z albumami w rzędzie"
+
+#~ msgid "Image Uploader Settings"
+#~ msgstr "Ustawienia Image Uploader'a"
+
+#~ msgid "Uploader for Images"
+#~ msgstr "Uploader obrazów"
+
+#~ msgid "WP Media"
+#~ msgstr "WP Media"
+
+#~ msgid "Change Uploading Image Name"
+#~ msgstr "Zmień nazwę wysyłanego obrazu"
+
+#~ msgid "Image url location"
+#~ msgstr "Lokalizacja URL obrazu"
+
+#~ msgid "Open in New Window"
+#~ msgstr "Otwórz w nowym oknie"
