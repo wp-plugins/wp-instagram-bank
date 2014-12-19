@@ -1,0 +1,249 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-29 10:28+0530\n"
+"PO-Revision-Date: 2014-07-29 10:54+0530\n"
+"Last-Translator: \n"
+"Language-Team: Tech-Banker <support@tech-banker.com>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "VER TODOS"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Banco"
+
+# @ gallery-bank
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "Painel de instrumentos"
+
+# @ gallery-bank
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "Estado do Sistema"
+
+# @ gallery-bank
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "Definir como capa do álbum"
+
+# @ gallery-bank
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "Apagar"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "Habilitar redirecionar no Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Digite o seu Título"
+
+# @ gallery-bank
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Digite Sua Descrição"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Introduza suas Tags"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "Incapaz de se comunicar com Instagram."
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagram não retornou uma 200."
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "Instagram retornou dados inválidos."
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "Tablier- Wp Instagram Bank"
+
+# @ gallery-bank
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "Adicionar Novo Instagram Álbum"
+
+# @ gallery-bank
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "TAMPA DO ÁLBUM"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "Código curto"
+
+# @ gallery-bank
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "Nome Álbum"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "Conta Instagram"
+
+# @ gallery-bank
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "N º de Imagens"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "Editar"
+
+# @ gallery-bank
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "Tem certeza de que deseja excluir este álbum?"
+
+# @ gallery-bank
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "Voltar para tablier"
+
+# @ gallery-bank
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "Salvar alterações"
+
+# @ gallery-bank
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr "Álbum - salvos. Por favor, espere o redirecionamento para acontecer."
+
+# @ gallery-bank
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "Detalhe Álbum"
+
+# @ gallery-bank
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "Título do Álbum "
+
+# @ gallery-bank
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Introduza seu Album Título"
+
+# @ gallery-bank
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "Digite o título para o seu Álbum aqui"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Instagram NomeUtilizador"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Introduza seu Instagram Nome de utilizador"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "Digite conta Instagram De Onde importar imagens"
+
+# @ gallery-bank
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "Descrição"
+
+# @ gallery-bank
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Introduza seu Album Descrição"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "Digite uma descrição para o seu Álbum aqui"
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "Importar imagens de Instagram"
+
+# @ gallery-bank
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr "Seus Instagram Imagens"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "A Granel Acção em"
+
+# @ gallery-bank
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "Detalhes da Imagem"
+
+# @ gallery-bank
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "Miniaturas"
+
+# @ gallery-bank
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "Título e Descrição"
+
+# @ gallery-bank
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "Etiquetas (lista separada por vírgulas)"
+
+# @ gallery-bank
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "Tem certeza de que quer apagar esta imagem?"
+
+# @ gallery-bank
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "Tem certeza de que deseja apagar estes Images"
+
+# @ gallery-bank
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "Wp-Instagram sistema de status do"
+
+# @ gallery-bank
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "Ver relatório do Sistema"
+
+# @ gallery-bank
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "Fechar Relatório do Sistema"
+
+# @ default
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "predefinição"
