@@ -1,6 +1,6 @@
 ﻿=== WP Instagram - Best Instagram Feeds ===
 Contributors: contact-banker,Gallery-Bank
-Tags: admin, Custom Instagram Feed, instagram, Instagram account, Instagram feed, Instagram photos, Instagram plugin, Instagram posts, Instagram stream, Instagram wall, mobile Instagram, responsive Instagram
+Tags: admin, Custom Instagram Feed, instagram, Instagram account, Instagram feed, Instagram photos, Instagram plugin, Instagram posts, Instagram stream, Instagram wall, mobile Instagram, responsive Instagram, best instagram plugin
 Requires at least: 3.0
 Tested up to: 4.1
 Stable tag: 1.0.7
