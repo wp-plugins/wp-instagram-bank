@@ -1,0 +1,594 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:23+0530\n"
+"PO-Revision-Date: 2014-07-29 11:09+0530\n"
+"Last-Translator: \n"
+"Language-Team: Tech-Banker <support@tech-banker.com>\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "OGLEJTE VSE"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "Armaturna plošča"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "Sistem - Statusna"
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "Nastavi kot naslovnico albuma"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "Izbriši"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "Omogoči  na preusmeriti - o Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Vnesite vaš Naslovno"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Vnesite svoj opis"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Vnesite vaš oznake"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "Ne more komunicirati z Instagram."
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagram storil ne  vrnil -200."
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "Instagram je vrnil neveljavne podatke."
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "Armaturna plošča - Wp Instagram Bank"
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "Dodaj Nov Instagram albuma"
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "albuma Pokrov"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "Kratek koda"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "Ime albuma"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "Instagram - Račun"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "Število slik"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "Uredi"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "Ali ste prepričani, da želite izbrisati ta albumov?"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "Nazaj na Armaturna plošča"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "Shrani Spremembe"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr "albuma - Shranjeni. Vljudno čakati preusmeriti za zgodilo."
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "albuma Podrobnost "
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "Naslov albuma"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Vnesite vaš albumov naslovu"
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "Vnesite Title za svoj albuma tukaj"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Instagram Uporabniškoime"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Vnesite Vaš Instagram Uporabniško ime"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "Vnesite - Instagram račun, - od koder uvoziti slike"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "Opis Na"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Vnesite Vaš opis albuma"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "Vnesite - opisa za - svoj album tukaj"
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "Uvozna Podobe iz Instagram"
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr "Vaše Instagram Slike"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "Nasipna Akcijski"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "slike - Podrobnosti "
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "Sličice"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "Naslovno in Opis Na"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "Tagi (ločene z vejicami seznam)"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "Ali ste prepričani, da želite izbrisati te slike?"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "Ali ste prepričani, da želite izbrisati ti Slike"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "Wp-Instagram Sistem Status prijave"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "Dobili - Sistem poročilo"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "Zapri Sistem Poročilo"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "Privzeto"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "Vstavi Gallery Bank Kratka koda"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr "Izberite album spodaj, da ga dodate na svoj ​​post ali stran."
+
+#~ msgid "Gallery Type"
+#~ msgstr "Galerija Vrsta"
+
+#~ msgid "Albums with Images"
+#~ msgstr "albumi s Slike"
+
+#~ msgid "Only Images"
+#~ msgstr "le slike"
+
+#~ msgid "Album Format"
+#~ msgstr "albumov formata"
+
+#~ msgid "Select Album Format"
+#~ msgstr "Izberite możnost albuma Format "
+
+#~ msgid "Select Album"
+#~ msgstr "Izberite- albumu"
+
+#~ msgid "Select an Album"
+#~ msgstr "Izberete album"
+
+#~ msgid "Gallery Format"
+#~ msgstr "Galerija formata"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "Izberite Galerija formata"
+
+#~ msgid "Images in Row"
+#~ msgstr "Slike v vrstice"
+
+#~ msgid "Image Width"
+#~ msgstr "Širina slike"
+
+#~ msgid "Albums in Row"
+#~ msgstr "albumi v vrstice"
+
+#~ msgid "Text Format"
+#~ msgstr "oblika besedila"
+
+#~ msgid "Select Format "
+#~ msgstr "Izberite Oblika"
+
+#~ msgid "Special Effects"
+#~ msgstr "Posebni učinki"
+
+#~ msgid "Animation Effects"
+#~ msgstr "animacijski učinki"
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "Prikaži-Odziven- galerija"
+
+#~ msgid "Show Album Title"
+#~ msgstr "Pokaži albumu Naslov"
+
+#~ msgid "Insert Album"
+#~ msgstr "vstavite albumu"
+
+#~ msgid "Cancel"
+#~ msgstr "Opusti"
+
+#~ msgid "Please select an Album"
+#~ msgstr "Prosimo, izberite album"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "Prosimo, izberite  albuma Oblika"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "prosim izberite Galerija slike formata"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "prosim Izberite Besedilo - formata za za Galerija"
+
+#~ msgid "Album Sorting"
+#~ msgstr "Albuma - za sortiranje"
+
+#~ msgid "Global Settings"
+#~ msgstr "Globalne nastavitev"
+
+#~ msgid "Purchase Pro Version"
+#~ msgstr "Nakupu- PRO Verzija"
+
+#~ msgid "Delete Image"
+#~ msgstr "Izbriši sliko"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "Gallery Bank"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "Dodaj Galerija uporabo Gallery - Bank"
+
+#~ msgid "Back to Albums"
+#~ msgstr "Nazaj na albumi"
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr "albumov Objavljena. vljudno počakajte za Preusmeriti za zgodilo."
+
+#~ msgid "Upload Images"
+#~ msgstr "Naloži Slike"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr "Vaš brskalnik nima Flash, Silverlight ali HTML5 podporo."
+
+#~ msgid "Upload Videos"
+#~ msgstr "Naloži videoposnetki"
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "(Na voljo v Darilo različicah)"
+
+#~ msgid "Video Url"
+#~ msgstr "videa Url"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr "Vnesite svoj URL videoposnetka"
+
+#~ msgid "Upload Video"
+#~ msgstr "naloži Videoposnetek"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "Vaš Gallery-Bank albuma"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr "Url preusmeriti na podoba klik"
+
+#~ msgid ""
+#~ "You will be only allowed to add 2 galleries. Kindly purchase Premium "
+#~ "Version for full access!"
+#~ msgstr ""
+#~ "Ti bodo dovoljeni samo dodati 2 galerije. Vljudno kupite Darilo Različica "
+#~ "za popoln dostop!"
+
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr "Ta funkcija je na voljo samo v vplačane premije različica!"
+
+#~ msgid "Album Preview"
+#~ msgstr "Predogled albuma"
+
+#~ msgid "Please Choose"
+#~ msgstr "Prosimo Izberite"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr "Re-za naročilo Albumi"
+
+#~ msgid "Update Order"
+#~ msgstr "Posodobi za naročilo"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "Vrstni red je bil posodobljen."
+
+#~ msgid "Delete All Albums"
+#~ msgstr "Izbriši vse Albumi"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "Čistka Slike in Albumi"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "Povrnitev tovarniških nastavitev"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "obstoječi albumi Pregled"
+
+#~ msgid "Title"
+#~ msgstr "Naslovno"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Edit Album"
+#~ msgstr "Uredi albuma"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "Re-naročite slike"
+
+#~ msgid "Preview Album"
+#~ msgstr "predogled - albuma"
+
+#~ msgid "Delete Album"
+#~ msgstr "Izbriši albuma"
+
+#~ msgid "Update Album"
+#~ msgstr "Posodobi albuma"
+
+#~ msgid "Delete Video"
+#~ msgstr "Izbriši Videa"
+
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "Gallery Bank Cene"
+
+#~ msgid "Update Settings"
+#~ msgstr "posodobitvi Nastavitve"
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "Sličica Nastavitve"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "Sličica Velikost"
+
+#~ msgid "Original"
+#~ msgstr "o izvornem"
+
+#~ msgid "Custom"
+#~ msgstr "meri"
+
+#~ msgid "Width"
+#~ msgstr "širina"
+
+#~ msgid "Height"
+#~ msgstr "Višina"
+
+#~ msgid "Opacity"
+#~ msgstr "Opaciteta"
+
+#~ msgid "Border Size"
+#~ msgstr "Obmejno velikost"
+
+#~ msgid "Border Radius"
+#~ msgstr "Obmejno radij"
+
+#~ msgid "Border Color"
+#~ msgstr "meja barva"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "marža med Slike"
+
+#~ msgid "Text Color"
+#~ msgstr "besedila Barvn"
+
+#~ msgid "Text-Align"
+#~ msgstr "Besedilo-uskladiti"
+
+#~ msgid "Font-Family"
+#~ msgstr "Pisave-Družina"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "Razdelek Pisave-Velikost"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "Besedilo Velikost pisave"
+
+#~ msgid "Description Length"
+#~ msgstr "Opis Na Dolžina"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "Naslovnico albuma Nastavitve"
+
+#~ msgid "Cover Size"
+#~ msgstr "pokrova velikost"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "Marža Med Albumi"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "Besedilo za Album-Kliknite"
+
+#~ msgid "Filter Settings"
+#~ msgstr "Nastavitve Filtra"
+
+#~ msgid "Filters"
+#~ msgstr "Filtri"
+
+#~ msgid "Enable"
+#~ msgstr "Omogočite"
+
+#~ msgid "Disable"
+#~ msgstr "onesposobiti"
+
+#~ msgid "Filter Color"
+#~ msgstr " filtrirati-barvna"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "Filter Besedilo Barvna"
+
+#~ msgid "Font-Size"
+#~ msgstr "Pisave-Velikost"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "vlogeinzmogljivosti"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "Privilegiji za Administracijo"
+
+#~ msgid "Full Control"
+#~ msgstr "popolnim nadzorom"
+
+#~ msgid "Read"
+#~ msgstr "Preberite"
+
+#~ msgid "Write"
+#~ msgstr "Napišite"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "Privilegiji za Urednika"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "Pravice do avtor"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "pravice za  Plačnica"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "Privilegiji za naročnikom"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr " oglasnega okvirja Nastavitve"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "oglasnega okvirja Vrsta"
+
+#~ msgid "Inline Background"
+#~ msgstr "V- vrstici Ozadje"
+
+#~ msgid "Overlay Background"
+#~ msgstr "prekrivni ozadje"
+
+#~ msgid "Fade In Time"
+#~ msgstr "Zbledi v čas"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "Zbledi Out čas"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "Facebooka Komentarji"
+
+#~ msgid "Social Sharing"
+#~ msgstr "Socialna osnovi delitve"
+
+#~ msgid "Image Title"
+#~ msgstr "Naslov slike"
+
+#~ msgid "Image Description"
+#~ msgstr "Slika Opis"
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr "Spredaj - Konec Postavitev Nastavitve"
+
+#~ msgid "Text for Back Button"
+#~ msgstr "Besedilo Za Nazaj Gumb"
+
+#~ msgid "Button Color"
+#~ msgstr " Gumb - Barvna"
+
+#~ msgid "Button Text Color"
+#~ msgstr "Gumb Barvna Besedilo"
+
+#~ msgid "Album Seperator"
+#~ msgstr "albumov Ločilo"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr "Številčenje strani Nastavitve za slike"
+
+#~ msgid "Paging"
+#~ msgstr "Pozivnik"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "diapozitiv Prikaži Nastavitve"
+
+#~ msgid "Auto Play"
+#~ msgstr "Samodejni Igraj"
+
+#~ msgid "Interval"
+#~ msgstr "intervala"
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "Jezik smer nastavitve"
+
+#~ msgid "Language Direction"
+#~ msgstr "Jezik smer"
+
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr "Ta funkcija je na voljo samo v vplačane premije različica!"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "sGallery Bank Kratko-kode"

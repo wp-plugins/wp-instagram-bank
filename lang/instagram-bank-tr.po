@@ -1,0 +1,709 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:22+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "HEPSİNİ GÖR"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "Yönetim Paneli"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "Sistem Durumu"
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "Albüm kapağı olarak ayarla"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "Sil"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "etkinleştir - yeniden yönlendir - üzerinde Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Başlığı Gir"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Senin Açıklama girin"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Etiketleri Gir"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "Instagram ile iletişim kurulamıyor."
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagram yaptım değil  Bir 200 döndürür."
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "Instagram var geçersiz veri döndürdü."
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "Gösterge Tablosu - Wp Instagram Bank"
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "Yeni Instagram Albüm Ekle"
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "Albüm Kapağı"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "Kısa-Kod"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "Albüm Adı"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "Instagram Hesabı"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "Görüntüler Sayısı"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "Düzenle"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "Albümü silmek istediğinizden emin misiniz?"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "Geri Dashboard'a"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr "Albüm Kaydedildi. Sabırlı olun yönlendiriliyorsunuz..."
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "Albüm Detaylı İncele"
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "Albüm başlığı"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Sizin Albüm başlığı Girin"
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "Başlık Albüm senin için giriniz Burada"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Instagram KullanıcıAdı"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "giriniz sizin Instagram Kullanıcı Adı"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "giriniz Instagram hesab - dan görüntüleri içe aktarabilirsiniz nerede"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "Açıklama"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Sizin Albüm Açıklama girin"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "Burada Albüm için açıklama girin "
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "İthalat -Görüntüler dan Instagram"
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr "Sizin Instagram Görüntüler"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "Kütle Eylem"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "Resim Detayları"
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "Öngörüntüler"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "Başlık&Açıklama"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "Etiketler (virgülle ayrılmış listesi)"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "Resmi silmek İstediğiniziden Emin misiniz?"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "Eğer bu Görüntüler silmek istediğinizden emin misiniz"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "Wp-Instagram - Sistem Durumu"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "Sistem Raporu Al"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "Sistem Raporunu sil"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "Varsayılan"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "Kısa kod ile Galeri Bank Ekle"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr "Bir albüm seçin ve yazıya ekleyin"
+
+#~ msgid "Gallery Type"
+#~ msgstr "Galeri çeşidi"
+
+#~ msgid "Albums with Images"
+#~ msgstr "Resimli Albümler"
+
+#~ msgid "Only Images"
+#~ msgstr "Sadece Resimler"
+
+#~ msgid "Album Format"
+#~ msgstr "Albüm Biçimi"
+
+#~ msgid "Select Album Format"
+#~ msgstr "Bir Albüm Biçimi Seçiniz"
+
+#~ msgid "Select Album"
+#~ msgstr "Albüm Seçiniz"
+
+#~ msgid "Select an Album"
+#~ msgstr "Bir Albüm Seçiniz"
+
+#~ msgid "Gallery Format"
+#~ msgstr "Galery Biçimi"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "Galeri Biçimi Seçiniz"
+
+#~ msgid "Images in Row"
+#~ msgstr "Satırdaki Resimler"
+
+#~ msgid "Image Width"
+#~ msgstr "Resim Genişliği"
+
+#~ msgid "Albums in Row"
+#~ msgstr "Satırdaki Albümler"
+
+#~ msgid "Text Format"
+#~ msgstr "Yazı Biçimi"
+
+#~ msgid "Select Format "
+#~ msgstr "Biçim Seçiniz"
+
+#~ msgid "Special Effects"
+#~ msgstr "Özel Efektler"
+
+#~ msgid "Animation Effects"
+#~ msgstr "Animasyon Efektleri"
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "Responsive Galeri Göster"
+
+#~ msgid "Show Album Title"
+#~ msgstr "Albüm Başlığını Göster"
+
+#~ msgid "Insert Album"
+#~ msgstr "Albüm Ekle"
+
+#~ msgid "Cancel"
+#~ msgstr "İptal Et"
+
+#~ msgid "Please select an Album"
+#~ msgstr "Lütfen Bir Albüm Seçiniz"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "Lütfen Albüm Biçimi Seçiniz"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "Resim Galerisi İçin Bir Biçim Seçiniz"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "Galeri İçin Bir yazı formatı seçiniz!"
+
+#~ msgid "Album Sorting"
+#~ msgstr "Albümü Sırala"
+
+#~ msgid "Global Settings"
+#~ msgstr "Genel Ayarlar"
+
+#~ msgid "Purchase Pro Version"
+#~ msgstr "Pro sürümü satın almak"
+
+#~ msgid "Delete Image"
+#~ msgstr "Resmi Sil"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "Galery Bank"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "Galery Bank Kullanarak Galeri Ekle"
+
+#~ msgid "Album Preview"
+#~ msgstr "Albüm Önizleme"
+
+#~ msgid "Back to Albums"
+#~ msgstr "Albümlere Dön"
+
+#~ msgid "Please Choose"
+#~ msgstr "Lütfen Seçim Yapınız"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr "Albümleri Yeniden Sırala"
+
+#~ msgid "Update Order"
+#~ msgstr "Sıralamayı Güncelle"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "Sıralama ayarlandı."
+
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr "Bu özellik içinde Ücretli Prim Sürüm yalnızca kullanılabilir!"
+
+#~ msgid "Getting Started"
+#~ msgstr "Başlarken"
+
+#~ msgid "Delete All Albums"
+#~ msgstr "Tüm albümleri sil"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "Albümleri ve Resimleri Temizle"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "Fabrika ayarlarına geri dön"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "İçinde resim olan Albümleri Önizle"
+
+#~ msgid "Title"
+#~ msgstr "Başlık"
+
+#~ msgid "Date"
+#~ msgstr "tarih"
+
+#~ msgid "Edit Album"
+#~ msgstr "Albümü Düzenle"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "Resimleri Yeniden Sırala"
+
+#~ msgid "Preview Album"
+#~ msgstr "Albüm Önizle"
+
+#~ msgid "Delete Album"
+#~ msgstr "Albümü Sil"
+
+#~ msgid "Album"
+#~ msgstr "albüm"
+
+#~ msgid "Save Album"
+#~ msgstr "kurtarışla albümü"
+
+#~ msgid "Upload Images"
+#~ msgstr "Resim Yükle"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr "Tarayınınızın Flash, Silverlight veya HTML5 desteği yok!"
+
+#~ msgid "Upload Videos"
+#~ msgstr "Video(lar) Yükle"
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "(Mevcuttur içinde Prim sürümleri)"
+
+#~ msgid "Video Url"
+#~ msgstr "Video URL'si"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr "Video Adresini Giriniz"
+
+#~ msgid "Upload Video"
+#~ msgstr "Video Yükle"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "Galery Bank Albümünüz"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr "Resme Tıklayınca Gidecek URL"
+
+#~ msgid "Delete Video"
+#~ msgstr "Videoyu Sil"
+
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "Galery Bank Fiyatlandırma"
+
+#~ msgid "Update Settings"
+#~ msgstr "Ayarları Güncelle"
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "Küçük Resim(Thumbnail) Ayarları"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "Küçük Resim(Thumbnail) Boutu"
+
+#~ msgid "Original"
+#~ msgstr "Orijinal"
+
+#~ msgid "Custom"
+#~ msgstr "Uyarlama"
+
+#~ msgid "Width"
+#~ msgstr "Genişlik"
+
+#~ msgid "Height"
+#~ msgstr "Yükseklik"
+
+#~ msgid "Opacity"
+#~ msgstr "Saydamlık"
+
+#~ msgid "Border Size"
+#~ msgstr "Border Boyutu"
+
+#~ msgid "Border Radius"
+#~ msgstr "Border Yarıçapı"
+
+#~ msgid "Border Color"
+#~ msgstr "Border Rengi"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "Resimler arası Boşluk"
+
+#~ msgid "Text Color"
+#~ msgstr "Yazı Rengi"
+
+#~ msgid "Text-Align"
+#~ msgstr "Yazı-Hizalama"
+
+#~ msgid "Font-Family"
+#~ msgstr "Font Familyası"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "Başlık Font Boyutu"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "Yazı Fontu Büyüklüğü"
+
+#~ msgid "Description Length"
+#~ msgstr "Açıklama Uzunluğu"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "Albüm Kapağı Açıklaması"
+
+#~ msgid "Cover Size"
+#~ msgstr "Kapak Büyüklüğü"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "Albümler arası Boşluk"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "Albüm Tıklama Yazısı"
+
+#~ msgid "Filter Settings"
+#~ msgstr "Filtreleme Ayarları"
+
+#~ msgid "Filters"
+#~ msgstr "Filtreler"
+
+#~ msgid "Enable"
+#~ msgstr "Aktif"
+
+#~ msgid "Disable"
+#~ msgstr "Pasif"
+
+#~ msgid "Filter Color"
+#~ msgstr "Renk Filtresi"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "Yazı Rengi Filtresi"
+
+#~ msgid "Font-Size"
+#~ msgstr "Yazı - Büyüklüğü"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "Roller ve Yetenekler"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "Yönetici(Admin) Ayrıcalıkları"
+
+#~ msgid "Full Control"
+#~ msgstr "Tam Denetim"
+
+#~ msgid "Read"
+#~ msgstr "Oku"
+
+#~ msgid "Write"
+#~ msgstr "Yaz"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "Editör için ayrıcalıklar"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "Yazar için ayrıcalıklar"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "Destekleyiciler için Ayrıcalıklar(Kayıtlı)"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "Takipçiler için ayrıcalıklar"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr "Lightbox Ayarları"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "Lightbox Ayarları"
+
+#~ msgid "Inline Background"
+#~ msgstr "Arka Plan Hizası"
+
+#~ msgid "Overlay Background"
+#~ msgstr "Fare üstünde iken arkaplan"
+
+#~ msgid "Fade In Time"
+#~ msgstr "Soldurmaya başlama zamanı"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "Soldurmayı bitirme zamanı"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "Facebook Yorumları"
+
+#~ msgid "Social Sharing"
+#~ msgstr "Sosyal Ağlarda Paylaşım"
+
+#~ msgid "Image Title"
+#~ msgstr "Resim Başlığı"
+
+#~ msgid "Image Description"
+#~ msgstr "Resim açıklaması"
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr "Son Yüz Düzen Ayarları"
+
+#~ msgid "Text for Back Button"
+#~ msgstr "Geri butonu açıklaması"
+
+#~ msgid "Button Color"
+#~ msgstr "Buton rengi"
+
+#~ msgid "Button Text Color"
+#~ msgstr "Buton Yazısı Rengi"
+
+#~ msgid "Album Seperator"
+#~ msgstr "Albüm Karıştırıcı"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr "Resimler için sayfalama ayarları"
+
+#~ msgid "Paging"
+#~ msgstr "Sayfalama"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "Slide Show ayarları"
+
+#~ msgid "Auto Play"
+#~ msgstr "Otomatik Başlatma"
+
+#~ msgid "Interval"
+#~ msgstr "Sıklık"
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "Dil ve Yönlendirme Ayarları"
+
+#~ msgid "Language Direction"
+#~ msgstr "Dil Ayarlaması"
+
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr "Bu Özellik Ücretli Prim Sürüm yalnızca kullanılabilir!"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "Gallery Bank Kısa Kodlar"
+
+#~ msgid "Licensing"
+#~ msgstr "Lisans"
+
+#~ msgid "Select Gallery"
+#~ msgstr "Galeri Seç"
+
+#~ msgid "Select Gallery Format"
+#~ msgstr "Galeri Biçimi Seç"
+
+#~ msgid "Images In Row"
+#~ msgstr "Satırdaki Resimler"
+
+#~ msgid "Select Text Format"
+#~ msgstr "Yazı Formatını Seç"
+
+#~ msgid "Special Effect"
+#~ msgstr "Özel Efekt"
+
+#~ msgid "Select Special Effect"
+#~ msgstr "Özel Efekt Seç"
+
+#~ msgid "Animation Effect"
+#~ msgstr "Animasyon Efekti"
+
+#~ msgid "Responsive Gallery"
+#~ msgstr "Esnek Galeri"
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr "Albüm Yayınlandı. Yönlendiriliyorsunuz, Bekleyiniz..."
+
+#~ msgid "Attention! A new vesion of Gallery Bank is available for download."
+#~ msgstr "Dikkat! Gallery Bank'in yeni sürümü indirilmeye hazır"
+
+#~ msgid "Click"
+#~ msgstr "Tıkla"
+
+#~ msgid "here"
+#~ msgstr "Buraya"
+
+#~ msgid "to upgrade your version of Gallery Bank."
+#~ msgstr "Gallery Bank eklentisinin yeni versiyonunu yüklemek için"
+
+#~ msgid "Date of Creation"
+#~ msgstr "Üretilme Tarihi"
+
+#~ msgid "Are you sure you want to delete all Albums?"
+#~ msgstr "Tüm Albümleri silmek istediğinizden emin misiniz?"
+
+#~ msgid "Are you sure you want to Restore Factory Settings?"
+#~ msgstr "Fabrika ayarlarına dönmek istediğinizden emin misiniz?"
+
+#~ msgid "Are you sure you want to Purge all Images & Albums?"
+#~ msgstr "Tüm Albüm ve Resimleri temizlemek istediğinizden emin misiniz?"
+
+#~ msgid "Gallery Bank Documentation"
+#~ msgstr "Galery Bank Dökümanları"
+
+#~ msgid "Gallery Bank Licensing Module"
+#~ msgstr "Galery Bank Lisans Modülü"
+
+#~ msgid "Success! Settings have been updated."
+#~ msgstr "Başarılı! Ayarlar Güncellendi"
+
+#~ msgid "Update"
+#~ msgstr "Güncelle"
+
+#~ msgid "Restore Settings"
+#~ msgstr "Ayarları Sıfırla"
+
+#~ msgid "Settings has been updated."
+#~ msgstr "Ayarlar güncellendir"
+
+#~ msgid "Success! Settings have been restored."
+#~ msgstr "Başarılı! Fabrika ayarlarına döndünüz."
+
+#~ msgid "Are you sure you want to restore settings?"
+#~ msgstr "Ayarları sıfırlamak istediğinizden emin misiniz?"
+
+#~ msgid " Rotate Image"
+#~ msgstr "Resmi Döndür"
+
+#~ msgid "Upload Images "
+#~ msgstr "Resim(ler) yükle"
+
+#~ msgid "Your Wordpress Version doesn\"t support Wp-media."
+#~ msgstr "Wordpress Sürümünüz WP-Media'yı desteklemiyor."
+
+#~ msgid "Upload Thumbnails "
+#~ msgstr "Thumbnail(Küçük Resim) Yükle"
+
+#~ msgid "Show Albums"
+#~ msgstr "Albümleri Göster"
+
+#~ msgid "Responsive"
+#~ msgstr "Esnek"
+
+#~ msgid "With Albums in Row"
+#~ msgstr "Albümlerin satırdaki ile"
+
+#~ msgid "Image Uploader Settings"
+#~ msgstr "Resim Yükleyici Ayarları"
+
+#~ msgid "Uploader for Images"
+#~ msgstr "Resim Yükleyici"
+
+#~ msgid "WP Media"
+#~ msgstr "WP- Ortam İçeriği"
+
+#~ msgid "Change Uploading Image Name"
+#~ msgstr "Yüklenen Resmin İsmin Değiştir"
+
+#~ msgid "Image url location"
+#~ msgstr "Resim URL lokasyonu"
+
+#~ msgid "Open in New Window"
+#~ msgstr "Yeni Pencerede Aç"
+
+#~ msgid "Same Window"
+#~ msgstr "Aynı Pencere"
