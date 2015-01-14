@@ -1,0 +1,599 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:28+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "צפה הכל"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "לוח בקרה"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "מצב המערכת"
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "קבע כפי כעטיפת אלבום"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "מחיקה"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "יאפשרו לנתב מחדש בתאריך Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "הזן את הכותרת שלך"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "הזן תאור שלכם"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "הזן את התגיות שלך"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "מצליחות לתקשר עם Instagram."
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagram לא עשו-לחזור 200."
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "Instagram חזר נתונים לא חוקיים."
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "לוח מחוונים - Wp Instagram Bank"
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "הוסף החדש Instagram אלבומים"
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "שער אלבום"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "קוד קצר"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "שם אלבום"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "החשבון Instagram"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "מס ' של אימיגס"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "לערוך"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "האם אתה בטוח שאתה רוצה למחוק את האלבום הזה?"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "חזרה לוח מחוונים"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "על שמור שינויים"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr "האלבום - שמורים. באדיבותו להמתין לנתב מחדש לקרות."
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "הפרטים אלבום"
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "כותרת האלבום"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "הזינו שלכם אלבום  - התואר"
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "הזן את הכותרת אלבום עבור  שלך כאן"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Instagram - שם משתמש"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "הזינו שלכם Instagram - השם משתמש"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "הזן חשבון מןInstagram מאיפה לייבא תמונות"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "תיאור"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "הזינו שלכם אלבום   תאור"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "הזן את התיאור לאלבום שלך כאן"
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "תמונות יבוא מInstagram"
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr "שלך Instagram אימיגס"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "פעולה גורפת"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "פרטי תמונה"
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "תמונות ממוזערות"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "כותרת ותיאור"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "תגיות (רשימה מופרדת בפסיקים)"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "האם אתה בטוח שאתה רוצה למחוק את התמונה הזו?"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "האם אתה בטוח שברצונך למחוק את אימיגס האלה"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "מצב המערכת - wp-Instagram"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "קבל דיווח מערכת"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "סגור את דיווח המערכת"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "הוסף קיצור קוד של הגלריה"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr "בחר אלבום להוספה לעמוד או לפוסט שלך."
+
+#~ msgid "Gallery Type"
+#~ msgstr "סוג גלריה"
+
+#~ msgid "Albums with Images"
+#~ msgstr "אלבומים עם תמונות"
+
+#~ msgid "Only Images"
+#~ msgstr "תמונות בלבד"
+
+#~ msgid "Album Format"
+#~ msgstr "מבנה האלבום"
+
+#~ msgid "Select Album Format"
+#~ msgstr "בחירת מבנה האלבום"
+
+#~ msgid "Select Album"
+#~ msgstr "בחירת אלבום"
+
+#~ msgid "Select an Album"
+#~ msgstr "בחר אלבום"
+
+#~ msgid "Gallery Format"
+#~ msgstr "מבנה הגלריה"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "בחר מבנה גלריה"
+
+#~ msgid "Images in Row"
+#~ msgstr "תמונות בשורה"
+
+#~ msgid "Image Width"
+#~ msgstr "רוחב התמונה"
+
+#~ msgid "Albums in Row"
+#~ msgstr "אלבומים בשורה"
+
+#~ msgid "Text Format"
+#~ msgstr "מבנה טקסט"
+
+#~ msgid "Select Format "
+#~ msgstr "בחר מבנה.."
+
+#~ msgid "Special Effects"
+#~ msgstr "אפקטים מיוחדים"
+
+#~ msgid "Animation Effects"
+#~ msgstr "אפקטים של אנימציה"
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "הצג גלריה בעלת גודל משתנה"
+
+#~ msgid "Show Album Title"
+#~ msgstr "הצג את כותרת האלבום"
+
+#~ msgid "Insert Album"
+#~ msgstr "הוסף אלבום"
+
+#~ msgid "Cancel"
+#~ msgstr "ביטול"
+
+#~ msgid "Please select an Album"
+#~ msgstr "נא לבחור אלבום"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "נא לבחור את מבנה האלבום"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "נא לבחור את מבנה תמונות הגלריה"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "נא לבחור את מבנה הטקסט עבור הגלריה"
+
+#~ msgid "<img src=\""
+#~ msgstr "<img src=\""
+
+#~ msgid "/wp-admin/admin.php?page=gallery_bank"
+#~ msgstr "/wp-admin/admin.php?page=gallery_bank"
+
+#~ msgid "Album Sorting"
+#~ msgstr "מיון האלבומים"
+
+#~ msgid "Global Settings"
+#~ msgstr "הגדרות כלליות"
+
+#~ msgid "Purchase Pro Version"
+#~ msgstr "לרכוש גרסת Pro"
+
+#~ msgid "Delete Image"
+#~ msgstr "מחק את התמונה"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "Gallery Bank"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "הוסף גלריה באמצעות Gallery Bank"
+
+#~ msgid "Back to Albums"
+#~ msgstr "חזרה לאלבומים"
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr "האלבום פורסם. נא להמתין להפניה מחדש."
+
+#~ msgid "Upload Images"
+#~ msgstr "העלאת תמונות"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr "הדפדפן שלך אינו תומך בפלאש, סילברלייט או HTML5"
+
+#~ msgid "Upload Videos"
+#~ msgstr "העלאת סרטוני וידאו"
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "(זמין בתוך בגירסאות פרימיום)"
+
+#~ msgid "Video Url"
+#~ msgstr "כתובת URL של סרטון וידאו"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr "הזן את כתובת ה URL של סרטון הוידאו שלך"
+
+#~ msgid "Upload Video"
+#~ msgstr "העלה וידאו"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "אלבום הגלריה שלך"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr "כתובת URL להפניה מחדש בלחיצה על תמונה"
+
+#~ msgid ""
+#~ "You will be only allowed to add 2 galleries. Kindly purchase Premium "
+#~ "Version for full access!"
+#~ msgstr ""
+#~ "אתה תהיה מותר רק להוסיף 2 גלריות. באדיבותו לרכוש פרימיום גרסה עבור גישה "
+#~ "מלאה!"
+
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr "תכונה זו זמינה רק בגרסה פרימיום בתשלום!"
+
+#~ msgid "Album Preview"
+#~ msgstr "תצוגה מוקדמת של האלבום"
+
+#~ msgid "Please Choose"
+#~ msgstr "נא לבחור"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr "סדר מחדש את האלבומים"
+
+#~ msgid "Update Order"
+#~ msgstr "עדכן את הסדר"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "מיון סדר האלבומים עודכן"
+
+#~ msgid "Delete All Albums"
+#~ msgstr "מחיקת כל האלבומים"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "נקה את התמונות והאלבומים"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "שחזר הגדרות ברירת מחדל"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "סקירה כללית של האלבומים הקיימים"
+
+#~ msgid "Title"
+#~ msgstr "כותרת"
+
+#~ msgid "Date"
+#~ msgstr "תאריך"
+
+#~ msgid "Edit Album"
+#~ msgstr "עריכת אלבום"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "סדר מחדש את התמונות"
+
+#~ msgid "Preview Album"
+#~ msgstr "תצוגה מוקדמת של אלבום"
+
+#~ msgid "Delete Album"
+#~ msgstr "מחיקת אלבום"
+
+#~ msgid "Update Album"
+#~ msgstr "עדכן את האלבום"
+
+#~ msgid "Delete Video"
+#~ msgstr "מחק את הוידאו"
+
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "תמחור בנק הגלריה"
+
+#~ msgid "Update Settings"
+#~ msgstr "עדכן את ההגדרות"
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "הגדרות תמונות ממוזערות"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "גודל תמונה ממוזערת"
+
+#~ msgid "Original"
+#~ msgstr "מקורי"
+
+#~ msgid "Custom"
+#~ msgstr "מותאם אישית"
+
+#~ msgid "Width"
+#~ msgstr "רוחב"
+
+#~ msgid "Height"
+#~ msgstr "גובה"
+
+#~ msgid "Opacity"
+#~ msgstr "שקיפות"
+
+#~ msgid "Border Size"
+#~ msgstr "גודל מסגרת"
+
+#~ msgid "Border Radius"
+#~ msgstr "רדיוס מסגרת"
+
+#~ msgid "Border Color"
+#~ msgstr "צבע מסגרת"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "מרווח בין התמונות"
+
+#~ msgid "Text Color"
+#~ msgstr "צבע הטקסט"
+
+#~ msgid "Text-Align"
+#~ msgstr "יישור הטקסט"
+
+#~ msgid "Font-Family"
+#~ msgstr "משפחת גופנים"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "גודל גופן כותרת"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "גודל גופן"
+
+#~ msgid "Description Length"
+#~ msgstr "אורך התיאור"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "הגדרות עטיפת האלבום"
+
+#~ msgid "Cover Size"
+#~ msgstr "גודל העטיפה"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "מרווח בין האלבומים"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "טקסט עבור לחיצת אלבום"
+
+#~ msgid "Filter Settings"
+#~ msgstr "הגדרות סינון"
+
+#~ msgid "Filters"
+#~ msgstr "מסננים"
+
+#~ msgid "Enable"
+#~ msgstr "הפעל"
+
+#~ msgid "Disable"
+#~ msgstr "כבה"
+
+#~ msgid "Filter Color"
+#~ msgstr "צבע מסנן"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "צבע טקסט מסנן"
+
+#~ msgid "Font-Size"
+#~ msgstr "גודל גופן"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "תפקידים ויכולות"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "זכויות מנהל"
+
+#~ msgid "Full Control"
+#~ msgstr "שליטה מלאה"
+
+#~ msgid "Read"
+#~ msgstr "קריאה"
+
+#~ msgid "Write"
+#~ msgstr "כתיבה"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "זכויות עורך"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "זכויות מחבר"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "זכויות תורם"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "זכויות מנוי"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr "הגדרות תיבה"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "סוג תיבה"
+
+#~ msgid "Inline Background"
+#~ msgstr "רקע בשורה"
+
+#~ msgid "Overlay Background"
+#~ msgstr "רקע שכבת כיסוי"
+
+#~ msgid "Fade In Time"
+#~ msgstr "משך עמעום פנימה"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "משך עמעום החוצה"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "תגובות פייסבוק"
+
+#~ msgid "Social Sharing"
+#~ msgstr "שיתוף חברתי"
+
+#~ msgid "Image Title"
+#~ msgstr "כותרת התמונה"
+
+#~ msgid "Image Description"
+#~ msgstr "תיאור התמונה"
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr "הגדרות פריסה של החזית"
+
+#~ msgid "Text for Back Button"
+#~ msgstr "טקסט לכפתור חזרה"
+
+#~ msgid "Button Color"
+#~ msgstr "צבע הכפתור"
+
+#~ msgid "Button Text Color"
+#~ msgstr "צבע טקסט הכפתור"
+
+#~ msgid "Album Seperator"
+#~ msgstr "מפריד אלבומים"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr "הגדרות עימוד לתמונות"
+
+#~ msgid "Paging"
+#~ msgstr "עימוד"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "הגדרות מצגת תמונות"
+
+#~ msgid "Auto Play"
+#~ msgstr "הפעלה אוטומטית"
+
+#~ msgid "Interval"
+#~ msgstr "מרווח"
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "הגדרות כיוון שפה"
+
+#~ msgid "Language Direction"
+#~ msgstr "כיוון שפה"
+
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr "תכונה זו זמינה רק בגרסה פרימיום בתשלום!"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "בנק גלריה קצר קודים"

@@ -1,0 +1,215 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:29+0530\n"
+"PO-Revision-Date: 2014-07-29 10:29+0530\n"
+"Last-Translator: \n"
+"Language-Team: Tech-Banker <support@tech-banker.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr ""
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr ""
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr ""
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr ""
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr ""
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr ""
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr ""
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr ""
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr ""
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr ""
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr ""
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr ""
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr ""
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr ""
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr ""
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr ""
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr ""
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr ""
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr ""
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr ""
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr ""
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr ""
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr ""
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr ""
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr ""
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr ""
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr ""
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr ""
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr ""
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr ""
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr ""
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr ""
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr ""
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr ""
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr ""
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr ""
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr ""
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr ""
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr ""
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr ""
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr ""
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr ""
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr ""
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr ""
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr ""
