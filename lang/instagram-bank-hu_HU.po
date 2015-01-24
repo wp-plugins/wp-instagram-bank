@@ -1,0 +1,597 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:28+0530\n"
+"PO-Revision-Date: 2014-07-29 11:33+0530\n"
+"Last-Translator: \n"
+"Language-Team: Tech-Banker <support@tech-banker.com>\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "MEGNÉZEM MINDEN"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "irányítópult"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "rendszer- állapota"
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "Beállítás album borító"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "törléséhez"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "Engedélyezze - átirányítást be Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Adja meg Ön cím"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Adja meg öné Leírás"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Írja be Ön Tagek"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "Képtelen a kommunikálni Instagram."
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagram nem tértek vissza a 200-at."
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "Instagram visszatért érvénytelen adatokat."
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "Műszerfalra - Wp Instagram Bank"
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "Új hozzáadása Instagram albumot"
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "Az albumot fedél"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "érvényesítőkód"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "Az albumot név"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "Instagram Számlám"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "Képek száma"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "Szerkeszt"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "Biztos benne, hogy törölni kívánja ezt az albumot?"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "Vissza a Műszerfalra"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "Változások mentése"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr "Albumot elmentve. Kérjük várjon az átirányítás történik."
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "Az albumot részlet"
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "Az albumot címének"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Adja meg a Ön albumot Cím"
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "Írja be a címet számára az Ön az albumot itt"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Instagram Felhasználói név"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Adja meg Ön Instagram - Felhasználói név"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "Adja Instagram fiókot, következőtől Ahol  importálni a képeket"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "leírása"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Adja meg Ön Albumot leírás"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "Adja meg a leírást a az Ön Album itt "
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "Képek importálása Instagram"
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr "Ön Instagram képek"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "ömlesztett cselekvési"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "kép adatai"
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "Előnézetek"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "címének és leírás"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "Címkék (vesszővel elválasztott lista)"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "Biztos benne, hogy törli ezt a fényképek?"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "Biztos benne, hogy szeretné törölni ezeket a képeket"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "WP-Instagram Rendszer állapot"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "Kap Rendszer jelentés"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "Bezárni Rendszer jelentés"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "Alapértelmezés"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "Beszúrás Gallery - Bank Rövid kód"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr "Válasszon egy album alatt, hogy add meg a postán vagy az oldalon."
+
+#~ msgid "Gallery Type"
+#~ msgstr "Galéria típusa"
+
+#~ msgid "Albums with Images"
+#~ msgstr "Albumok -val képek"
+
+#~ msgid "Only Images"
+#~ msgstr "Csak képek"
+
+#~ msgid "Album Format"
+#~ msgstr "Albumot -Formátum"
+
+#~ msgid "Select Album Format"
+#~ msgstr "Válassza Az albumot Formátum"
+
+#~ msgid "Select Album"
+#~ msgstr "Válassza ki az albumot"
+
+#~ msgid "Select an Album"
+#~ msgstr "Válassza ki az albumot"
+
+#~ msgid "Gallery Format"
+#~ msgstr "Galéria Formátum"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "Válassza ki a galéria formátum"
+
+#~ msgid "Images in Row"
+#~ msgstr "Képek -ben zenebona"
+
+#~ msgid "Image Width"
+#~ msgstr "kép szélessége"
+
+#~ msgid "Albums in Row"
+#~ msgstr "Albumok -ben zenebona"
+
+#~ msgid "Text Format"
+#~ msgstr "szöveg Formátum"
+
+#~ msgid "Select Format "
+#~ msgstr "Válassza ki a formátumot"
+
+#~ msgid "Special Effects"
+#~ msgstr "különleges- hatások"
+
+#~ msgid "Animation Effects"
+#~ msgstr "Animation Effects"
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "Megjeleníteni-Responsive Galéria"
+
+#~ msgid "Show Album Title"
+#~ msgstr "Mutasd Album címe"
+
+#~ msgid "Insert Album"
+#~ msgstr "Helyezze be albumot"
+
+#~ msgid "Cancel"
+#~ msgstr "Mégsem"
+
+#~ msgid "Please select an Album"
+#~ msgstr "Kérjük, válasszon ki egy albumot"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "Kérjük, válasszon ki egy albumot Formátum"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "Kérem Válasszon A Galéria- Képek Formátum"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "Kérjük, Válassza ki a szöveg Formátum  mert  Galéria"
+
+#~ msgid "Album Sorting"
+#~ msgstr "képalbum szortírozás"
+
+#~ msgid "Global Settings"
+#~ msgstr "Globális -beállítások"
+
+#~ msgid "Purchase Pro Version"
+#~ msgstr "Vásárlás Pro verzió"
+
+#~ msgid "Delete Image"
+#~ msgstr "Kép törlése"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "Gallery Bank"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "Betenni Galériába Segítségével Gallery - Bank "
+
+#~ msgid "Album Preview"
+#~ msgstr "Az albumot Előnézet"
+
+#~ msgid "Back to Albums"
+#~ msgstr "Vissza az Albumok"
+
+#~ msgid "Please Choose"
+#~ msgstr "Kérem Válassz"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr "Újbóli-Rendelje Albumok"
+
+#~ msgid "Update Order"
+#~ msgstr "frissítés- Rendelés"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "Rendezési sorrendet rendelkezik frissült."
+
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr "Ez a funkció csak a fizetős Prémium verzió!"
+
+#~ msgid "Delete All Albums"
+#~ msgstr "Törölni Az összes album"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "Tisztogatás Képek és Albumok"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "Gyári beállítások visszaállítása"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "Létező Albumok - áttekintése"
+
+#~ msgid "Title"
+#~ msgstr "címének"
+
+#~ msgid "Date"
+#~ msgstr "dátum"
+
+#~ msgid "Edit Album"
+#~ msgstr "Szerkesztés albumot"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "Újbóli-Rendelje Képek"
+
+#~ msgid "Preview Album"
+#~ msgstr "Előnézet - albumot"
+
+#~ msgid "Delete Album"
+#~ msgstr "Törölni Az albumot"
+
+#~ msgid "Album"
+#~ msgstr "Albumot"
+
+#~ msgid "Save Album"
+#~ msgstr "mentése albumot"
+
+#~ msgid "Upload Images"
+#~ msgstr "Képek feltöltése"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr "Az Ön böngészője nem van Flash, Silverlight vagy a HTML5 támogatás."
+
+#~ msgid "Upload Videos"
+#~ msgstr "feltöltése Videók"
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "(Elérhető Prémium verziók)"
+
+#~ msgid "Video Url"
+#~ msgstr "videót URL"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr "Adja meg -Ön videót Url"
+
+#~ msgid "Upload Video"
+#~ msgstr "Videó feltöltése"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "Az Ön -Gallery - Bank Az albumot"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr "URL- Átirányítási be kattintásra közül Kép"
+
+#~ msgid "Delete Video"
+#~ msgstr "Videoklip törlése"
+
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "Gallery Bank árazás"
+
+#~ msgid "Update Settings"
+#~ msgstr "frissítési -Beállítások"
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "Bélyegkép beállításait"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "Bélyegkép méret"
+
+#~ msgid "Original"
+#~ msgstr "eredeti"
+
+#~ msgid "Custom"
+#~ msgstr "szokás"
+
+#~ msgid "Width"
+#~ msgstr "mm Szélesség"
+
+#~ msgid "Height"
+#~ msgstr "magasságát"
+
+#~ msgid "Opacity"
+#~ msgstr "Opacitás"
+
+#~ msgid "Border Size"
+#~ msgstr "Szegély méret"
+
+#~ msgid "Border Radius"
+#~ msgstr "Szegély Sugara"
+
+#~ msgid "Border Color"
+#~ msgstr "Szegély Szín"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "Margó a képek között"
+
+#~ msgid "Text Color"
+#~ msgstr "szöveg Színe"
+
+#~ msgid "Text-Align"
+#~ msgstr "Szöveges- beigazítás"
+
+#~ msgid "Font-Family"
+#~ msgstr "Betűkészlet Családi"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "Címsor betűméret"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "Szöveges- Betűméret"
+
+#~ msgid "Description Length"
+#~ msgstr "Megnevezés Hossz"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "Albumborító beállításait"
+
+#~ msgid "Cover Size"
+#~ msgstr "Borító- méret"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "Margó Között Albumok"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "Szöveg minta Az albumot Kettyenés"
+
+#~ msgid "Filter Settings"
+#~ msgstr "Szűrési beállításokat"
+
+#~ msgid "Filters"
+#~ msgstr "Szűrők"
+
+#~ msgid "Enable"
+#~ msgstr "engedélyezése"
+
+#~ msgid "Disable"
+#~ msgstr "tiltása"
+
+#~ msgid "Filter Color"
+#~ msgstr "Szűrő - Színe"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "Szűrő - Szöveg Színe"
+
+#~ msgid "Font-Size"
+#~ msgstr "Betűkészlet - méretű"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "Szerepek és képességek"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "Kiváltságairól for Admin programot"
+
+#~ msgid "Full Control"
+#~ msgstr "a Teljes hozzáférés beállítást"
+
+#~ msgid "Read"
+#~ msgstr "Olvassa"
+
+#~ msgid "Write"
+#~ msgstr "Írja"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "Kiváltságairól  szerkesztőben Számára "
+
+#~ msgid "Privileges for Author"
+#~ msgstr "Kiváltságairól számára Feltöltõ"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "Kiváltságairól Számára- Közreműködő"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "Kiváltságairól számára Előfizető"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr "Fény-doboz beállításokat"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "Fénydoboz típus"
+
+#~ msgid "Inline Background"
+#~ msgstr "Szövegközi Háttér"
+
+#~ msgid "Overlay Background"
+#~ msgstr "lefedési Háttér"
+
+#~ msgid "Fade In Time"
+#~ msgstr "Fakulnak in időpont"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "Fakulnak- Kifogyott Idő"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "Facebook Hozzászólások"
+
+#~ msgid "Social Sharing"
+#~ msgstr "Szociális- megosztását"
+
+#~ msgid "Image Title"
+#~ msgstr "Képre - címének"
+
+#~ msgid "Image Description"
+#~ msgstr "Leírása képre "
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr "Elöl - Végére az Elrendezés beállításokat"
+
+#~ msgid "Text for Back Button"
+#~ msgstr "Szöveg minta Vissza gomb"
+
+#~ msgid "Button Color"
+#~ msgstr "Gomb- Színe"
+
+#~ msgid "Button Text Color"
+#~ msgstr "Gomb Szöveg színe"
+
+#~ msgid "Album Seperator"
+#~ msgstr "Az albumot lista Divider"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr "Oldalszámozás beállításai számára  Képek"
+
+#~ msgid "Paging"
+#~ msgstr "személyhívó"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "Diavetítés beállításokat"
+
+#~ msgid "Auto Play"
+#~ msgstr "Automatikus lejátszás"
+
+#~ msgid "Interval"
+#~ msgstr "Intervallum"
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "Nyelve tájolása beállítások"
+
+#~ msgid "Language Direction"
+#~ msgstr "Nyelve Iránya"
+
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr "Ez a funkció csak a fizetős Prémium verzió!"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "Gallery Bank rövid-kódok"
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr "Az albumot Publikálva. Kérjük várjon az átirányítás felé történik."
+
+#~ msgid ""
+#~ "You will be only allowed to add 2 galleries. Kindly purchase Premium "
+#~ "Version for full access!"
+#~ msgstr ""
+#~ "Lesz csak megengedik, hogy hozzá 2 galériák. Kedves vásárolni Premium "
+#~ "verzió teljes hozzáférést!"
