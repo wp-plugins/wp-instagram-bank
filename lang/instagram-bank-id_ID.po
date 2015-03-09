@@ -1,0 +1,599 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:28+0530\n"
+"PO-Revision-Date: 2014-07-29 11:37+0530\n"
+"Last-Translator: \n"
+"Language-Team: Tech-Banker <support@tech-banker.com>\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "VIEW Anda SEMUA"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "dasbor"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "sistem statusmu"
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "Atur sebagai penutup album"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "Hapus"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "Aktifkan mengarahkan ulang pada Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Masukkan Judul kamu"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Masukkan Uraian Anda"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Masukkan Tags kamu"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "Tidak dapat berkomunikasi dengan Instagram."
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagram tidak mengembalikan 200."
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "Instagram telah kembali data yang tidak valid."
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "Dashboard yang - Wp Instagram Bank"
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "Tambah baru Instagram album yang"
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "Sampul Album yang "
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "Kode Pendek"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "Nama Album yang"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "Rekening Instagram"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "Potret Jumlah"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "Sunting"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "Apakah Anda yakin ingin menghapus album yang ini?"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "Kembali ke Dasbor"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "Simpan Perubahan"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr ""
+"Album yang yang disimpan. Mohon menunggu untuk  arahan ulang ke terjadi."
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "Album Yang Detil"
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "album yang Judul"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Masukkan Album Anda Judul"
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "Masukkan Judul untuk album yang Anda di sini"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Instagram Nama pengguna"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Masukkan Instagram Anda sandi Nama pengguna"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr ""
+"Masukkan akun Instagram penerbangan dari di mana untuk mengimpor gambar"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "deskripsi"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Masukkan Anda Album Uraian"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "Masukkan deskripsi untuk Album Anda di sini"
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "Impor Gambar dari Instagram"
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr "Anda Instagram Potret"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "Massal - Aksi"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "Gambar Detail"
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "Gambar Mini"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "Gelar & deskripsi"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "Tags(daftar dipisahkan koma)"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "Apakah Anda yakin ingin menghapus citra ini?"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "Apakah Anda yakin ingin menghapus Potret Rute"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "Wp-Instagram sistem statusnya"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "Dapatkan Sistem Laporkan"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "Tutup Laporan Sistem"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "Default"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "Sisipkan Gallery - Bank Kode pendek"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr ""
+#~ "Pilih album di bawah ini untuk menambahkannya ke posting Anda atau "
+#~ "halaman."
+
+#~ msgid "Gallery Type"
+#~ msgstr "Galeri Jenis"
+
+#~ msgid "Albums with Images"
+#~ msgstr "Album dengan gambar"
+
+#~ msgid "Only Images"
+#~ msgstr "Hanya- gambar"
+
+#~ msgid "Album Format"
+#~ msgstr "Album Format yang "
+
+#~ msgid "Select Album Format"
+#~ msgstr "Pilih Album Format yang"
+
+#~ msgid "Select Album"
+#~ msgstr "Pilih Album"
+
+#~ msgid "Select an Album"
+#~ msgstr "Pilih salah Album"
+
+#~ msgid "Gallery Format"
+#~ msgstr "Galeri format yang"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "Pilih Galeri format yang"
+
+#~ msgid "Images in Row"
+#~ msgstr "Gambar di Deretan"
+
+#~ msgid "Image Width"
+#~ msgstr "Lebar Gambar"
+
+#~ msgid "Albums in Row"
+#~ msgstr "Albums di deretan"
+
+#~ msgid "Text Format"
+#~ msgstr "Teks format yang"
+
+#~ msgid "Select Format "
+#~ msgstr "Pilih format yang"
+
+#~ msgid "Special Effects"
+#~ msgstr "Efek Khusus"
+
+#~ msgid "Animation Effects"
+#~ msgstr "efek Animasi"
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "Tampilkan Responsif Galeri "
+
+#~ msgid "Show Album Title"
+#~ msgstr "Tampilkan Album Judul"
+
+#~ msgid "Insert Album"
+#~ msgstr "Sisipkan Album"
+
+#~ msgid "Cancel"
+#~ msgstr "membatalkan"
+
+#~ msgid "Please select an Album"
+#~ msgstr "Silakan pilih suatu Album"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "Silakan pilih Album- format yang"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "Silahkan pilih -Galeri gambar format yang"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "Silahkan pilih Teks format yang bagi Galeri"
+
+#~ msgid "Album Sorting"
+#~ msgstr " album yang-Sortasi"
+
+#~ msgid "Global Settings"
+#~ msgstr "Pengaturan di Global"
+
+#~ msgid "Purchase Pro Version"
+#~ msgstr "Pembelian Pro Versi"
+
+#~ msgid "Delete Image"
+#~ msgstr "Hapus citra"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "Gallery Bank"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "Tambahkan Galeri Menggunakan Gallery Bank"
+
+#~ msgid "Back to Albums"
+#~ msgstr "Kembali ke Albums"
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr "Album -Diterbitkan. Mohon menunggu  bagi  redirect ke terjadi."
+
+#~ msgid "Upload Images"
+#~ msgstr "Unggah Potret Hotel"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr ""
+#~ "Peramban Anda tidak memiliki Flash, Silverlight atau dukungan HTML5."
+
+#~ msgid "Upload Videos"
+#~ msgstr "Unggah Videos"
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "(Tersedia dalam Versi Premi)"
+
+#~ msgid "Video Url"
+#~ msgstr "video yang Url"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr "enter your video Url"
+
+#~ msgid "Upload Video"
+#~ msgstr "Unggah video yang"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "Anda Gallery - Bank album"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr "url ke Meredirect pada klik dari suatu citra"
+
+#~ msgid ""
+#~ "You will be only allowed to add 2 galleries. Kindly purchase Premium "
+#~ "Version for full access!"
+#~ msgstr ""
+#~ "Anda akan hanya diperbolehkan untuk menambahkan 2 galleri. Mohon membeli "
+#~ "Versi Premi untuk akses penuh!"
+
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr "Fitur ini hanya tersedia dalam Versi Berbayar Premi!"
+
+#~ msgid "Album Preview"
+#~ msgstr "album yang Pratinjau"
+
+#~ msgid "Please Choose"
+#~ msgstr "Mohon pilih"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr "Ulang-Pesanan albums yang"
+
+#~ msgid "Update Order"
+#~ msgstr "Perbarui Pesanan"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "Sortasi Pesanan telah diperbarui."
+
+#~ msgid "Delete All Albums"
+#~ msgstr "Hapus Semua albums yang"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "memberi pencahar gambar yang & album yang"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "Kembalikan Pengaturan Pabrik"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "album yang yang ada Ikhtisar"
+
+#~ msgid "Title"
+#~ msgstr "judul"
+
+#~ msgid "Date"
+#~ msgstr "tanggal"
+
+#~ msgid "Edit Album"
+#~ msgstr "Sunting album yang"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "kembali- Pesanan gambar yang"
+
+#~ msgid "Preview Album"
+#~ msgstr "Pratinjau album yang"
+
+#~ msgid "Delete Album"
+#~ msgstr "Hapus album yang"
+
+#~ msgid "Update Album"
+#~ msgstr "Perbarui album yang"
+
+#~ msgid "Delete Video"
+#~ msgstr "Hapus video yang"
+
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "Gallery-Bank Harga"
+
+#~ msgid "Update Settings"
+#~ msgstr "Pengaturan Perbarui"
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "Gambar Mini P'aturan"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "Gambar Mini - Ukuran"
+
+#~ msgid "Original"
+#~ msgstr "asli"
+
+#~ msgid "Custom"
+#~ msgstr "ubahsuaian"
+
+#~ msgid "Width"
+#~ msgstr "lebarnya"
+
+#~ msgid "Height"
+#~ msgstr "ketinggian"
+
+#~ msgid "Opacity"
+#~ msgstr "opasitas"
+
+#~ msgid "Border Size"
+#~ msgstr "Perbatasan yang Ukuran"
+
+#~ msgid "Border Radius"
+#~ msgstr "Perbatasan yang Radius yang"
+
+#~ msgid "Border Color"
+#~ msgstr "Warna Perbatasan yang"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "Marjin Antara gambar yang"
+
+#~ msgid "Text Color"
+#~ msgstr "Warna Teks"
+
+#~ msgid "Text-Align"
+#~ msgstr "Teks -Sejajarkan"
+
+#~ msgid "Font-Family"
+#~ msgstr "Fon-Keluarga"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "Pos Fon-Ukuran"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "Teks Fon-Ukuran"
+
+#~ msgid "Description Length"
+#~ msgstr "Deskripsi- Panjang"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "Sampul Album P'aturan"
+
+#~ msgid "Cover Size"
+#~ msgstr "Sampul Ukuran"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "Marjin Antara albums yang"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "Teks Bagi Album Yang- Klik"
+
+#~ msgid "Filter Settings"
+#~ msgstr "Saring P'aturan"
+
+#~ msgid "Filters"
+#~ msgstr "Penyaring"
+
+#~ msgid "Enable"
+#~ msgstr "Memungkinkan"
+
+#~ msgid "Disable"
+#~ msgstr "Nonaktifkan"
+
+#~ msgid "Filter Color"
+#~ msgstr "Saring Warna"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "Saring teks yang warna"
+
+#~ msgid "Font-Size"
+#~ msgstr "Fon-Ukuran"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "Peran & Kemampuan"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "Wewenang bagi Admin"
+
+#~ msgid "Full Control"
+#~ msgstr "Kontrol Penuh"
+
+#~ msgid "Read"
+#~ msgstr "Baca"
+
+#~ msgid "Write"
+#~ msgstr "menulis"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "Hak istimewa bagi Penyunting"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "Hak istimewa bagi Author"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "Hak istimewa bagi Kontributor"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "Hak istimewa bagi berlangganan"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr "P'aturan cahaya-kotak"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "Cahaya-Kotak Jenis"
+
+#~ msgid "Inline Background"
+#~ msgstr "inline latar belakang"
+
+#~ msgid "Overlay Background"
+#~ msgstr "Hamparan Latar Belakang"
+
+#~ msgid "Fade In Time"
+#~ msgstr "Luntur di waktu"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "Luntur di luar Waktu"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "Facebook Komentar"
+
+#~ msgid "Social Sharing"
+#~ msgstr "Berbagi Sosial"
+
+#~ msgid "Image Title"
+#~ msgstr "Gambar-Judul "
+
+#~ msgid "Image Description"
+#~ msgstr "dilihat Deskripsi gambar"
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr "Depan - akhir P'aturan Tata Letak"
+
+#~ msgid "Text for Back Button"
+#~ msgstr "Teks Yang Bagi Kembali Tombol "
+
+#~ msgid "Button Color"
+#~ msgstr "Tombol -Warna"
+
+#~ msgid "Button Text Color"
+#~ msgstr "Tombol Warna Teks"
+
+#~ msgid "Album Seperator"
+#~ msgstr "album yang alat pemisah"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr "P'aturan Pemberian nomer halaman buku bagi gambar yang"
+
+#~ msgid "Paging"
+#~ msgstr "דפוף"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "Tampilan slide P'aturan"
+
+#~ msgid "Auto Play"
+#~ msgstr "bermain Otomatis"
+
+#~ msgid "Interval"
+#~ msgstr "selang waktu"
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "bahasa Arah P'aturan"
+
+#~ msgid "Language Direction"
+#~ msgstr "Bahasa Arah"
+
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr "Fitur ini hanya tersedia dalam Versi Berbayar Premi!"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "Gallery-Bank Pendek-Kode"

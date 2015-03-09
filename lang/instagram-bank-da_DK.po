@@ -1,0 +1,713 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:29+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "SE ALT"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "Administratorside"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "System status"
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "Sæt som albummet dække"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "Slet"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "Aktiver omdirigering på Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Indsæt din titel"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Indtast Deres Varebeskrivelse"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Indsæt dine tags"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "Kan ikke kommunikere med Instagram."
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagram returnerede ikke en 200"
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "Instagram er vendt tilbage ugyldige data."
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "Instrumentbræt - Wp Instagram Bank"
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "Tilføj ny Instagram albummet"
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "Albumomslag"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "kortkode"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "albumnavn"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "Instagram-konto"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "Antal billeder"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "Rediger"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "Er du sikker på at du vil slette dette album?"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "Tilbage til Instrumentbræt"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr "Album er gemt. Vent venligst for viderestilling"
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "albummet detaljer"
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "Album titel"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Indtast Dit Titel på album"
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "Indtast den Titel til Deres album her"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Instagram Brugernavn"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Indtast Dit Instagram Brugernavn"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "Indtast Instagram-konto, hvorfra at importere billeder"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Indtast Dit Albummet Varebeskrivelse"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "Indtast beskrivelse af albummet her"
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "Importer af billeder fra Instagram"
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr "Dine Instagram-billeder"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "løs vægt aktion"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "Oplysninger om foto"
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "miniaturebillederne"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "Titel & beskrivelse"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "Tags på (kommasepareret liste)"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "Er du sikker på at du vil slette dette billede?"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "Er du sikker på du vil slette disse billeder"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "WP-Instagram systemstatus Når du"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "Modtag systems rapport"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "Luk system rapport"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "Standard"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "Indsæt Gallery Bank Shortcode"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr ""
+#~ "Vælg et album nedenunder for at tilføje det til dit indlæg eller side"
+
+#~ msgid "Gallery Type"
+#~ msgstr "Galleri type"
+
+#~ msgid "Albums with Images"
+#~ msgstr "Albummer med billeder"
+
+#~ msgid "Only Images"
+#~ msgstr "Kun billeder"
+
+#~ msgid "Album Format"
+#~ msgstr "Album format"
+
+#~ msgid "Select Album Format"
+#~ msgstr "Vælg album format"
+
+#~ msgid "Select Album"
+#~ msgstr "Vælg album"
+
+#~ msgid "Select an Album"
+#~ msgstr "Vælg et album"
+
+#~ msgid "Gallery Format"
+#~ msgstr "Galleri format"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "Vælg galleri format"
+
+#~ msgid "Images in Row"
+#~ msgstr "Billedserie"
+
+#~ msgid "Image Width"
+#~ msgstr "Billedbredde"
+
+#~ msgid "Albums in Row"
+#~ msgstr "Albumsserie"
+
+#~ msgid "Text Format"
+#~ msgstr "Tekstformat"
+
+#~ msgid "Select Format "
+#~ msgstr "Vælg format"
+
+#~ msgid "Special Effects"
+#~ msgstr "Specielle effekter"
+
+#~ msgid "Animation Effects"
+#~ msgstr "Animations effekter"
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "Vis galleri"
+
+#~ msgid "Show Album Title"
+#~ msgstr "Vis album titel"
+
+#~ msgid "Insert Album"
+#~ msgstr "Indsæt album"
+
+#~ msgid "Cancel"
+#~ msgstr "Annuller"
+
+#~ msgid "Please select an Album"
+#~ msgstr "Vælg et album"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "Vælg et album format"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "Vælg et galleri billedformat"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "Vælg et tekstformat for galleriet"
+
+#~ msgid "Album Sorting"
+#~ msgstr "Album sortering"
+
+#~ msgid "Global Settings"
+#~ msgstr "Avancerede indstillinger"
+
+#~ msgid "Purchase Pro Version"
+#~ msgstr "Køb Pro versionen"
+
+#~ msgid "Delete Image"
+#~ msgstr "Slet billede"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "Gallery Bank"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "Tilføj galleri med Gallery Bank"
+
+#~ msgid "Album Preview"
+#~ msgstr "Albums oversigt"
+
+#~ msgid "Back to Albums"
+#~ msgstr "Tilbage til albummer"
+
+#~ msgid "Please Choose"
+#~ msgstr "Vælg venligst"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr "Genbestil albummer"
+
+#~ msgid "Update Order"
+#~ msgstr "Update ordre"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "Sorterings ordre er blevet opdateret"
+
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr "Denne funktion er kun tilgængelig i Betalt præmie versionen!"
+
+#~ msgid "Delete All Albums"
+#~ msgstr "Slet alle albums"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "Slet billeder & Album permanent"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "Gendan fabriksindstillinger"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "Eksisterende album overblik"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Date"
+#~ msgstr "Dato"
+
+#~ msgid "Edit Album"
+#~ msgstr "Rediger album"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "Genbestil billeder"
+
+#~ msgid "Preview Album"
+#~ msgstr "Forhåndsvisning af album"
+
+#~ msgid "Delete Album"
+#~ msgstr "Slet album"
+
+#~ msgid "Album"
+#~ msgstr "Album"
+
+#~ msgid "Save Album"
+#~ msgstr "Gem album"
+
+#~ msgid "Upload Images"
+#~ msgstr "Upload billeder"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr "Din browser understøtter ikke Flash, Silverlight eller HTML5."
+
+#~ msgid "Upload Videos"
+#~ msgstr "Upload videoer"
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "(Fås i præmie Versioner)"
+
+#~ msgid "Video Url"
+#~ msgstr "Video url"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr "Skriv din video url"
+
+#~ msgid "Upload Video"
+#~ msgstr "Upload video"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "Dit Gallery Bank album"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr "Url til viderestilling ved klik på billedet"
+
+#~ msgid "Delete Video"
+#~ msgstr "Slet video"
+
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "Gallery Bank prisfastsættelse"
+
+#~ msgid "Update Settings"
+#~ msgstr "Opdater indstillingerne"
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "Thumbnail indstillinger"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "Thumbnail størrelse"
+
+#~ msgid "Original"
+#~ msgstr "Original"
+
+#~ msgid "Custom"
+#~ msgstr "brugerdefinerede"
+
+#~ msgid "Width"
+#~ msgstr "Bredde"
+
+#~ msgid "Height"
+#~ msgstr "Højde"
+
+#~ msgid "Opacity"
+#~ msgstr "Opacitet"
+
+#~ msgid "Border Size"
+#~ msgstr "Kantstørrelse"
+
+#~ msgid "Border Radius"
+#~ msgstr "Grænseoverskridningsradius"
+
+#~ msgid "Border Color"
+#~ msgstr "Kant farve"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "Mellemrum mellem billeder"
+
+#~ msgid "Text Color"
+#~ msgstr "Tekst farve"
+
+#~ msgid "Text-Align"
+#~ msgstr "Tekst-række"
+
+#~ msgid "Font-Family"
+#~ msgstr "Skriftype"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "Titel Skriftstørrelse"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "Tekst skriftstørrelse"
+
+#~ msgid "Description Length"
+#~ msgstr "Beskrivelse længde"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "Album cover indstillinger"
+
+#~ msgid "Cover Size"
+#~ msgstr "Cover størrelse"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "Mellemrum mellem albummer"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "Tekst for album klik"
+
+#~ msgid "Filter Settings"
+#~ msgstr "Filter indstilling"
+
+#~ msgid "Filters"
+#~ msgstr "Filtre"
+
+#~ msgid "Enable"
+#~ msgstr "Aktiver"
+
+#~ msgid "Disable"
+#~ msgstr "Deaktiver"
+
+#~ msgid "Filter Color"
+#~ msgstr "Filter farve"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "Filter tekst farve"
+
+#~ msgid "Font-Size"
+#~ msgstr "Skriftstørrelse"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "Udmærkelser Våben & kapaciteter"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "Privilegier for Admin"
+
+#~ msgid "Full Control"
+#~ msgstr "Fuld kontrol"
+
+#~ msgid "Read"
+#~ msgstr "Læs"
+
+#~ msgid "Write"
+#~ msgstr "Skriv"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "Privilegier for Editor"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "Privilegier for Author"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "Privilegier for Contributor"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "Privilegier for Subscriber"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr "Lightbox indstillinger"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "Lightbox type"
+
+#~ msgid "Inline Background"
+#~ msgstr "Inline Baggrund"
+
+#~ msgid "Overlay Background"
+#~ msgstr "Overlay Baggrund"
+
+#~ msgid "Fade In Time"
+#~ msgstr "Fade ind tid"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "Fade ud tid"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "Facebook kommentarer"
+
+#~ msgid "Social Sharing"
+#~ msgstr "Social deling"
+
+#~ msgid "Image Title"
+#~ msgstr "Billede titel"
+
+#~ msgid "Image Description"
+#~ msgstr "Billede beskrivelse"
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr "Foran - End Layout indstilling"
+
+#~ msgid "Text for Back Button"
+#~ msgstr "Tekst for tilbage knap"
+
+#~ msgid "Button Color"
+#~ msgstr "Knap farve"
+
+#~ msgid "Button Text Color"
+#~ msgstr "Knap tekst farve"
+
+#~ msgid "Album Seperator"
+#~ msgstr "Album deler"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr "paginer indstillinger for billeder"
+
+#~ msgid "Paging"
+#~ msgstr "Sideopdeler"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "Slide show indstillinger"
+
+#~ msgid "Auto Play"
+#~ msgstr "Auto play"
+
+#~ msgid "Interval"
+#~ msgstr "Interval"
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "Sprogretning Indstillinger"
+
+#~ msgid "Language Direction"
+#~ msgstr "sprogretning"
+
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr "Denne funktion er kun tilgængelig i Betalt præmie versionen!"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "Gallery Bank KorteKoder"
+
+#~ msgid "Licensing"
+#~ msgstr "Licensudstedelse"
+
+#~ msgid "Select Gallery"
+#~ msgstr "Vælg galleri"
+
+#~ msgid "Select Gallery Format"
+#~ msgstr "Vælg galleri format"
+
+#~ msgid "Images In Row"
+#~ msgstr "Albumsserie"
+
+#~ msgid "Select Text Format"
+#~ msgstr "Vælg tekstformat"
+
+#~ msgid "Special Effect"
+#~ msgstr "Special effekt"
+
+#~ msgid "Select Special Effect"
+#~ msgstr "Vælg Special effekt"
+
+#~ msgid "Animation Effect"
+#~ msgstr "Animations effekt"
+
+#~ msgid "Responsive Gallery"
+#~ msgstr "Galleri"
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr "Album er offentliggjort. Vent venligst for viderestilling"
+
+#~ msgid "Attention! A new vesion of Gallery Bank is available for download."
+#~ msgstr ""
+#~ "Vær opmærksom på at en ny version af Gallery Bank er klar til at blive "
+#~ "downloaded"
+
+#~ msgid "Click"
+#~ msgstr "Klik"
+
+#~ msgid "here"
+#~ msgstr "Her"
+
+#~ msgid "to upgrade your version of Gallery Bank."
+#~ msgstr "For at opgradere din version af Gallery Bank"
+
+#~ msgid "Date of Creation"
+#~ msgstr "Oprettelses tidspunkt"
+
+#~ msgid "Are you sure you want to delete all Albums?"
+#~ msgstr "Er du sikker på at du vil slette alle album?"
+
+#~ msgid "Are you sure you want to Restore Factory Settings?"
+#~ msgstr "Er du sikker på at du vil gendanne til fabriksindstillinger?"
+
+#~ msgid "Are you sure you want to Purge all Images & Albums?"
+#~ msgstr ""
+#~ "Er du sikker på at du vil slette alle billeder & albummer permanent?"
+
+#~ msgid "Update Album"
+#~ msgstr "Opdater album"
+
+#~ msgid "Album Updated. Kindly wait for the redirect to happen."
+#~ msgstr "Album er opdateret. Vent venligst for viderestilling"
+
+#~ msgid "Gallery Bank Documentation"
+#~ msgstr "Gallery Bank dokumentation"
+
+#~ msgid "Gallery Bank Licensing Module"
+#~ msgstr "Gallery Bank Licensudstedelse modul"
+
+#~ msgid "Success! Settings have been updated."
+#~ msgstr "Succes! Indstillingerne er blevet opdateret"
+
+#~ msgid "Update"
+#~ msgstr "Opdater"
+
+#~ msgid "Restore Settings"
+#~ msgstr "Gendan indstillingerne"
+
+#~ msgid "Settings has been updated."
+#~ msgstr "Indstillingerne er blevet opdateret."
+
+#~ msgid "Success! Settings have been restored."
+#~ msgstr "Succes! Indstillingerne er blevet gendannet"
+
+#~ msgid "Are you sure you want to restore settings?"
+#~ msgstr "Er du sikker på at du vil gendanne indstillingerne?"
+
+#~ msgid " Rotate Image"
+#~ msgstr "Roter billede"
+
+#~ msgid "Upload Images "
+#~ msgstr "Upload billeder"
+
+#~ msgid "Your Wordpress Version doesn\"t support Wp-media."
+#~ msgstr "Din Wordpress version understøtter ikke Wp-media"
+
+#~ msgid "Upload Thumbnails "
+#~ msgstr "Uload Thumbnails"
+
+#~ msgid "Show Albums"
+#~ msgstr "Vis albums"
+
+#~ msgid "With Albums in Row"
+#~ msgstr "Med albummer på række"
+
+#~ msgid "Image Uploader Settings"
+#~ msgstr "Billede upload indstillinger"
+
+#~ msgid "Uploader for Images"
+#~ msgstr "Upload for billeder"
+
+#~ msgid "WP Media"
+#~ msgstr "Wp media"
+
+#~ msgid "Change Uploading Image Name"
+#~ msgstr "Ændre uploading billede navn"
+
+#~ msgid "Image url location"
+#~ msgstr "Billede url lokation"
+
+#~ msgid "Open in New Window"
+#~ msgstr "Åben i nyt vindue"
+
+#~ msgid "Same Window"
+#~ msgstr "Samme vindue"
