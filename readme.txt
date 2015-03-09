@@ -3,7 +3,7 @@ Contributors: contact-banker,Gallery-Bank
 Tags: admin, Custom Instagram Feed, instagram, Instagram account, Instagram feed, Instagram photos, Instagram plugin, Instagram posts, Instagram stream, Instagram wall, mobile Instagram, responsive Instagram, best instagram plugin
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 1.0.9
+Stable tag: 1.0.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -112,6 +112,11 @@ If any problem occurs, please contact us at [support@tech-banker.com](mailto:sup
 == Screenshots ==
 
 == Changelog ==
+
+= 1.0.10 =
+
+* Minor Bugs Fixed.
+* Other Services Section Updated.
 
 = 1.0.8 =
 

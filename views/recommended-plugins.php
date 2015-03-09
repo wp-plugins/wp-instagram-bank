@@ -24,7 +24,7 @@ else
 	global $tabs, $tab, $paged, $type, $term;
 	$tabs = array();
 	$tab = "search";
-	$per_page = 10;
+	$per_page = 20;
 	$args = array
 	(
 		"author"=> "contact-banker",
