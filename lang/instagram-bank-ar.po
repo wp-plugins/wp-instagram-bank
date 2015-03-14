@@ -1,0 +1,712 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:29+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "أظهر الجميع"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "حالة النظام"
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "تعيين كما الألبوم غطاء"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "حذف"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "تمكين إعادة توجيه علىInstagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "العنوان"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr " أدخل  لديك الوصف"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "الوسوم"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "غير قادر على التواصل مع Instagram"
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagram لم إرجاع 200"
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "عاد Instagram بيانات غير صالحة."
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "لوحة القيادة - Wp Instagram Bank"
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "إضافة Instagram البوم جديد"
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "غلاف الألبوم"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "رمز قصير"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "اسم الألبوم"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "حساب Instagram"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "عدد الصور"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "عدل"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "هل أنت متأكد من حذف هذا الألبوم؟"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "العودة ل  لوحة القيادة"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr "ألبوم المحفوظة. يرجى الانتظار لإعادة التوجيه أن يحدث."
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "ألبوم التفاصيل"
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "عنوان الألبوم"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "أدخل لديك  عنوان الالبوم"
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "أدخل عنوان للالبوم الخاص بك هنا"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Instagram اسم المستخدم"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr " أدخل  لديك - إينستاجرام  اسم المستخدم"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "إدخال حساب Instagram حلال من حيث لاستيراد الصور"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "الوصف"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "أدخل  لديك - Instagram   اسم المستخدم"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "أدخل وصف للالبوم الخاص بك هنا"
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "استيراد الصور من Instagram"
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr "لديك Instagram صور"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "إجراء جملة"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "تفاصيل الصورة"
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "الصور المصغرة"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "العنوان والوصف"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "العلامات(قائمة مفصولة بفواصل)"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "هل أنت متأكد من حذف الصورة؟"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "هل أنت متأكد أنك تريد حذف هذه الصور"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "Wp-Instagram حالة النظام"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "أحصل على تقرير النظام"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "أغلق تقرير النظام"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "الإفتراضي"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "أدخل إختصار بانك جالري"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr "اختر ألبوم من الأسفل لإضافته إلي تدوينتك أو صفحتك"
+
+#~ msgid "Gallery Type"
+#~ msgstr "نوع الجالري"
+
+#~ msgid "Albums with Images"
+#~ msgstr "ألبوم مع الصور"
+
+#~ msgid "Only Images"
+#~ msgstr "صور فقط"
+
+#~ msgid "Album Format"
+#~ msgstr "نوع الألبوم"
+
+#~ msgid "Select Album Format"
+#~ msgstr "أختر تنسيق الألبوم"
+
+#~ msgid "Select Album"
+#~ msgstr "أختر ألبوم"
+
+#~ msgid "Select an Album"
+#~ msgstr "اختر ألبوم"
+
+#~ msgid "Gallery Format"
+#~ msgstr "تنسيق الجالري"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "أختر تنسيق الجالري"
+
+#~ msgid "Images in Row"
+#~ msgstr "الصور في صف"
+
+#~ msgid "Image Width"
+#~ msgstr "عرض الصورة"
+
+#~ msgid "Albums in Row"
+#~ msgstr "الألبومات في صف"
+
+#~ msgid "Text Format"
+#~ msgstr "تنسيق النص"
+
+#~ msgid "Select Format "
+#~ msgstr "أختر تنسيق"
+
+#~ msgid "Special Effects"
+#~ msgstr "التأثيرات الخاصة"
+
+#~ msgid "Animation Effects"
+#~ msgstr "التأثيرات الحيوية"
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "جعل الجالري متجاوب ( ريسبونسف)"
+
+#~ msgid "Show Album Title"
+#~ msgstr "أظهر عنوان الألبوم"
+
+#~ msgid "Insert Album"
+#~ msgstr "أدخل ألبوم"
+
+#~ msgid "Cancel"
+#~ msgstr "إلغاء"
+
+#~ msgid "Please select an Album"
+#~ msgstr "الرجاء إختيار ألبوم"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "الرجاء إختيار تنسيق الألبوم"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "الرجاء إختيار تنسيق صور الألبوم"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "الرجاء إختيار تنسيق النص للألبوم"
+
+#~ msgid "<img src=\""
+#~ msgstr "<img src=\""
+
+#~ msgid "/wp-admin/admin.php?page=gallery_bank"
+#~ msgstr "/wp-admin/admin.php?page=gallery_bank"
+
+#~ msgid "Album Sorting"
+#~ msgstr "ترتيب الألبوم"
+
+#~ msgid "Global Settings"
+#~ msgstr "الخصائص العامة"
+
+#~ msgid "Purchase Pro Version"
+#~ msgstr "شراء النسخة برو"
+
+#~ msgid "Delete Image"
+#~ msgstr "حذف الصورة"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "جالري بانك"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "أضف معرض بإستخدام جالري بانك"
+
+#~ msgid "Album Preview"
+#~ msgstr "عرض الألبوم"
+
+#~ msgid "Back to Albums"
+#~ msgstr "العودة إلي الألبوم"
+
+#~ msgid "Please Choose"
+#~ msgstr "الرجاء الإختيار"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr "إعادة ترتيب الألبومات"
+
+#~ msgid "Update Order"
+#~ msgstr "حدث الترتيب"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "فرز الترتيب المحدث"
+
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr "هذه الميزة متوفرة فقط في النسخة  بريميوم المدفوعة!"
+
+#~ msgid "Delete All Albums"
+#~ msgstr "حذف جميع الألبومات"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "حذف جميع الألبومات والصور"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "إستعادة إعدادات المصنع"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "نظرة عامة للألبومات"
+
+#~ msgid "Title"
+#~ msgstr "العنوان"
+
+#~ msgid "Date"
+#~ msgstr "التسجيل"
+
+#~ msgid "Edit Album"
+#~ msgstr "تحرير الألبوم"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "إعادة ترتيب الصور"
+
+#~ msgid "Preview Album"
+#~ msgstr "معاينة الألبوم"
+
+#~ msgid "Delete Album"
+#~ msgstr "حذف ألبوم"
+
+#~ msgid "Album"
+#~ msgstr "الألبوم"
+
+#~ msgid "Save Album"
+#~ msgstr "انقاذ الألبوم"
+
+#~ msgid "Upload Images"
+#~ msgstr "أرفع صور"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr "متصفحك لايدعم Flash أو Silverlight أو HTML5 ."
+
+#~ msgid "Upload Videos"
+#~ msgstr "أرفع فيديو"
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "(المتاحة ف علاوة إصدارات)"
+
+#~ msgid "Video Url"
+#~ msgstr "رابط الفيديو"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr "أدخل رابط الفيديو"
+
+#~ msgid "Upload Video"
+#~ msgstr "رفع فيديو"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "ألبومك الخاص"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr "رابط التوجيه عند الضغط علي الصورة"
+
+#~ msgid "Delete Video"
+#~ msgstr "حذف الفيديو"
+
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "التسعير معرض البنك"
+
+#~ msgid "Update Settings"
+#~ msgstr "تحديث الإعدادت "
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "إعدادت المصغرات"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "حجم المصغرات"
+
+#~ msgid "Original"
+#~ msgstr "طبيعي"
+
+#~ msgid "Custom"
+#~ msgstr "مخصص"
+
+#~ msgid "Width"
+#~ msgstr "العرض"
+
+#~ msgid "Height"
+#~ msgstr "الإرتفاع"
+
+#~ msgid "Opacity"
+#~ msgstr "غامض"
+
+#~ msgid "Border Size"
+#~ msgstr "حجم الحدود"
+
+#~ msgid "Border Radius"
+#~ msgstr "حجم الحدود"
+
+#~ msgid "Border Color"
+#~ msgstr "لون الحدود"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "دمج الصور"
+
+#~ msgid "Text Color"
+#~ msgstr "لون الخط"
+
+#~ msgid "Text-Align"
+#~ msgstr "اتجاه الخط"
+
+#~ msgid "Font-Family"
+#~ msgstr "نوع الخط"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "حجم خط العنوان"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "حجم خط النص"
+
+#~ msgid "Description Length"
+#~ msgstr "طول الوصف"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "إعدادت غطاء الألبوم"
+
+#~ msgid "Cover Size"
+#~ msgstr "حجم الغطاء"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "دمج الألبومات"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "نص الألبوم عند النقر"
+
+#~ msgid "Filter Settings"
+#~ msgstr "إعدادت الفلتر"
+
+#~ msgid "Filters"
+#~ msgstr "الفلاتر"
+
+#~ msgid "Enable"
+#~ msgstr "تمكين"
+
+#~ msgid "Disable"
+#~ msgstr "تعطيل"
+
+#~ msgid "Filter Color"
+#~ msgstr "لون الفلتر"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "لون نص الفلتر"
+
+#~ msgid "Font-Size"
+#~ msgstr "حجم الخط"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "الأدوار والقدرات"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "مزايا الأدمن"
+
+#~ msgid "Full Control"
+#~ msgstr "تحكم كامل"
+
+#~ msgid "Read"
+#~ msgstr "قراءة"
+
+#~ msgid "Write"
+#~ msgstr "كتابة"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "مزايا المحرر"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "مزايا الكاتب"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "مزايا المساهم"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "مزايا المشترك"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr "إعدادت اللايت بوكس"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "نوع الايت بوكس"
+
+#~ msgid "Inline Background"
+#~ msgstr "الخلفية المضمنة"
+
+#~ msgid "Overlay Background"
+#~ msgstr "غطاء الخلفية"
+
+#~ msgid "Fade In Time"
+#~ msgstr "تتلاشى في الوقت المناسب"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "تتلاشى بعد الزمن"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "تعليقات الفيسبوك "
+
+#~ msgid "Social Sharing"
+#~ msgstr "مشاركة مواقع التواصل"
+
+#~ msgid "Image Title"
+#~ msgstr "عنوان الصورة"
+
+#~ msgid "Image Description"
+#~ msgstr "وصف الصورة"
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr "إعدادات التصميم الأمامية والنهائية"
+
+#~ msgid "Text for Back Button"
+#~ msgstr "نص زر الرجوع"
+
+#~ msgid "Button Color"
+#~ msgstr "لون الزر"
+
+#~ msgid "Button Text Color"
+#~ msgstr "لون نص الزر"
+
+#~ msgid "Album Seperator"
+#~ msgstr "فصل الألبوم"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr "إعدادات ترقيم الصور"
+
+#~ msgid "Paging"
+#~ msgstr "الترقيم"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "أعدادت السلايد شو"
+
+#~ msgid "Auto Play"
+#~ msgstr "عرض تلقائي"
+
+#~ msgid "Interval"
+#~ msgstr "فاصل"
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "إعدادت إتجاه اللغة"
+
+#~ msgid "Language Direction"
+#~ msgstr "أتجاه اللغة"
+
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr "تتوفر هذه الميزة فقط في النسخة بريميوم المدفوعة!"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "معرض البنك قصيرة رموز"
+
+#~ msgid "Licensing"
+#~ msgstr "الترخيص"
+
+#~ msgid "Select Gallery"
+#~ msgstr "أختر معرض"
+
+#~ msgid "Select Gallery Format"
+#~ msgstr "أختر تنسيق المعرض"
+
+#~ msgid "Images In Row"
+#~ msgstr "الصور في صف"
+
+#~ msgid "Select Text Format"
+#~ msgstr "أختر تنسيق النص"
+
+#~ msgid "Special Effect"
+#~ msgstr "التأثيرات الخاصة"
+
+#~ msgid "Select Special Effect"
+#~ msgstr "أختر تأثير خاص"
+
+#~ msgid "Animation Effect"
+#~ msgstr "تأثيرات حيوية"
+
+#~ msgid "Responsive Gallery"
+#~ msgstr "جالري متجاوب ( ريسبونسف) "
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr "تم نشر الألبوم. الرجاء الإنتظار حتى يتم تحويلك "
+
+#~ msgid "Attention! A new vesion of Gallery Bank is available for download."
+#~ msgstr "تنبيه! هناك إصدار جديد من جالري بانك متوفر للتحميل."
+
+#~ msgid "Click"
+#~ msgstr "إضغط"
+
+#~ msgid "here"
+#~ msgstr "هنا"
+
+#~ msgid "to upgrade your version of Gallery Bank."
+#~ msgstr "لترقية أصدار جالري بانك"
+
+#~ msgid "Date of Creation"
+#~ msgstr "تاريخ الإنشاء"
+
+#~ msgid "Are you sure you want to delete all Albums?"
+#~ msgstr "هل أنت متأكد من حذف جميع الألبومات؟"
+
+#~ msgid "Are you sure you want to Restore Factory Settings?"
+#~ msgstr "هل أنت متأكد من إعادة ضبط المصنع؟"
+
+#~ msgid "Are you sure you want to Purge all Images & Albums?"
+#~ msgstr "هل أنت متأكد من محو جميع الصور والألبومات؟"
+
+#~ msgid "Gallery Bank Documentation"
+#~ msgstr "توثيق جالري بانك"
+
+#~ msgid "Gallery Bank Licensing Module"
+#~ msgstr "وحدة ترخيص جالري بانك"
+
+#~ msgid "Success! Settings have been updated."
+#~ msgstr "لقد تم تحديث الإعدادت بنجاح."
+
+#~ msgid "Update"
+#~ msgstr "تحديث"
+
+#~ msgid "Restore Settings"
+#~ msgstr "إستعادة الإعدادت"
+
+#~ msgid "Settings has been updated."
+#~ msgstr "تم تحديث الإعدادت. "
+
+#~ msgid "Success! Settings have been restored."
+#~ msgstr "لقد تم إستعادة الإعدادت بنجاح."
+
+#~ msgid "Are you sure you want to restore settings?"
+#~ msgstr "هل أنت متأكد من إستعادة الإعدادات؟"
+
+#~ msgid " Rotate Image"
+#~ msgstr "اتجاه الصورة"
+
+#~ msgid "Upload Images "
+#~ msgstr "رفع صور"
+
+#~ msgid "Your Wordpress Version doesn\"t support Wp-media."
+#~ msgstr "إصدار الووردبرس الخاص بك لايدعم  Wp-media."
+
+#~ msgid "Upload Thumbnails "
+#~ msgstr "رفع المصغرات"
+
+#~ msgid "Show Albums"
+#~ msgstr "عرض الألبومات"
+
+#~ msgid "Responsive"
+#~ msgstr "متجاوب "
+
+#~ msgid "With Albums in Row"
+#~ msgstr "مع ألبومات في صف "
+
+#~ msgid "Image Uploader Settings"
+#~ msgstr "إعدادات رافع الصور"
+
+#~ msgid "Uploader for Images"
+#~ msgstr "رافع للصور"
+
+#~ msgid "WP Media"
+#~ msgstr "ووردبريس ميديا"
+
+#~ msgid "Change Uploading Image Name"
+#~ msgstr "غير اسم الصورة المحملة"
+
+#~ msgid "Image url location"
+#~ msgstr "موقع رابط الصورة"
+
+#~ msgid "Open in New Window"
+#~ msgstr "افتح في نافذة جديدة"
+
+#~ msgid "Same Window"
+#~ msgstr "نفس النافذة"
