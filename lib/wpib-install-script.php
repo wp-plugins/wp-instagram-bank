@@ -1,6 +1,7 @@
 <?php
 global $wpdb;
 require_once(ABSPATH . "wp-admin/includes/upgrade.php");
+$instagram_version = get_option("instagram-bank-pro-edition");
 if(!function_exists("create_table_insta_albums"))
 {
 	function create_table_insta_albums()
@@ -49,5 +50,11 @@ if (count($wpdb->get_var("SHOW TABLES LIKE '" . wpib_albums() . "'")) == 0)
 if (count($wpdb->get_var("SHOW TABLES LIKE '" . wpib_album_pics() . "'")) == 0)
 {
 	create_table_insta_pics();
+}
+
+if($instagram_version == "")
+{
+	update_option("instagram-bank-automatic-update", "1");
+	update_option("instagram-bank-pro-edition", "1.0");
 }
 ?>

@@ -280,6 +280,12 @@ else
 			);
 			die();
 		}
+		elseif($_REQUEST["param"] == "instagram_bank_plugin_updates")
+		{
+			$instagram_bank_updates = intval($_REQUEST["instagram_bank_updates"]);
+			update_option("instagram-bank-automatic-update", $instagram_bank_updates);
+			die();
+		}
 	}
 }
 
