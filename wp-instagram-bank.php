@@ -4,7 +4,7 @@ Plugin Name: Wp Instagram Bank
 Plugin URI: http://tech-banker.com
 Description: WP Instagram Bank is an ultimate WordPress Plugin to showcase your latest Instagram pics.
 Author: Tech Banker
-Version: 1.0.11
+Version: 1.0.12
 Author URI: http://tech-banker.com
 */
 
@@ -263,15 +263,18 @@ function add_instagram_icon($meta = TRUE)
 function instagram_bank_short_code($atts)
 {
 	extract(shortcode_atts(array(
-	"album_id" => '',
+	"albumid" => '',
+	"display_images" => '',
+	"no_of_images" => '',
+	"sort_by" => '',
 	"title" => '',
 	"desc" => '',
 	), $atts));
-	return extract_short_code_for_instagram_images($album_id,$title,$desc);
+	return extract_short_code_for_instagram_images($albumid,$display_images,$no_of_images,$sort_by,$title,$desc);
 }
 
 /////////////////////////////////////  Extract Shortcodes called by Front End Function ////////////////////////////////////////
-function extract_short_code_for_instagram_images($album_id,$title,$desc)
+function extract_short_code_for_instagram_images($album_id,$display_images,$no_of_images,$sort_by,$title,$desc)
 {
 	ob_start();
 	
@@ -363,7 +366,7 @@ if (isset($_REQUEST["action"])) {
 
 function instagram_bank_plugin_update_message($args)
 {
-	$response = wp_remote_get( 'http://plugins.svn.wordpress.org/wp-instagram-bank/trunk/readme.txt' );
+	$response = wp_remote_get( 'https://plugins.svn.wordpress.org/wp-instagram-bank/trunk/readme.txt' );
 	if ( ! is_wp_error( $response ) && ! empty( $response['body'] ) )
 	{
 		// Output Upgrade Notice

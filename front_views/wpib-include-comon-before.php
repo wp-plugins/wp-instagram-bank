@@ -10,15 +10,118 @@ $album_name = $wpdb->get_var
 		$album_id
 	)
 );
-
-$album_pics = $wpdb->get_results
-(
-	$wpdb->prepare
-	(
-		"SELECT * FROM " . wpib_album_pics() . " WHERE album_id = %d order by pic_id asc",
-		$album_id
-	)
-);
+if($display_images == "all" || $display_images == "")
+{
+	switch($sort_by)
+	{
+		case "random":
+			$album_pics = $wpdb->get_results
+			(
+				$wpdb->prepare
+				(
+					"SELECT * FROM " . wpib_album_pics() . " WHERE album_id = %d ORDER BY RAND()",
+					$album_id
+				)
+			);
+		break;
+		case "pic_id":
+			$album_pics = $wpdb->get_results
+			(
+				$wpdb->prepare
+				(
+					"SELECT * FROM " . wpib_album_pics() . " WHERE album_id = %d ORDER BY pic_id ASC",
+					$album_id
+				)
+			);
+		break;
+		case "title":
+			$album_pics = $wpdb->get_results
+			(
+				$wpdb->prepare
+				(
+					"SELECT * FROM " . wpib_album_pics() . " WHERE album_id = %d ORDER BY title ASC",
+					$album_id
+				)
+			);
+		break;
+		case "date":
+			$album_pics = $wpdb->get_results
+			(
+				$wpdb->prepare
+				(
+					"SELECT * FROM " . wpib_album_pics() . " WHERE album_id = %d ORDER BY date ASC",
+					$album_id
+				)
+			);
+		break;
+		default:
+			$album_pics = $wpdb->get_results
+			(
+				$wpdb->prepare
+				(
+					"SELECT * FROM " . wpib_album_pics() . " WHERE album_id = %d ORDER BY pic_id ASC",
+					$album_id
+				)
+			);
+		break;
+	}
+}
+else
+{
+	switch($sort_by)
+	{
+		case "random":
+			$album_pics = $wpdb->get_results
+			(
+				$wpdb->prepare
+				(
+					"SELECT * FROM " . wpib_album_pics() . " WHERE album_id = %d ORDER BY RAND() LIMIT $no_of_images",
+					$album_id
+				)
+			);
+		break;
+		case "pic_id":
+			$album_pics = $wpdb->get_results
+			(
+				$wpdb->prepare
+				(
+					"SELECT * FROM " . wpib_album_pics() . " WHERE album_id = %d ORDER BY pic_id ASC LIMIT $no_of_images",
+					$album_id
+				)
+			);
+		break;
+		case "title":
+			$album_pics = $wpdb->get_results
+			(
+				$wpdb->prepare
+				(
+					"SELECT * FROM " . wpib_album_pics() . " WHERE album_id = %d ORDER BY title ASC LIMIT $no_of_images",
+					$album_id
+				)
+			);
+		break;
+		case "date":
+			$album_pics = $wpdb->get_results
+			(
+				$wpdb->prepare
+				(
+					"SELECT * FROM " . wpib_album_pics() . " WHERE album_id = %d ORDER BY date ASC LIMIT $no_of_images",
+					$album_id
+				)
+			);
+		break;
+		default:
+			$album_pics = $wpdb->get_results
+			(
+				$wpdb->prepare
+				(
+					"SELECT * FROM " . wpib_album_pics() . " WHERE album_id = %d ORDER BY pic_id ASC LIMIT $no_of_images",
+					$album_id
+				)
+			);
+		break;
+	}
+}
 ?>
 <script type="text/javascript">
 	<?php
