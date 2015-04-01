@@ -42,12 +42,13 @@ else
 		(
 			$wpdb->prepare
 			(
-				"INSERT INTO " . wpib_albums() . "(album_id,album_name, user_name, album_date, description)
+				"INSERT INTO " . wpib_albums() . "(album_id,album_name, user_name, album_date, description,import_method)
 				VALUES(%d, %s, %s, CURDATE(), %s)",
 					$albumId,
 					"Untitled Album",
 					"",
-					""
+					"",
+					1
 			)
 		);
 		
@@ -116,9 +117,16 @@ else
 											</div>
 										</div>
 										<div class="layout-control-group">
-											<label class="layout-control-label"><?php _e("Instagram UserName/Hashtag", instagram_bank); ?> : <span class="error">*</span></label>
+											<label class="layout-control-label"><?php _e("Import Method", instagram_bank); ?> : <span class="error">*</span> </label>
+											<div class="layout-controls-radio">
+												<input type="radio" name="ux_rdl_import_type" id="ux_rdl_import_from_username" <?php echo (($instagram_album->import_method == 1) ? "checked=\"checked\"" : "");?> onclick="select_import_type();" value="1"><label style="vertical-align: baseline;"><?php _e("Username", instagram_bank);?></label>
+												<input type="radio" name="ux_rdl_import_type" id="ux_rdl_import_from_tags" <?php echo (($instagram_album->import_method == 0) ? "checked=\"checked\"" : "");?> style="margin-left: 10px;" onclick="select_import_type();" value="0"><label style="vertical-align: baseline;"><?php _e("Hashtag", instagram_bank);?></label>
+											</div>
+										</div>
+										<div class="layout-control-group">
+											<label class="layout-control-label" id="ux_lbl_import_type"><?php _e("Instagram UserName", instagram_bank); ?> : <span class="error">*</span></label>
 											<div class="layout-controls">
-												<input type="text" id="ux_txt_user" name="ux_txt_user" class="layout-span12" placeholder="<?php _e("Enter Your Instagram Username or Instagram hashtag", instagram_bank);?>" value="<?php echo esc_attr($instagram_album->user_name);?>">
+												<input type="text" id="ux_txt_user" name="ux_txt_user" class="layout-span12" placeholder="<?php _e("Enter Your Instagram Username", instagram_bank);?>" value="<?php echo esc_attr($instagram_album->user_name);?>">
 											<p class="wpib-desc-italic">	<?php _e("Enter Instagram account or Instagram hashtag without using # to import images", instagram_bank); ?> </p>
 											</div>
 										</div>
@@ -254,16 +262,17 @@ else
 	
 	function wpib_get_instagram_gallery()
 	{
+		var import_type = jQuery("input[type=radio][name=ux_rdl_import_type]:checked").val();
 		var user_name = jQuery("#ux_txt_user").val();
 		var album_id = "<?php echo $albumId;?>";
-		jQuery.post(ajaxurl, "user_name=" + user_name + "&album_id=" +album_id+ "&param=get_insta_gallery&action=instagram_library", function (data)
+		jQuery.post(ajaxurl, "user_name=" + user_name + "&album_id=" +album_id+"&import_type="+import_type+"&param=get_insta_gallery&action=instagram_library", function (data)
 		{
- 			var oTable = jQuery("#ux_data-instagram-images").dataTable();
+			var oTable = jQuery("#ux_data-instagram-images").dataTable();
 			oTable.fnDestroy();
 			jQuery("#ux_tbl_show_data").empty();
 			jQuery("#ux_tbl_show_data").append(data);
- 			oTable.fnDraw();
- 			select_radio();
+			oTable.fnDraw();
+			select_radio();
 		});
 	}
 	
@@ -280,7 +289,7 @@ else
 			var album_title = encodeURIComponent(jQuery("#ux_txt_album").val());
 			var album_desc = encodeURIComponent(jQuery("#ux_album_desc").val());
 			var user_name = jQuery("#ux_txt_user").val();
-	
+			var import_type = jQuery("input[type=radio][name=ux_rdl_import_type]:checked").val();
 			jQuery("#update_album_added_message").css("display", "block");
 			jQuery("body,html").animate
 			({
@@ -294,7 +303,7 @@ else
 			}
 			
 			jQuery.post(ajaxurl, "album_id=" +  album_id + "&album_title=" + album_title + "&album_desc=" + album_desc + 
-			 "&user_name=" + user_name + "&param=update_insta_album&action=instagram_library", function ()
+			 "&user_name=" + user_name + "&import_type="+import_type+"&param=update_insta_album&action=instagram_library", function ()
 			{
 				
 				jQuery.each(oTable.fnGetNodes(), function (index, value)
@@ -378,7 +387,20 @@ else
 			jQuery("input[type=radio][name=ux_rdl_album_cover]:first").attr("checked","checked");
 		}
 	}
-
+	function select_import_type()
+	{
+		var type = jQuery("input[type=radio][name=ux_rdl_import_type]:checked").val();
+		if(type == 1)
+		{
+			jQuery("#ux_lbl_import_type").html("<?php _e("Instagram UserName", instagram_bank); ?>:<span class=\"error\">*</span>");
+			jQuery("#ux_txt_user").attr("placeholder","<?php _e("Enter your Instagram Username", instagram_bank);?>");
+		}
+		else
+		{
+			jQuery("#ux_lbl_import_type").html("<?php _e("Hash Tags", instagram_bank); ?>:<span class=\"error\">*</span>");
+			jQuery("#ux_txt_user").attr("placeholder","<?php _e("Enter Hashtags to import images", instagram_bank);?>");
+		}
+	}
 	</script>
 <?php 
 }

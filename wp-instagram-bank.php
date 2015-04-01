@@ -4,7 +4,7 @@ Plugin Name: Wp Instagram Bank
 Plugin URI: http://tech-banker.com
 Description: WP Instagram Bank is an ultimate WordPress Plugin to showcase your latest Instagram pics.
 Author: Tech Banker
-Version: 1.0.12
+Version: 1.0.13
 Author URI: http://tech-banker.com
 */
 
@@ -435,7 +435,7 @@ function wp_instagram_bank_autoUpdate()
 
 $wp_instagram_version = get_option("instagram-bank-pro-edition");
 
-if($wp_instagram_version == "")
+if($wp_instagram_version == "" || $wp_instagram_version == "1.0")
 {
 	add_action("admin_init", "plugin_install_script_for_instagram_bank");
 }

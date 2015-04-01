@@ -12,6 +12,7 @@ if(!function_exists("create_table_insta_albums"))
 				user_name VARCHAR(100),
 				album_date DATE,
 				description TEXT,
+				import_method INTEGER(2),
 				PRIMARY KEY (album_id)
 				) DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
 		dbDelta($sql);
@@ -45,6 +46,21 @@ if(!function_exists("create_table_insta_pics"))
 if (count($wpdb->get_var("SHOW TABLES LIKE '" . wpib_albums() . "'")) == 0)
 {
 	create_table_insta_albums();
+}
+else
+{
+	$check_import_type = $wpdb->get_var
+	(
+		"SHOW COLUMNS FROM " . wpib_albums() . " LIKE 'import_method'"
+	);
+	
+	if($check_import_type == "")
+	{
+		$wpdb->query
+		(
+			"ALTER TABLE " . wpib_albums() . " ADD import_method INTEGER(2) DEFAULT 1"
+		);
+	}
 }
 
 if (count($wpdb->get_var("SHOW TABLES LIKE '" . wpib_album_pics() . "'")) == 0)
