@@ -1,0 +1,599 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:23+0530\n"
+"PO-Revision-Date: 2014-07-29 11:11+0530\n"
+"Last-Translator: \n"
+"Language-Team: Tech-Banker <support@tech-banker.com>\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "SHIKO TË GJITHA"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "Baltëpritëse"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "Sistemi - Statusi"
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "Vendosur si albumin mbuluar"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "fshini"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "Aktivizo përcjellim - në Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Shkruani Titullin tuaj"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Shkruani përshkrimin tuaj"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Shkruani tuaj Fjale"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "Në pamundësi për të komunikuar me Instagram."
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagram nuk u kthye një 200."
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "Instagram ka kthyer të dhëna të pavlefshme."
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "Paneli i drejtimit - Wp Instagram Bank"
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "Shto re Instagram albumeve"
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "albumeve Mbulesa"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "Kodi i-shkurtër"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "Emri albumit"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "Llogaria Instagram"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "Numri i Imazhet"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "Ndysho"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "Jeni te sigurte qe doni te fshini kete albumeve?"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "Kthehu tek Paneli i drejtimit"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "Ruaj - Ndryshimet"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr "albumit - Ruajtura. Mirësi të presin për përcjellim të ndodhë."
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "albumit - Detaj"
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "albumit Titulli i"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Shkruani juaj e albumeve Titulli"
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "Futni Titulli per albumit tuaj këtu"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Instagram Emri i përdoruesit"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Shkruani Juaj Instagram Emri i përdoruesit"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "Shkruani llogari Instagram nga ku për të importuar imazhe"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "Përshkrimi"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Shkruani juaj Përshkrimin e albumeve"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "Shkruani Përshkrimin për albumeve tuaj këtu"
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "Imazhet e Importit nga Instagram"
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr " juaj - Instagram Imazhet"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "Korpus Veprimit"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "detajet e fotos"
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "Tablotë"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "Titulli i dhe Përshkrimi"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "Fjale (presje ndarë lista)"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "Jeni te sigurte qe doni te fshini kete imazh?"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "Jeni te sigurte qe doni te fshini këto Imazhet"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "Wp-Instagram Sistemi Statusi"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "Bleni Sistem - Raportimi"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "Mbylle-Raporti- Sistemi"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "e albumit"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "shëno Gallery Bank -Shkurtër  Kod"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr ""
+#~ "Përzgjedh një album më poshtë për të shtuar atë në postin tuaj ose faqe."
+
+#~ msgid "Gallery Type"
+#~ msgstr "Galeri Lloji"
+
+#~ msgid "Albums with Images"
+#~ msgstr "Albumet me imazhet"
+
+#~ msgid "Only Images"
+#~ msgstr "Vetmet imazhe"
+
+#~ msgid "Album Format"
+#~ msgstr "Formati e albumeve"
+
+#~ msgid "Select Album Format"
+#~ msgstr "Përzgjidhni e albumeve Formati"
+
+#~ msgid "Select Album"
+#~ msgstr "Përzgjidhni e albumeve"
+
+#~ msgid "Select an Album"
+#~ msgstr "Përzgjidhni nje e albumeve"
+
+#~ msgid "Gallery Format"
+#~ msgstr "Galeri Formati"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "Përzgjidhni Galeri Formati"
+
+#~ msgid "Images in Row"
+#~ msgstr "Imazhe në Rresht"
+
+#~ msgid "Image Width"
+#~ msgstr "Gjerësia Imazh"
+
+#~ msgid "Albums in Row"
+#~ msgstr "Albume në Rresht"
+
+#~ msgid "Text Format"
+#~ msgstr "Formati Tekst i"
+
+#~ msgid "Select Format "
+#~ msgstr "Përzgjidhni Format i"
+
+#~ msgid "Special Effects"
+#~ msgstr "të veçanta Efektet"
+
+#~ msgid "Animation Effects"
+#~ msgstr "Animacion - Efektet "
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "Trego-përgjegjshëm Galeria"
+
+#~ msgid "Show Album Title"
+#~ msgstr "Trego e albumeve Titulli i"
+
+#~ msgid "Insert Album"
+#~ msgstr "Fut e albumeve"
+
+#~ msgid "Cancel"
+#~ msgstr "Anuloje"
+
+#~ msgid "Please select an Album"
+#~ msgstr "Ju lutem, përzgjidhni një Albumi"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "Ju lutem, përzgjidhni te njieshim Formatin e Albumeve"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "Ju lutem, përzgjidhni një Galerinë- Imazhet- Formati"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "Ju lutem përzgjedh një Format tekst për Galerinë"
+
+#~ msgid "Album Sorting"
+#~ msgstr "albumeve - Renditur"
+
+#~ msgid "Global Settings"
+#~ msgstr "Cilësimet Globale"
+
+#~ msgid "Purchase Pro Version"
+#~ msgstr "Blerje Pro Versioni"
+
+#~ msgid "Delete Image"
+#~ msgstr " fshini Pamjeje për"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "Gallery Bank"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "Shto Galeria përdorur Gallery Bank"
+
+#~ msgid "Back to Albums"
+#~ msgstr "Mbrapsht në albume e"
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr "albumit botuar. Mirësi të prisni për përcjellim të ndodhë."
+
+#~ msgid "Upload Images"
+#~ msgstr "Ngarkoni Imazhe"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr ""
+#~ "Shfletuesi juaj doesn 't duhet Flash, Silverlight ose HTML5 mbështetje."
+
+#~ msgid "Upload Videos"
+#~ msgstr "Ngarkoni videos"
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "(Në dispozicion në Versione Primit)"
+
+#~ msgid "Video Url"
+#~ msgstr "Videove- Url"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr "Shkruani Videove tuaj Url"
+
+#~ msgid "Upload Video"
+#~ msgstr "Ngarkoni- Videove"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "Juaj Galeri Bank albumit"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr "Url tek ridrejto mbi kliko i një Pamjeje për"
+
+#~ msgid ""
+#~ "You will be only allowed to add 2 galleries. Kindly purchase Premium "
+#~ "Version for full access!"
+#~ msgstr ""
+#~ "Ju do të lejohet vetëm për të shtuar 2 galleries. Mirësi të blerë primit "
+#~ "Versioni për hyrje të plotë!"
+
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr ""
+#~ "Ky tipar është vetëm - në dispozicion  në vitin Paguara - Primit - "
+#~ "Versioni!"
+
+#~ msgid "Album Preview"
+#~ msgstr "albumit Paraparje"
+
+#~ msgid "Please Choose"
+#~ msgstr "Ju lutemi Zgjidhni"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr "Të Reorder Albume"
+
+#~ msgid "Update Order"
+#~ msgstr " për freskimin- Rendit"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "klasifikim Urdhri e ka qenë është përditësuar."
+
+#~ msgid "Delete All Albums"
+#~ msgstr "Fshini të gjitha Albume"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "Imazhe Purge dhe Albume"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "Rikthe Cilësimet Fabrika"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "Albume Ekzistuese Përmbledhje për"
+
+#~ msgid "Title"
+#~ msgstr "Titulli i"
+
+#~ msgid "Date"
+#~ msgstr "Data e"
+
+#~ msgid "Edit Album"
+#~ msgstr "Ndysho albumeve"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "Të Reorder imazhet"
+
+#~ msgid "Preview Album"
+#~ msgstr "Paraparje - albumeve"
+
+#~ msgid "Delete Album"
+#~ msgstr "Fshij albumeve"
+
+#~ msgid "Update Album"
+#~ msgstr "Për freskimin- Albumeve"
+
+#~ msgid "Delete Video"
+#~ msgstr "Fshini videove"
+
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "Gallery Bank - Çmimeve "
+
+#~ msgid "Update Settings"
+#~ msgstr "Për Freskimin Cilësimet"
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "Parapamja Cilësimet"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "Parapamja Madhësia"
+
+#~ msgid "Original"
+#~ msgstr "origjinali"
+
+#~ msgid "Custom"
+#~ msgstr "Me Porosi"
+
+#~ msgid "Width"
+#~ msgstr "Gjerësia"
+
+#~ msgid "Height"
+#~ msgstr "Lartësia"
+
+#~ msgid "Opacity"
+#~ msgstr "Tejdukshmëria"
+
+#~ msgid "Border Size"
+#~ msgstr " Kufijve -Madhësia"
+
+#~ msgid "Border Radius"
+#~ msgstr "Rrezja e Kufijve"
+
+#~ msgid "Border Color"
+#~ msgstr "buzët Kufijve"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "Margjina Midis Imazhet"
+
+#~ msgid "Text Color"
+#~ msgstr "Tekst buzët"
+
+#~ msgid "Text-Align"
+#~ msgstr "Tekst -Drejtvendos"
+
+#~ msgid "Font-Family"
+#~ msgstr "Shkronjës-Familjare"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "Kreu Shkronjës-Madhësia"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "Tekst Shkronjës- Madhësia"
+
+#~ msgid "Description Length"
+#~ msgstr "Përshkrimi- Gjatësia"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "Albumeve Mbulo- Cilësimet"
+
+#~ msgid "Cover Size"
+#~ msgstr "Mbulon- Madhësia"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "Margjina Midis Albume"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "Tekst per Albumeve Kliko"
+
+#~ msgid "Filter Settings"
+#~ msgstr "Filtrit- Cilësimet"
+
+#~ msgid "Filters"
+#~ msgstr "Filtra të"
+
+#~ msgid "Enable"
+#~ msgstr "Mundëso"
+
+#~ msgid "Disable"
+#~ msgstr "Çaktivizo"
+
+#~ msgid "Filter Color"
+#~ msgstr "iltruar - ngjyrë"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "Filtri - Tekst Ngjyrë "
+
+#~ msgid "Font-Size"
+#~ msgstr "Shkronjës-Madhësia"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "Rolet - dhe  aftësitë"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "Privilegjet per Admin"
+
+#~ msgid "Full Control"
+#~ msgstr "Kontrolli i plotë"
+
+#~ msgid "Read"
+#~ msgstr "Lexo"
+
+#~ msgid "Write"
+#~ msgstr "Shëno"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "Privilegjet per Redaktorit"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "Privilegjet per Autori"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "Privilegjet per kontribues i"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "Privilegjet per Pajtimtarit"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr "Kuti lehta Cilësimet"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "Kuti të lehta -Lloji i"
+
+#~ msgid "Inline Background"
+#~ msgstr " mundësinë Brendazi Sfondi"
+
+#~ msgid "Overlay Background"
+#~ msgstr "Veshësh - Sfondi "
+
+#~ msgid "Fade In Time"
+#~ msgstr "Zbehet- Në Kohë"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "Zbehet- Jashtë Koha"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "në Facebook Komentet"
+
+#~ msgid "Social Sharing"
+#~ msgstr "Ndarja e Sociale"
+
+#~ msgid "Image Title"
+#~ msgstr "Pamjeje për Titulli"
+
+#~ msgid "Image Description"
+#~ msgstr "Pamjeje për përshkrim"
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr "Frontit - Fundi faqosja Cilësimet"
+
+#~ msgid "Text for Back Button"
+#~ msgstr "Tekst per Butonin Ktheh"
+
+#~ msgid "Button Color"
+#~ msgstr "Butonin -Ngjyrë"
+
+#~ msgid "Button Text Color"
+#~ msgstr "Butonin - Tekst  Ngjyrë"
+
+#~ msgid "Album Seperator"
+#~ msgstr "Albumeve -  SEPERATOR"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr "Numërtim Cilësimet  per Imazhet"
+
+#~ msgid "Paging"
+#~ msgstr "Radioje të kërkimit"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "Diapozitivësh Shfaq Cilësimet"
+
+#~ msgid "Auto Play"
+#~ msgstr "të Auto Luaj"
+
+#~ msgid "Interval"
+#~ msgstr "Intervali "
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "Gjuha - Drejtimi-Cilësimet"
+
+#~ msgid "Language Direction"
+#~ msgstr "Drejtimi Gjuha"
+
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr ""
+#~ "Ky tipar është në dispozicion vetëm në vitin Paguara primit Versioni!"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "Gallery Bank Të shkurtër-Kodet"
