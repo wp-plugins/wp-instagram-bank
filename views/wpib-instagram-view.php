@@ -43,7 +43,7 @@ else
 			$wpdb->prepare
 			(
 				"INSERT INTO " . wpib_albums() . "(album_id,album_name, user_name, album_date, description,import_method)
-				VALUES(%d, %s, %s, CURDATE(), %s)",
+				VALUES(%d, %s, %s, CURDATE(), %s,%d)",
 					$albumId,
 					"Untitled Album",
 					"",
