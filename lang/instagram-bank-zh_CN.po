@@ -1,0 +1,597 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:22+0530\n"
+"PO-Revision-Date: 2014-07-29 11:37+0530\n"
+"Last-Translator: \n"
+"Language-Team: Tech-Banker <support@tech-banker.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "查看全部"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "系统状态"
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "设置为相册封面"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "删除"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "启用重新导向 - 上 Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "输入您的题名"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "输入您的描述"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "输入您的标签"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "无法与Instagram沟通。"
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagram的未返回200。"
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "Instagram 有 的返回无效数据."
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "仪表板 - Wp Instagram Bank"
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "添加新 Instagram-相册"
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "专辑封面"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "短码"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "专辑名称"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "Instagram的帐户"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "影像数"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "修改"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "您确定要删除这个相簿吗？"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "回到到-仪表板"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "储存变更"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr "相册保存。请等待为 重新导向以发生。"
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "相册细节"
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "专辑标题"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "进入你的相册称号"
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "回车 该 标题为-你的相册，在这里"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Instagram的用户名"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "输入您的Instagram - 用户名的"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "进入 - Instagram从哪里导入图像的账户"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "描述"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "回车你的相册说明"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "回车 该 描述 为 您的 相册 这里"
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "导入 - 图象 从 Instagram"
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr "你的Instagram -图像"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "散装动作"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "图片细节"
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "缩略图"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "标题和-描述"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "标签（以逗号分隔的列表）"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "您确定要删除这个形象？"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "您确定要删除这些图象"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "WP-Instagram - 的系统状态"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "获取系统报告"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "关闭系统报告"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "默认"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "插入Gallery - Bank 短码"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr "选择下面的一张专辑，将其添加到您的文章或页面。"
+
+#~ msgid "Gallery Type"
+#~ msgstr "外廊式"
+
+#~ msgid "Albums with Images"
+#~ msgstr "相册与图片"
+
+#~ msgid "Only Images"
+#~ msgstr "只有图像的"
+
+#~ msgid "Album Format"
+#~ msgstr "专辑格式化"
+
+#~ msgid "Select Album Format"
+#~ msgstr "选择-相册格式"
+
+#~ msgid "Select Album"
+#~ msgstr "选取-相簿"
+
+#~ msgid "Select an Album"
+#~ msgstr "选择一个相簿"
+
+#~ msgid "Gallery Format"
+#~ msgstr "画廊格式"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "选择廊格式化"
+
+#~ msgid "Images in Row"
+#~ msgstr "图像-的 在 排"
+
+#~ msgid "Image Width"
+#~ msgstr "图像宽度"
+
+#~ msgid "Albums in Row"
+#~ msgstr "相册在排"
+
+#~ msgid "Text Format"
+#~ msgstr "文本格式"
+
+#~ msgid "Select Format "
+#~ msgstr "选择格式"
+
+#~ msgid "Special Effects"
+#~ msgstr "的特殊效果"
+
+#~ msgid "Animation Effects"
+#~ msgstr "动画 效果 效果"
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "显示Responsive图库"
+
+#~ msgid "Show Album Title"
+#~ msgstr "显示相簿 标题"
+
+#~ msgid "Insert Album"
+#~ msgstr "插入-相簿"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgid "Please select an Album"
+#~ msgstr "请选择一个相簿"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "请选择一个相簿格式化"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "请选择一个- 图库-图像格式化"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "请选择一个文本格式的对于该廊"
+
+#~ msgid "Album Sorting"
+#~ msgstr "专辑分拣"
+
+#~ msgid "Global Settings"
+#~ msgstr "全局设置"
+
+#, fuzzy
+#~ msgid "Purchase Pro Version"
+#~ msgstr "采购Pro版主要"
+
+#~ msgid "Delete Image"
+#~ msgstr "删除形象"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "Gallery Bank"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "添加 廊 用 gallery Bank"
+
+#~ msgid "Back to Albums"
+#~ msgstr "返回相册"
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr "相簿-发布时间。敬请等待对于-重定向- 至-发生。"
+
+#~ msgid "Upload Images"
+#~ msgstr "上载 图像的"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr "您的浏览器不具有闪光，Silverlight的或HTML5的支持。"
+
+#~ msgid "Upload Videos"
+#~ msgstr "上传视频"
+
+#, fuzzy
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "(可在溢价版)"
+
+#~ msgid "Video Url"
+#~ msgstr "视频网址"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr "进入您的-视频网址"
+
+#~ msgid "Upload Video"
+#~ msgstr "上传视频"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "你的Gallery Bank相簿"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr "网址至重定向-上-点击-之-一个图像"
+
+#~ msgid ""
+#~ "You will be only allowed to add 2 galleries. Kindly purchase Premium "
+#~ "Version for full access!"
+#~ msgstr "你将只允许添加2画廊。敬请购买高级版本的完全访问！"
+
+#, fuzzy
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr "此功能仅适用于已支付的溢价版本!"
+
+#~ msgid "Album Preview"
+#~ msgstr "专辑试听"
+
+#~ msgid "Please Choose"
+#~ msgstr "请选择"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr "重新排序相册"
+
+#~ msgid "Update Order"
+#~ msgstr "更新订购"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "分拣 秩序有一直 更新。"
+
+#~ msgid "Delete All Albums"
+#~ msgstr "删除所有相册"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "吹扫图像及相册"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "恢复出厂设置"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "现有-相册-概述"
+
+#~ msgid "Title"
+#~ msgstr "标题"
+
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgid "Edit Album"
+#~ msgstr "编辑相簿"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "重新排序影像"
+
+#~ msgid "Preview Album"
+#~ msgstr "预览 -专辑"
+
+#~ msgid "Delete Album"
+#~ msgstr "删除相册"
+
+#~ msgid "Update Album"
+#~ msgstr "更新相册"
+
+#~ msgid "Delete Video"
+#~ msgstr "删除-视频"
+
+#, fuzzy
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "Gallery Bank 定价"
+
+#~ msgid "Update Settings"
+#~ msgstr "更新设置"
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "缩略图的设置"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "缩略-尺寸"
+
+#~ msgid "Original"
+#~ msgstr "原"
+
+#~ msgid "Custom"
+#~ msgstr "习俗"
+
+#~ msgid "Width"
+#~ msgstr "宽度"
+
+#~ msgid "Height"
+#~ msgstr "高度"
+
+#~ msgid "Opacity"
+#~ msgstr "不透明度"
+
+#~ msgid "Border Size"
+#~ msgstr "边框大小"
+
+#~ msgid "Border Radius"
+#~ msgstr "边界的-半径为"
+
+#~ msgid "Border Color"
+#~ msgstr "边框颜色"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "余量- 之间影像"
+
+#~ msgid "Text Color"
+#~ msgstr "文字颜色"
+
+#~ msgid "Text-Align"
+#~ msgstr "文本-对准"
+
+#~ msgid "Font-Family"
+#~ msgstr "字体家人"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "打头-字体大小"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "文本字体大小"
+
+#~ msgid "Description Length"
+#~ msgstr "描述长度"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "相簿封面-的设置"
+
+#~ msgid "Cover Size"
+#~ msgstr "封面尺寸"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "余量-间 -相册"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "文字对于-相簿单击"
+
+#~ msgid "Filter Settings"
+#~ msgstr "过滤器设置"
+
+#~ msgid "Filters"
+#~ msgstr "筛选器"
+
+#~ msgid "Enable"
+#~ msgstr "启用"
+
+#~ msgid "Disable"
+#~ msgstr "禁用"
+
+#~ msgid "Filter Color"
+#~ msgstr "过滤-颜色"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "过滤-文本颜色"
+
+#~ msgid "Font-Size"
+#~ msgstr "字体大小"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "角色与能力的"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "的特权对于管理员入口"
+
+#~ msgid "Full Control"
+#~ msgstr "完全控制"
+
+#~ msgid "Read"
+#~ msgstr "阅读"
+
+#~ msgid "Write"
+#~ msgstr "写"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "的权限对于-辑器"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "的权限对于-作者"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "的权限对于-投稿人"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "的特权-对于订阅"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr "光-盒-的设置"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "光-盒型"
+
+#~ msgid "Inline Background"
+#~ msgstr "直列背景"
+
+#~ msgid "Overlay Background"
+#~ msgstr "覆盖图背景"
+
+#~ msgid "Fade In Time"
+#~ msgstr "淡入- 在时间"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "淡出出时间"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "Facebook 评论"
+
+#~ msgid "Social Sharing"
+#~ msgstr "社会共享"
+
+#~ msgid "Image Title"
+#~ msgstr "形象题名"
+
+#~ msgid "Image Description"
+#~ msgstr "形象-描述"
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr "前面- 结束布局设置"
+
+#~ msgid "Text for Back Button"
+#~ msgstr "文本对于-后退按钮"
+
+#~ msgid "Button Color"
+#~ msgstr "按钮颜色"
+
+#~ msgid "Button Text Color"
+#~ msgstr "按钮-文本颜色"
+
+#~ msgid "Album Seperator"
+#~ msgstr "相簿分离器"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr "的分页的设置- 对于-影像"
+
+#~ msgid "Paging"
+#~ msgstr "分页"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "幻灯片播放的设置"
+
+#~ msgid "Auto Play"
+#~ msgstr "自动-播放"
+
+#~ msgid "Interval"
+#~ msgstr "间隔"
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "语种-方向的-设置"
+
+#~ msgid "Language Direction"
+#~ msgstr "语种方向的"
+
+#, fuzzy
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr "此功能仅适用于已支付的溢价版本!"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "廊银行短码"
