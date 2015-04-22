@@ -231,8 +231,8 @@ else
 							</div>
 						</div>
 						<div class="separator-doubled"></div>
-						<a class="btn btn-success" href="admin.php?page=instagram_bank" style="margin-top:10px;"><?php _e("Back to Dashboard", instagram_bank);?></a>
 						<input type="submit" class="btn btn-success" style="margin-top:10px; float:right" value="<?php _e("Save Changes", instagram_bank);?>" />
+						<a class="btn btn-success" href="admin.php?page=instagram_bank" style="margin-top:10px;"><?php _e("Back to Dashboard", instagram_bank);?></a>
 					</div>
 				</div>
 			</div>
