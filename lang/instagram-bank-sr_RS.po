@@ -1,0 +1,594 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:23+0530\n"
+"PO-Revision-Date: 2014-07-29 11:13+0530\n"
+"Last-Translator: \n"
+"Language-Team: Tech-Banker <support@tech-banker.com>\n"
+"Language: sr_RS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "ВИЕВ АЛЛ"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "Дасхбоард"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "система - Статус "
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "Сет ас албум цовер"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "Избриши"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "Омогући редирецт он Инстаграм"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Ентер твој- Заглавие"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Унесите ваш опис"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Ентер твој Тагс"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "Ун-способан да комуницира са Инстаграм."
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Инстаграм нису вратили -200."
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "Инстаграм је вратио неважеће податке."
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "Дасхбоард - Wp Instagram Bank"
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "Адд Нев Инстаграм Албум"
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "албум цовер"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "Кратки-број"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "Албум Наме"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "Инстаграм налог"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "Нумбер оф имагес"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "Уреди"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "Да ли сте сигурни да желите да избришете овај Албума?"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "Назад на Дасхбоард"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "Сачувај промене"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr "Албум савед. Љубазно сачекајте редирецт да се догоди."
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "албума Детаил"
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "Наслов албума"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Унесите своју Албум Титле"
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "На крају назнацити назив за ваш албум овде"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Инстаграм УсерНаме"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Унесите своје Инстаграм корисничко име"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "Унеси Инстаграм налог из где за увоз слика"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "Описание"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Унесите своју Албум Десцриптион"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "Унесите одређени члан опис за ваш албум овде"
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "Увоз слике из Инстаграм"
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr "Иоур Инстаграм Имагес"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "Насипна Акција"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "Детаљи слика"
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "Тхумбнаилс"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "Заглавие и Опис"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "Ознаке (зарезом одвојена листа)"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "Да ли сте сигурни да желите да избришете tхис Имаге?"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "Да ли сте сигурни да желите да избришете Ове слике"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "Wp-Instagram Статус система"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "Гет Систем - Пријави"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "Затвори Систем-извештај"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "Дефаулт"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "Убаците Gallery Банк- схортцоде"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr "Изаберите албум у наставку да га додате на свој пост или страници."
+
+#~ msgid "Gallery Type"
+#~ msgstr "Галерија Тип"
+
+#~ msgid "Albums with Images"
+#~ msgstr "Албуми са- Имагес"
+
+#~ msgid "Only Images"
+#~ msgstr "Само Имагес"
+
+#~ msgid "Album Format"
+#~ msgstr "Албум Формат"
+
+#~ msgid "Select Album Format"
+#~ msgstr "Изаберите Aлбума формат"
+
+#~ msgid "Select Album"
+#~ msgstr "Одаберите- Албума"
+
+#~ msgid "Select an Album"
+#~ msgstr "Одаберите Албума"
+
+#~ msgid "Gallery Format"
+#~ msgstr "Галерија Обликуј"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "Изабери- Галерија језик Формат"
+
+#~ msgid "Images in Row"
+#~ msgstr "Имагес ин -редом"
+
+#~ msgid "Image Width"
+#~ msgstr "слика Широчина"
+
+#~ msgid "Albums in Row"
+#~ msgstr "Албуми у- редом"
+
+#~ msgid "Text Format"
+#~ msgstr "текста - Формат "
+
+#~ msgid "Select Format "
+#~ msgstr "Изабери језик Формат"
+
+#~ msgid "Special Effects"
+#~ msgstr "Специал Еффецтс"
+
+#~ msgid "Animation Effects"
+#~ msgstr "анимације - Eфекте "
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "Схов Респонсиве Галерија"
+
+#~ msgid "Show Album Title"
+#~ msgstr "Покажи Наслов албума"
+
+#~ msgid "Insert Album"
+#~ msgstr "Инсерт Албума"
+
+#~ msgid "Cancel"
+#~ msgstr "Одустани"
+
+#~ msgid "Please select an Album"
+#~ msgstr "Плеасе селецт ан Албум"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "Плеасе селецт ан Албум језик Формат"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "Пожалујста изаберите галерија Имагес језик Формат"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "Пожалујста  Изаберите- текста формат за Галерији"
+
+#~ msgid "Album Sorting"
+#~ msgstr "Албум сортирање"
+
+#~ msgid "Global Settings"
+#~ msgstr "Глобална Подешавања"
+
+#~ msgid "Purchase Pro Version"
+#~ msgstr "Куповина Про Версион"
+
+#~ msgid "Delete Image"
+#~ msgstr "Делете Слика"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "Gallery Bank"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "Додај Галерију користећи Gallery - Bank"
+
+#~ msgid "Back to Albums"
+#~ msgstr "Назад на Албумс"
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr "Албума Публисхед . Љубазно сачекајте преусмеравање се десити."
+
+#~ msgid "Upload Images"
+#~ msgstr "Уплоад Имагес"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr "Ваш прегледач доесн 'т имати Фласх, Силверлигхт или ХТМЛ5 подршку."
+
+#~ msgid "Upload Videos"
+#~ msgstr "Видеос Уплоад "
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "Доступно у Премиум верзије)"
+
+#~ msgid "Video Url"
+#~ msgstr "Видео Урл"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr "Унесите ваш Видео Урл"
+
+#~ msgid "Upload Video"
+#~ msgstr "Уплоад видео"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "Ваш Gallery Bank Албума"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr " УРЛ на преусмеравање о-клику места неког Имаге"
+
+#~ msgid ""
+#~ "You will be only allowed to add 2 galleries. Kindly purchase Premium "
+#~ "Version for full access!"
+#~ msgstr ""
+#~ "Бићете само дозвољено да додате 2 галерије. Љубазно купите Премиум "
+#~ "верзију за пуни приступ!"
+
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr "Ова функција је доступна само у плаћене премије Версион!"
+
+#~ msgid "Album Preview"
+#~ msgstr "Албум Превиеу"
+
+#~ msgid "Please Choose"
+#~ msgstr "Пожалујста Цхоосе"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr "Ре-Ордер Албумс"
+
+#~ msgid "Update Order"
+#~ msgstr "Упдате Наручи"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "Сортинг  Налог поседује- Беен ажуриран."
+
+#~ msgid "Delete All Albums"
+#~ msgstr "Делете све Албуми"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "Пурге Имагес анд Албумс"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "Врати на фабрички подешено"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "Постојећи Албумс Овервиев"
+
+#~ msgid "Title"
+#~ msgstr "Заглавие"
+
+#~ msgid "Date"
+#~ msgstr "Дате"
+
+#~ msgid "Edit Album"
+#~ msgstr "Измени Албума"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "Ре-Ордер Имагес"
+
+#~ msgid "Preview Album"
+#~ msgstr " Албума Превиеу "
+
+#~ msgid "Delete Album"
+#~ msgstr "Делете Албума"
+
+#~ msgid "Update Album"
+#~ msgstr "обновление - Албум "
+
+#~ msgid "Delete Video"
+#~ msgstr "Делете Видео"
+
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "Галерија Банка Цене"
+
+#~ msgid "Update Settings"
+#~ msgstr "обновление -  Подеаавања"
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "Значок видео Подеаавања"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "Значок видео Величина"
+
+#~ msgid "Original"
+#~ msgstr "изворном"
+
+#~ msgid "Custom"
+#~ msgstr "Цустом"
+
+#~ msgid "Width"
+#~ msgstr "Широчина"
+
+#~ msgid "Height"
+#~ msgstr "Хеигхт"
+
+#~ msgid "Opacity"
+#~ msgstr "Опацити"
+
+#~ msgid "Border Size"
+#~ msgstr "Бордер - Сизе"
+
+#~ msgid "Border Radius"
+#~ msgstr "Бордер - Радијус"
+
+#~ msgid "Border Color"
+#~ msgstr "Гранична - Цолор"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "Маргина Измедју Имагес"
+
+#~ msgid "Text Color"
+#~ msgstr "Тект Цолор"
+
+#~ msgid "Text-Align"
+#~ msgstr "Текст-Поравнајте"
+
+#~ msgid "Font-Family"
+#~ msgstr "Фонт-Породични"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "Тарифни Величина слова"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "Текст -Величина слова"
+
+#~ msgid "Description Length"
+#~ msgstr "Описание Дужина"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "Албум Обложка Подеаавања"
+
+#~ msgid "Cover Size"
+#~ msgstr "Обложка Сизе"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "Маргина Измедју Албумс"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "текстоваа  за Албум клик"
+
+#~ msgid "Filter Settings"
+#~ msgstr "Филтрирај Настројки"
+
+#~ msgid "Filters"
+#~ msgstr "Филтери"
+
+#~ msgid "Enable"
+#~ msgstr "Омогући"
+
+#~ msgid "Disable"
+#~ msgstr "Дисабле"
+
+#~ msgid "Filter Color"
+#~ msgstr "Филтрирај Цолор"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "Филтрирај Тект Цолор"
+
+#~ msgid "Font-Size"
+#~ msgstr "Фонт-Сизе"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "Улоге и Цапабилитиес"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "Привилегије за Админ"
+
+#~ msgid "Full Control"
+#~ msgstr "Фулл Контрол"
+
+#~ msgid "Read"
+#~ msgstr "Прочитај"
+
+#~ msgid "Write"
+#~ msgstr "Напишите"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "Привилегије -за Едитор"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "Привилегије за Автор"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "Привилегије -за Цонтрибутор"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "Привилегије за Субсцрибер"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr "лигхтбок Настројки"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "лигхтбок - Тип на "
+
+#~ msgid "Inline Background"
+#~ msgstr "Инлине Позадина"
+
+#~ msgid "Overlay Background"
+#~ msgstr "Оверлаи Позадина"
+
+#~ msgid "Fade In Time"
+#~ msgstr "Фаде Ин Тиме"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "Фаде Оут Тиме"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "Фацебоок Коментари"
+
+#~ msgid "Social Sharing"
+#~ msgstr "Социјална Схаринг"
+
+#~ msgid "Image Title"
+#~ msgstr "слику - Титле"
+
+#~ msgid "Image Description"
+#~ msgstr "Слика Описание"
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr " Предњи - Настројки Лаиоут Енд "
+
+#~ msgid "Text for Back Button"
+#~ msgstr "текстоваа фор - дугме Назад"
+
+#~ msgid "Button Color"
+#~ msgstr "Буттон Цолор"
+
+#~ msgid "Button Text Color"
+#~ msgstr "Буттон Тект Цолор"
+
+#~ msgid "Album Seperator"
+#~ msgstr "Албум Сеператор"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr "Пагинациа Подешавања за Имагес"
+
+#~ msgid "Paging"
+#~ msgstr "Пагинг"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "Слиде Схов Настројки"
+
+#~ msgid "Auto Play"
+#~ msgstr "Ауто плејбек"
+
+#~ msgid "Interval"
+#~ msgstr "Интервални"
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "Смер језика Настројки"
+
+#~ msgid "Language Direction"
+#~ msgstr "Лангуаге  правац"
+
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr "Ова функција је доступна само у плаћене премије Версион!"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "Галерија Банк Схорт-кодови"
