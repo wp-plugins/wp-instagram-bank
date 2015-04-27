@@ -1,0 +1,716 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:22+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "ดูทั้งหมด"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "แผงหน้าแรก"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "สถานะของระบบ"
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "ตั้งเป็นปกอัลบั้ม"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "ลบ"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "เปิดใช้งานการเปลี่ยนเส้นทางการใน Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "ใส่ชื่อรูป"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "ใส่คำอธิบายของคุณ"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "เพิ่ม Tag"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "ไม่สามารถสื่อสารกับ Instagram"
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagram ทำ ไม่ได้ กลับ 200"
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "Instagram ได้กลับ ไม่ถูกต้อง ข้อมูล"
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "แดชบอร์ด - Wp Instagram Bank."
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "เพิ่มใหม Instagram อัลบั้ม"
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "อัลบั้มปก"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "รหัสย่อ"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "ชื่ออัลบั้มชื่อของ"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "บัญชี Instagram"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "จำนวนภาพที่ถูก"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "แก้ไข"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "ต้องการลบอัลบั้มนี้ใช่ไหม"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "กลับไปที่แผงควบคุม"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "ที่บันทึกการเปลี่ยนแปลง"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr "อัลบั้มบันทึกแล้ว กรุณารอการเปลี่ยนเส้นทางที่จะเกิดขึ้น"
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "อัลบั้มรายละเอียดอั"
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "ชื่ออัลบั้ม"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "ใส่ชื่อเรื่องอัลบั้มของคุณ"
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "ใส่ชื่ออัลบั้มของคุณที่นี่"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Instagram ชื่อผู้ใช้"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "ใส่ ของคุณ - Instagram ระบบชื่อผู้ใช้"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "ใส่บัญชี Instagram จากสถานที่ที่จะนำเข้าภาพ"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "รายละเอียด"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "ใส่อัลบั้มของคุณคำอธิบาย"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "ใส่ อนคำอธิบายสำหรับอัลบั้มของคุณที่นี่"
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "นำเข้าภาพจาก Instagram"
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr " ของคุณ Instagram  -แสดงสินค้า"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "กลุ่มการดำเนินการ"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "ภาพ - รายละเอียด"
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "ขนาดย่อ"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "ชื่อและรายละเอียด"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "แท็ก (จุลภาคคั่นรายการ)"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "ต้องการลบรูปนี้ใช่ไหม"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "คุณแน่ใจว่าคุณต้องการที่จะลบเหล่านี้ภาพที่"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "สถานะ wp-Instagram ระบบ"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "ต้องการรายงานจากระบบ"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "ปิดรายงานจากระบบ"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "ค่าปกติ"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "เพิ่ม Gallery Bank Short Code"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr "เลือกอัลบั้มที่ต้องการเพิ่มในโพสต์หรือเพจ"
+
+#~ msgid "Gallery Type"
+#~ msgstr "ประเภทของแกลอรี่"
+
+#~ msgid "Albums with Images"
+#~ msgstr "อัลบั้มพร้อมรูปภาพ"
+
+#~ msgid "Only Images"
+#~ msgstr "เฉพาะรูปภาพ"
+
+#~ msgid "Album Format"
+#~ msgstr "รูปแบบของอัลบั้ม"
+
+#~ msgid "Select Album Format"
+#~ msgstr "เลือกรูปแบบของอัลบั้ม"
+
+#~ msgid "Select Album"
+#~ msgstr "เลือกอัลบั้ม"
+
+#~ msgid "Select an Album"
+#~ msgstr "เลือกอัลบั้ม"
+
+#~ msgid "Gallery Format"
+#~ msgstr "รูปแบบของแกลอรี่"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "เลือกรูปแบบของแกลอรี่"
+
+#~ msgid "Images in Row"
+#~ msgstr "จำนวนรูปในแถว"
+
+#~ msgid "Image Width"
+#~ msgstr "ความกว้างของรูป"
+
+#~ msgid "Albums in Row"
+#~ msgstr "อัลบั้มในแถว"
+
+#~ msgid "Text Format"
+#~ msgstr "รูปแบบข้อความ"
+
+#~ msgid "Select Format "
+#~ msgstr "เลือกรูปแบบ"
+
+#~ msgid "Special Effects"
+#~ msgstr "การแสดงผลแอนิเมชั่น"
+
+#~ msgid "Animation Effects"
+#~ msgstr "รูปแบบแอนิเมชั่น"
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "แสดง Responsive Gallery"
+
+#~ msgid "Show Album Title"
+#~ msgstr "แสดงชื่ออัลบั้ม"
+
+#~ msgid "Insert Album"
+#~ msgstr "เพิ่มอัลบั้ม"
+
+#~ msgid "Cancel"
+#~ msgstr "ยกเลิก"
+
+#~ msgid "Please select an Album"
+#~ msgstr "กรุณาเลือกอัลบั้ม"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "เลือกรูปแบบอัลบั้ม"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "เลือกรูปแบบแกลอรี่"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "เลือกรูปแบบตัวอักษรของแกลอรี่"
+
+#~ msgid "<img src=\""
+#~ msgstr "<img src=\""
+
+#~ msgid "/wp-admin/admin.php?page=gallery_bank"
+#~ msgstr "/wp-admin/admin.php?page=gallery_bank"
+
+#~ msgid "Album Sorting"
+#~ msgstr "จัดเรียงอัลบั้ม"
+
+#~ msgid "Global Settings"
+#~ msgstr "การตั้งค่าทั่วไป"
+
+#~ msgid "Purchase Pro Version"
+#~ msgstr "ซื้อเวอร์ชั่น Pro"
+
+#~ msgid "Delete Image"
+#~ msgstr "ลบรูป"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "Gallery Bank"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "เพิ่มแกลอรี่โดย Gallery Bank"
+
+#~ msgid "Album Preview"
+#~ msgstr "ตัวอย่างอัลบั้ม"
+
+#~ msgid "Back to Albums"
+#~ msgstr "กลับไปที่อัลบั้ม"
+
+#~ msgid "Please Choose"
+#~ msgstr "กรุณาเลือก"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr "จัดเรียงอัลบั้มใหม่"
+
+#~ msgid "Update Order"
+#~ msgstr "อัพเดทลำดับ"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "อัพเดทการจัดเรียงลำดับเรียบร้อย"
+
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr "คุณลักษณะนี้จะใช้ได้เฉพาะในรุ่นที่จ่ายพรีเมี่ยม!"
+
+#, fuzzy
+#~ msgid "Get Gallery Bank Pro Features"
+#~ msgstr "เพิ่ม Gallery Bank Short Code"
+
+#~ msgid "Delete All Albums"
+#~ msgstr "ลบทุกอัลบั้ม"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "ลบอัลบั้มและรูป"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "ตั้งเป็นค่าเริ่มต้น"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "ภาพรวมของอัลบั้ม"
+
+#~ msgid "Title"
+#~ msgstr "ชื่อ"
+
+#~ msgid "Date"
+#~ msgstr "วันที่"
+
+#~ msgid "Edit Album"
+#~ msgstr "แก้ใขอัลบั้ม"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "จัดเรียงรูปภาพใหม่"
+
+#~ msgid "Preview Album"
+#~ msgstr "ตัวอย่างอัลบั้ม"
+
+#~ msgid "Delete Album"
+#~ msgstr "ลบอัลบั้ม"
+
+#~ msgid "Album"
+#~ msgstr "อัลบั้ม"
+
+#~ msgid "Save Album"
+#~ msgstr "ประหยัด"
+
+#~ msgid "Upload Images"
+#~ msgstr "อัพโหลดรูปภาพ"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr "บราวเซอร์ของคุณไม่รองรับ Flash, Silverlight และ HTML5"
+
+#~ msgid "Upload Videos"
+#~ msgstr "อัพโหลดวีดีโอ"
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "(ที่มีจำหน่ายในเวอร์ชันพรีเมี่ยม)"
+
+#~ msgid "Video Url"
+#~ msgstr "Url ของวีดีโอ"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr "ใส่ URL ของวีดีโอ"
+
+#~ msgid "Upload Video"
+#~ msgstr "อัพโหลดวีดีโอ"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "อัลบั้มของคุณ"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr "Url ที่ต้องการแสดงเมื่อคลิกที่รูปภาพ"
+
+#~ msgid "Delete Video"
+#~ msgstr "ลบวีดีโอ"
+
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "Gallery Bank การกำหนดราคา"
+
+#~ msgid "Update Settings"
+#~ msgstr "อัพเดทการตั้งค่า"
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "การตั้งค่าภาพขนาดเล็ก"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "ขนาดของภาพขนาดเล็ก"
+
+#~ msgid "Original"
+#~ msgstr "ต้นฉบับ"
+
+#~ msgid "Custom"
+#~ msgstr "กำหนดเอง"
+
+#~ msgid "Width"
+#~ msgstr "กว้าง"
+
+#~ msgid "Height"
+#~ msgstr "สูง"
+
+#~ msgid "Opacity"
+#~ msgstr "ความโปร่งใส"
+
+#~ msgid "Border Size"
+#~ msgstr "ขนาดของขอบ"
+
+#~ msgid "Border Radius"
+#~ msgstr "รัศมีเส้นขอบ"
+
+#~ msgid "Border Color"
+#~ msgstr "สีของเส้นของ"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "ขอบระหว่างรูปภาพ"
+
+#~ msgid "Text Color"
+#~ msgstr "สีข้อความ"
+
+#~ msgid "Text-Align"
+#~ msgstr "การจัดเรียงข้อความ"
+
+#~ msgid "Font-Family"
+#~ msgstr "ฟอนต์"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "ขนาดฟอนต์ของส่วนบน"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "ขนาดของฟอนต์"
+
+#~ msgid "Description Length"
+#~ msgstr "ความยาวของรายละเอียด"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "ตั้งค่าหน้าปกอัลบั้ม"
+
+#~ msgid "Cover Size"
+#~ msgstr "ขนาดของหน้าปก"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "ขอบระหว่างอัลบั้ม"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "ข้อความเพื่อคลิกของอัลบั้ม"
+
+#~ msgid "Filter Settings"
+#~ msgstr "ตั้งค่าการกรอง"
+
+#~ msgid "Filters"
+#~ msgstr "การกรอง"
+
+#~ msgid "Enable"
+#~ msgstr "เปิดใช้งาน"
+
+#~ msgid "Disable"
+#~ msgstr "ปิดใช้งาน"
+
+#~ msgid "Filter Color"
+#~ msgstr "สีของฟิลเตอร์"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "สีตัวอักษรของฟิลเตอร์"
+
+#~ msgid "Font-Size"
+#~ msgstr "ขนาดของฟอนต์"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "กฎและความสามารถ"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "เอกสิทธิ์ของผู้ดูแล"
+
+#~ msgid "Full Control"
+#~ msgstr "จัดการได้ทั้งหมด"
+
+#~ msgid "Read"
+#~ msgstr "อ่าน"
+
+#~ msgid "Write"
+#~ msgstr "เขียน"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "เอกสิทธิ์ของผู้เรียบเรียง"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "เอกสิทธิ์ของผู้เขียน"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "เอกสิทธิ์ของผู้มีส่วนร่วม"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "เอกสิทธิ์ของผู้ติดตาม"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr "การตั้งค่า Lightbox"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "ประเภทของ Lightbox"
+
+#~ msgid "Inline Background"
+#~ msgstr "เส้นในพื้นหลัง"
+
+#~ msgid "Overlay Background"
+#~ msgstr "วางทับพื้นหลัง"
+
+#~ msgid "Fade In Time"
+#~ msgstr "ระยะเวลาเฟดอิน"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "ระยะเวลาเฟดเอาท์"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "คอมเมนต์เฟซบุ๊ค"
+
+#~ msgid "Social Sharing"
+#~ msgstr "การแบ่งปันในวงสังคม"
+
+#~ msgid "Image Title"
+#~ msgstr "ชื่อรูปภาพ"
+
+#~ msgid "Image Description"
+#~ msgstr "คำบรรยายรูปภาพ"
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr "การตั้งค่าหน้าหลักและหน้าการจัดการ"
+
+#~ msgid "Text for Back Button"
+#~ msgstr "ข้อความสำหรับปุ่มกลับ"
+
+#~ msgid "Button Color"
+#~ msgstr "สีของปุ่มกด"
+
+#~ msgid "Button Text Color"
+#~ msgstr "สีตัวอักษรของปุ่มกด"
+
+#~ msgid "Album Seperator"
+#~ msgstr "ตัวแบ่งอัลบั้ม"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr "ตั้งค่าเลขหน้าของรูป"
+
+#~ msgid "Paging"
+#~ msgstr "การแบ่งหน้า"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "การตั้งค่าการนำเสนอภาพนิ่ง"
+
+#~ msgid "Auto Play"
+#~ msgstr "เล่นอัตโนมัติ"
+
+#~ msgid "Interval"
+#~ msgstr "ระยะห่าง"
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "การตั้งค่าทิศทางภาษา"
+
+#~ msgid "Language Direction"
+#~ msgstr "ทิศทางภาษา"
+
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr "คุณลักษณะนี้จะใช้ได้เฉพาะในรุ่นที่จ่ายพรีเมี่ยม!"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "แกลลอรี่ธนาคารสั้นรหัส"
+
+#~ msgid "Licensing"
+#~ msgstr "ใบอนุญาติ"
+
+#~ msgid "Select Gallery"
+#~ msgstr "เลือกแกลอรี่"
+
+#~ msgid "Select Gallery Format"
+#~ msgstr "เลือกรูปแบบของแกลอรี่"
+
+#~ msgid "Images In Row"
+#~ msgstr "จำนวนรูปในแถว"
+
+#~ msgid "Select Text Format"
+#~ msgstr "เลือกรูปแบบของข้อความ"
+
+#~ msgid "Special Effect"
+#~ msgstr "การแสดงผลพิเศษ"
+
+#~ msgid "Select Special Effect"
+#~ msgstr "เลือกรูปแบบการแสดงผลพิเศษ"
+
+#~ msgid "Animation Effect"
+#~ msgstr "รูปแบบของอนิเมชั่น"
+
+#~ msgid "Responsive Gallery"
+#~ msgstr "Responsive Gallery"
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr "เผยแพร่สำเร็จ กรุณารอโหลดหน้าใหม่อีกครั้ง"
+
+#~ msgid "Attention! A new vesion of Gallery Bank is available for download."
+#~ msgstr "คำเตือน ! Gallery Bank มีเวอร์ชั่นใหม่ให้อัพโหลดแล้ว"
+
+#~ msgid "Click"
+#~ msgstr "คลิก"
+
+#~ msgid "here"
+#~ msgstr "ที่นี่"
+
+#~ msgid "to upgrade your version of Gallery Bank."
+#~ msgstr "เพื่ออัพเดทเวอร์ชั่นของ Gallery Bank"
+
+#~ msgid "Date of Creation"
+#~ msgstr "วันที่สร้าง"
+
+#~ msgid "Are you sure you want to delete all Albums?"
+#~ msgstr "ต้องการลบอัลบั้มทั้งหมดใช่ไหม"
+
+#~ msgid "Are you sure you want to Restore Factory Settings?"
+#~ msgstr "ต้องการตั้งเป็นค่าเริ่มต้นใช่ไหม"
+
+#~ msgid "Are you sure you want to Purge all Images & Albums?"
+#~ msgstr "ต้องการลบรูปภาพและอัลบั้มทั้งหมดใช่ไหม"
+
+#~ msgid "Gallery Bank Documentation"
+#~ msgstr "เอกสารกำกับโปรแกรม Gallery Bank"
+
+#~ msgid "Gallery Bank Licensing Module"
+#~ msgstr "โมดูลการลงทะเบียน Gallery Bank"
+
+#~ msgid "Success! Settings have been updated."
+#~ msgstr "การตั้งค่าอัพเดทเรียบร้อยแล้ว !"
+
+#~ msgid "Update"
+#~ msgstr "อัพเดท"
+
+#~ msgid "Restore Settings"
+#~ msgstr "กู้คืนการตั้งค่า"
+
+#~ msgid "Settings has been updated."
+#~ msgstr "การตั้งค่าอัพเดทแล้ว"
+
+#~ msgid "Success! Settings have been restored."
+#~ msgstr "กู้คืนการตั้งค่าเรียบร้อยแล้ว"
+
+#~ msgid "Are you sure you want to restore settings?"
+#~ msgstr "ต้องการกู้คืนค่าเดิมใช่ไหม"
+
+#~ msgid " Rotate Image"
+#~ msgstr "หมุนรูปภาพ"
+
+#~ msgid "Upload Images "
+#~ msgstr "อัพโหลดรูปภาพ"
+
+#~ msgid "Your Wordpress Version doesn\"t support Wp-media."
+#~ msgstr "เวอร์ชั่น Wordpress ของคุณไม่รองรับ Wp-Media"
+
+#~ msgid "Upload Thumbnails "
+#~ msgstr "อัพโหลดรูปขนาดเล็ก"
+
+#~ msgid "Show Albums"
+#~ msgstr "แสดงอัลบั้ม"
+
+#~ msgid "Responsive"
+#~ msgstr "การตอบสนอง"
+
+#~ msgid "With Albums in Row"
+#~ msgstr "กับอัลบั้มในแถว"
+
+#~ msgid "Image Uploader Settings"
+#~ msgstr "การตั้งค่าการอัพโหลดรูปภาพ"
+
+#~ msgid "Uploader for Images"
+#~ msgstr "ตัวจัดการการอัพโหลดสำหรับรูปภาพ"
+
+#~ msgid "WP Media"
+#~ msgstr "สื่อ WP"
+
+#~ msgid "Change Uploading Image Name"
+#~ msgstr "เปลี่ยนชื่อรูปที่กำลังอัพโหลด"
+
+#~ msgid "Image url location"
+#~ msgstr "ที่ตั้ง Url ของรูปภาพ"
+
+#~ msgid "Open in New Window"
+#~ msgstr "เปิดในหน้าต่างใหม่"
+
+#~ msgid "Same Window"
+#~ msgstr "หน้าต่างเดียวกัน"
