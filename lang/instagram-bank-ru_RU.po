@@ -1,0 +1,715 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:27+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "СМОТРЕТЬ ВСЕ"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "Консоль"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "Статус системы"
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "Выбрать обложкой альбома"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "Удалить"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "Включить - перенаправить на Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Введите заголовок"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Введите ваш  Описание"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Введите метки"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "Невозможно общаться с Instagram."
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagram сделал не  возвращать 200."
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "Instagram имеет вернулся неверные данные."
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "Приборная панель - Wp Instagram Bank"
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "Добавить Новый  Instagram Альбом"
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "Альбом - Обложка"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "Короткий код"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "Альбом - Имя"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "Instagram счета"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "Количество изображений"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "Редактировать"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "Вы уверены что хотите удалить этот альбом?"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "Вернуться к панели мониторинга"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr "Альбом - Сохранено. Пожалуйста, подождите для редирект к произойдет."
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "Альбом - Деталь "
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "Заголовок альбома"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Введите Ваш Aльбома Название"
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "Введите Tiltle для вашего альбома здесь"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Instagram Имя пользователя"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Введите Ваш Instagram Имя пользователя"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "Введите - Instagram счет - от где в ввоз изображений"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "Описание"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Введите Ваш Описание Альбом"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "Введите описание для вашего альбома здесь"
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "Импорт изображений из Instagram"
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr "Ваши Instagram - изображений"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "Массовое действие"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "изображения - Детали"
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "Миниатюры"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "Заголовок и описание"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "Метки (запятую список разделенных)"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "Вы уверены что хотите удалить это изображение?"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "Вы уверены, что хотите удалить эти изображений"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "Wp-Instagram Состояние системы"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "Получить системный отчет"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "Закрыть системный отчет"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "По умолчанию"
+
+#~ msgid "<img src=\""
+#~ msgstr "<img src=\""
+
+#~ msgid "/wp-admin/admin.php?page=gallery_bank"
+#~ msgstr "/wp-admin/admin.php?page=gallery_bank"
+
+#~ msgid "Album Sorting"
+#~ msgstr "Сортировка альбома"
+
+#~ msgid "Global Settings"
+#~ msgstr "Глобальные настройки"
+
+#~ msgid "Purchase Pro Version"
+#~ msgstr "Купить Pro версию"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "Вставить шорткод Gallery Bank"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr ""
+#~ "Ввберите альбом ниже, чтобы добавить его к к вашей записи или странице"
+
+#~ msgid "Gallery Type"
+#~ msgstr "Тип галереи"
+
+#~ msgid "Albums with Images"
+#~ msgstr "Альбомы с изображениями"
+
+#~ msgid "Only Images"
+#~ msgstr "Только изображения"
+
+#~ msgid "Album Format"
+#~ msgstr "Формат альбома"
+
+#~ msgid "Select Album Format"
+#~ msgstr "Ввберите формат альбома"
+
+#~ msgid "Select Album"
+#~ msgstr "Выберите альбом"
+
+#~ msgid "Select an Album"
+#~ msgstr "Выберите альбом"
+
+#~ msgid "Gallery Format"
+#~ msgstr "Формат галереи"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "Выберите формат галереи"
+
+#~ msgid "Images in Row"
+#~ msgstr "Изображений в ряд"
+
+#~ msgid "Image Width"
+#~ msgstr "Ширина изображения"
+
+#~ msgid "Albums in Row"
+#~ msgstr "Альбомов в ряд"
+
+#~ msgid "Text Format"
+#~ msgstr "Формат текста"
+
+#~ msgid "Select Format "
+#~ msgstr "Ввберите формат"
+
+#~ msgid "Special Effects"
+#~ msgstr "Специальнце эффекты"
+
+#~ msgid "Animation Effects"
+#~ msgstr "Анимация"
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "Отображать отзывчивую галерею"
+
+#~ msgid "Show Album Title"
+#~ msgstr "Отображать заголовок альбома"
+
+#~ msgid "Insert Album"
+#~ msgstr "Вставить альбом"
+
+#~ msgid "Cancel"
+#~ msgstr "Отмена"
+
+#~ msgid "Please select an Album"
+#~ msgstr "Пожалуйста выберите альбом"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "Пожалуйста выберите формат альбома"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "Пожалуйста выберите формат изображений в галерее"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "Пожалуйста выберите формат текста в галерее"
+
+#~ msgid "Delete Image"
+#~ msgstr "Удалить изображение"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "Gallery Bank"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "Добавить галерею с помощью модуля Gallery Bank"
+
+#~ msgid "Album Preview"
+#~ msgstr "Предпросмотр альбома"
+
+#~ msgid "Back to Albums"
+#~ msgstr "Назад к альбомам"
+
+#~ msgid "Please Choose"
+#~ msgstr "Пожалуйста выберите"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr "Изменить порядок альбомов"
+
+#~ msgid "Update Order"
+#~ msgstr "Обновить порядок"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "Порядок сортировки был обновлен"
+
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr "Эта функция доступна только в платной премиум-версию!"
+
+#~ msgid "Delete All Albums"
+#~ msgstr "Удалить все альбомы"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "Очистить изображения и альбомы"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "Восстановить настройки по умолчанию"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "Просмотр существующих альбомов"
+
+#~ msgid "Title"
+#~ msgstr "Заголовок"
+
+#~ msgid "Date"
+#~ msgstr "дата"
+
+#~ msgid "Edit Album"
+#~ msgstr "Редактировать альбом"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "Изменить порядок следования изображений"
+
+#~ msgid "Preview Album"
+#~ msgstr "Предпросмотр альбома"
+
+#~ msgid "Delete Album"
+#~ msgstr "Удалить альбом"
+
+#~ msgid "Album"
+#~ msgstr "Альбом"
+
+#~ msgid "Save Album"
+#~ msgstr "Сохранить Альбом"
+
+#~ msgid "Upload Images"
+#~ msgstr "Загрузить изображенич"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr ""
+#~ "Ваш бразуер не поддерживает ни одной из следующих функций: Flash, "
+#~ "Silverlight, HTML5"
+
+#~ msgid "Upload Videos"
+#~ msgstr "Загрузка видеороликов"
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "(Доступных в премия версиях)"
+
+#~ msgid "Video Url"
+#~ msgstr "Адрес видео"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr "Введите адрес видео"
+
+#~ msgid "Upload Video"
+#~ msgstr "Загрузка видео"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "Ваш альбом Gallery Bank"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr "Адрес перенаправления при нажатии на изображение"
+
+#~ msgid "Delete Video"
+#~ msgstr "Удалить видео"
+
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "Gallery Bank ценообразование"
+
+#~ msgid "Update Settings"
+#~ msgstr "Обновить настройки"
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "Настройки миниатюр"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "Размер миниатюры"
+
+#~ msgid "Original"
+#~ msgstr "Оригинал"
+
+#~ msgid "Custom"
+#~ msgstr "Пользовательское"
+
+#~ msgid "Width"
+#~ msgstr "Ширина"
+
+#~ msgid "Height"
+#~ msgstr "Высота"
+
+#~ msgid "Opacity"
+#~ msgstr "Непрозрачность"
+
+#~ msgid "Border Size"
+#~ msgstr "Размер рамки"
+
+#~ msgid "Border Radius"
+#~ msgstr "Радиус рамки"
+
+#~ msgid "Border Color"
+#~ msgstr "Цвет рамки"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "Расстояние между изображениями"
+
+#~ msgid "Text Color"
+#~ msgstr "Цвет текста"
+
+#~ msgid "Text-Align"
+#~ msgstr "Выравнивание текста"
+
+#~ msgid "Font-Family"
+#~ msgstr "Шрифт"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "Размер шрифта заголовка"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "Размер шрифта основного текста"
+
+#~ msgid "Description Length"
+#~ msgstr "Длина описания"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "Настройки обложки альбома"
+
+#~ msgid "Cover Size"
+#~ msgstr "Размер обложки"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "Расстояние между альбомами"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "Текст для клика по альбому"
+
+#~ msgid "Filter Settings"
+#~ msgstr "Настройки фильтра"
+
+#~ msgid "Filters"
+#~ msgstr "Фильтры"
+
+#~ msgid "Enable"
+#~ msgstr "Включить"
+
+#~ msgid "Disable"
+#~ msgstr "Выключить"
+
+#~ msgid "Filter Color"
+#~ msgstr "Цвет фильтра"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "Цвет текст фильтра"
+
+#~ msgid "Font-Size"
+#~ msgstr "Размер шрифта"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "Роли и права"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "Привелегии для админа"
+
+#~ msgid "Full Control"
+#~ msgstr "Полный доступ"
+
+#~ msgid "Read"
+#~ msgstr "Чтение"
+
+#~ msgid "Write"
+#~ msgstr "Запись"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "Привелегии для редактора"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "Привилегии для автора"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "Привилегии для участника"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "Привилегии для подписчика"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr "Настройки Lightbox"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "Тип Lightbox"
+
+#~ msgid "Inline Background"
+#~ msgstr "Фон для строки"
+
+#~ msgid "Overlay Background"
+#~ msgstr "Фон для оверлея"
+
+#~ msgid "Fade In Time"
+#~ msgstr "Время появления"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "Время затухания"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "Комментарии facebook"
+
+#~ msgid "Social Sharing"
+#~ msgstr "Поделиться в соц сетях"
+
+#~ msgid "Image Title"
+#~ msgstr "Заголовок изображения"
+
+#~ msgid "Image Description"
+#~ msgstr "Описание изображения"
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr "Настройки разметки"
+
+#~ msgid "Text for Back Button"
+#~ msgstr "Текст для кнопки 'назад'"
+
+#~ msgid "Button Color"
+#~ msgstr "Цвет кнопки"
+
+#~ msgid "Button Text Color"
+#~ msgstr "Цвет текста кнопки"
+
+#~ msgid "Album Seperator"
+#~ msgstr "Разделитель албомов"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr "Настройки пагинации для изображений"
+
+#~ msgid "Paging"
+#~ msgstr "Пагинация"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "Настройки слайдшоу"
+
+#~ msgid "Auto Play"
+#~ msgstr "Авто воспроизведение"
+
+#~ msgid "Interval"
+#~ msgstr "Интервал"
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "Языковые настройки"
+
+#~ msgid "Language Direction"
+#~ msgstr "Направление"
+
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr "Эта функция доступна только в платной премиум-версию!"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "Gallery Bank Короткие-коды"
+
+#~ msgid "Licensing"
+#~ msgstr "Лицензирование"
+
+#~ msgid "Select Gallery"
+#~ msgstr "Выберите галерею"
+
+#~ msgid "Select Gallery Format"
+#~ msgstr "Выберите формат галереи"
+
+#~ msgid "Images In Row"
+#~ msgstr "Изображений в строке"
+
+#~ msgid "Select Text Format"
+#~ msgstr "Выберите формат текста"
+
+#~ msgid "Special Effect"
+#~ msgstr "Специальный эффект"
+
+#~ msgid "Select Special Effect"
+#~ msgstr "Выберите специальный эффект"
+
+#~ msgid "Animation Effect"
+#~ msgstr "Эффект анимации"
+
+#~ msgid "Responsive Gallery"
+#~ msgstr "Отзывичвая галерея"
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr "Альбом опубликован. Дождитесь перенаправленич"
+
+#~ msgid "Attention! A new vesion of Gallery Bank is available for download."
+#~ msgstr "Внимание! Для скачивания доступна новая версия модуля Gallery Bank"
+
+#~ msgid "Click"
+#~ msgstr "Нажмите"
+
+#~ msgid "here"
+#~ msgstr "здесь"
+
+#~ msgid "to upgrade your version of Gallery Bank."
+#~ msgstr "чтобы обновить свою версию Gallery Bank"
+
+#~ msgid "Date of Creation"
+#~ msgstr "Дата создания"
+
+#~ msgid "Are you sure you want to delete all Albums?"
+#~ msgstr "Вы уверены что хотите удалить все альбомы?"
+
+#~ msgid "Are you sure you want to Restore Factory Settings?"
+#~ msgstr "Вы уверены что хотите восстановить настройки по умолчанию?"
+
+#~ msgid "Are you sure you want to Purge all Images & Albums?"
+#~ msgstr "Вы уверены что хотите очистить все изображения и альбомы?"
+
+#~ msgid "Gallery Bank Documentation"
+#~ msgstr "Документация Gallery Bank"
+
+#~ msgid "Gallery Bank Licensing Module"
+#~ msgstr "Режим лицензирования Gallery Bank"
+
+#~ msgid "Success! Settings have been updated."
+#~ msgstr "Получилось! Настройки были обновлены"
+
+#~ msgid "Update"
+#~ msgstr "Обновить"
+
+#~ msgid "Restore Settings"
+#~ msgstr "Восстановить настройки"
+
+#~ msgid "Settings has been updated."
+#~ msgstr "Настройки были обновлены"
+
+#~ msgid "Success! Settings have been restored."
+#~ msgstr "Получилось! Настройки были восстановлены"
+
+#~ msgid "Are you sure you want to restore settings?"
+#~ msgstr "Вы уверены что хотите восстановить настройки?"
+
+#~ msgid " Rotate Image"
+#~ msgstr "Повернуть изображение"
+
+#~ msgid "Upload Images "
+#~ msgstr "Загрузить изображения"
+
+#~ msgid "Your Wordpress Version doesn\"t support Wp-media."
+#~ msgstr "Ваша версия wordpress не поддерживает Wp-media"
+
+#~ msgid "Upload Thumbnails "
+#~ msgstr "Загрузить миниатюры"
+
+#~ msgid "Show Albums"
+#~ msgstr "Показать альбомы"
+
+#~ msgid "Responsive"
+#~ msgstr "Отзывчивый"
+
+#~ msgid "With Albums in Row"
+#~ msgstr "С альбомами в строке"
+
+#~ msgid "Image Uploader Settings"
+#~ msgstr "Настройки загрузчика изображений"
+
+#~ msgid "Uploader for Images"
+#~ msgstr "Загрузчик для изображений"
+
+#~ msgid "WP Media"
+#~ msgstr "WP Media"
+
+#~ msgid "Change Uploading Image Name"
+#~ msgstr "Изменить имя загружаемого изображения"
+
+#~ msgid "Image url location"
+#~ msgstr "Местоположение url изображения"
+
+#~ msgid "Open in New Window"
+#~ msgstr "Открывать в новом окне"
+
+#~ msgid "Same Window"
+#~ msgstr "То же окно"
