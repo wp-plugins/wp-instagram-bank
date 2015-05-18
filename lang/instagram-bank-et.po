@@ -1,0 +1,599 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:29+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "VAATA KÕIK"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "Töölaud"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "Süsteemi olek"
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "Määra Albumi kaane"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "Kustuta"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "lubamine ümber suunata kohta Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Sisesta pealkiri"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Sisestaon Teie Kauba kirjeldus"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Sisesta märksõnad"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "Ei saa suhelda Instagram."
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagram ei tagastanud 200"
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "Instagram on tagasi kehtetuid andmeid."
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "Armatuurlaud  - Wp Instagram Bank"
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "Lisa uus Instagram Albumi"
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "Albumi kaanepildi"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "Lühikood"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "Albumi nimi"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "Instagram konto"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "Piltide arv"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "redigeeri"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "Kas oled kindel, et soovid seda albumit kustutada?"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "Tagasi Armatuurlaud"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "Salvesta Muutused"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr "Albumi Sääst. sõbralikult ootama jaoks ümber suunata kuni juhtuda."
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "Albumi Detailid"
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "Albumi pealkiri"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Sisesta Teie Albumit Pealkiri"
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "Sisestama tiitli oma Albumi siin"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Instagram kasutajanime"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Sisesta oma Instagram - Kasutajanimi"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "Sisesta Instagram konto, kust importida pilte"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "Kirjeldus"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Sisesta Teie Albumit Kauba kirjeldus"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "Sisesta kirjeldada oma Albumi siin"
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "Impordi pildivalik Instagram"
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr "Teie Instagram pildid"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "lahtiselt Tegevus"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "Pildi detailid"
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "Pisipildid"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "Pealkiri & kirjeldus"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "Silte (eralda komaga nimekiri)"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "Kas oled kindel, et soovid seda pilti kustutada?"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "Oled sa kindel, et soovid kustutada need pildid"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "WP-Instagram Süsteemi olek"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "Vaata süsteemi olekut"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "Sulge süsteemi oleku info"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "Vaikimisi"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "Sisesta Gallery Bank lühikood"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr "Vali album, mida soovid lisada oma postitusele või lehele."
+
+#~ msgid "Gallery Type"
+#~ msgstr "Galerii tüüp"
+
+#~ msgid "Albums with Images"
+#~ msgstr "Piltidega albumid"
+
+#~ msgid "Only Images"
+#~ msgstr "Ainult pildid"
+
+#~ msgid "Album Format"
+#~ msgstr "Albumi vorming"
+
+#~ msgid "Select Album Format"
+#~ msgstr "Vali albumi vorming"
+
+#~ msgid "Select Album"
+#~ msgstr "Vali album"
+
+#~ msgid "Select an Album"
+#~ msgstr "Vali album"
+
+#~ msgid "Gallery Format"
+#~ msgstr "Galerii vorming"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "Vali galerii vorming "
+
+#~ msgid "Images in Row"
+#~ msgstr "Pilte reas"
+
+#~ msgid "Image Width"
+#~ msgstr "Pildi laius"
+
+#~ msgid "Albums in Row"
+#~ msgstr "Albumeid reas"
+
+#~ msgid "Text Format"
+#~ msgstr "Tekstivorming"
+
+#~ msgid "Select Format "
+#~ msgstr "Vali vorming "
+
+#~ msgid "Special Effects"
+#~ msgstr "Eriefektid"
+
+#~ msgid "Animation Effects"
+#~ msgstr "Animatsioonid"
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "Näita skaleeruvat galeriid"
+
+#~ msgid "Show Album Title"
+#~ msgstr "Näita albumi pealkirja"
+
+#~ msgid "Insert Album"
+#~ msgstr "Sisesta album"
+
+#~ msgid "Cancel"
+#~ msgstr "Katkesta"
+
+#~ msgid "Please select an Album"
+#~ msgstr "Palun vali album"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "Palun vali albumi vorming"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "Palun vali galerii pildivorming"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "Palun vali galerii jaoks tekstivorming"
+
+#~ msgid "<img src=\""
+#~ msgstr "<img src=\""
+
+#~ msgid "/wp-admin/admin.php?page=gallery_bank"
+#~ msgstr "/wp-admin/admin.php?page=gallery_bank"
+
+#~ msgid "Album Sorting"
+#~ msgstr "Albumite sortimine"
+
+#~ msgid "Global Settings"
+#~ msgstr "Üldsätted"
+
+#~ msgid "Purchase Pro Version"
+#~ msgstr "Ostu Pro versioon"
+
+#~ msgid "Delete Image"
+#~ msgstr "Kustuta pilt"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "Gallery Bank"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "Lisa galerii, kasutades Gallery Banki"
+
+#~ msgid "Back to Albums"
+#~ msgstr "Tagasi albumite juurde"
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr "Album on avaldatud. Palun oota ümbersuunamist."
+
+#~ msgid "Upload Images"
+#~ msgstr "Laadi üles pilte"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr "Sinu veebilehitsejal puudub Flash, SIlverlight või HTML5 tugi."
+
+#~ msgid "Upload Videos"
+#~ msgstr "Laadi üles videoid"
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "(Saadaval Preemium versioonid)"
+
+#~ msgid "Video Url"
+#~ msgstr "Video url"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr "Sisesta video url"
+
+#~ msgid "Upload Video"
+#~ msgstr "Laadi üles video"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "Sinu Gallery Bank album"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr "Url, kuhu pildil klikkides toimub suunamine"
+
+#~ msgid ""
+#~ "You will be only allowed to add 2 galleries. Kindly purchase Premium "
+#~ "Version for full access!"
+#~ msgstr ""
+#~ "Sul on ainult lubatud lisada 2 galeriides. Palun osta Preemium versiooni "
+#~ "täielik juurdepääs!"
+
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr "See funktsioon on saadaval ainult Paide Preemium versioon!"
+
+#~ msgid "Album Preview"
+#~ msgstr "Albumi eelvaade"
+
+#~ msgid "Please Choose"
+#~ msgstr "Palun vali"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr "Tõsta albumid ümber"
+
+#~ msgid "Update Order"
+#~ msgstr "Uuenda järjestust"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "Sorteerimise järjestus on uuendatud."
+
+#~ msgid "Delete All Albums"
+#~ msgstr "Kustuta kõik albumid"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "Puhasta pilte & albumeid"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "Taasta tehase algseaded"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "Olemasolevate albumite ülevaade"
+
+#~ msgid "Title"
+#~ msgstr "Pealkiri"
+
+#~ msgid "Date"
+#~ msgstr "kuupäev"
+
+#~ msgid "Edit Album"
+#~ msgstr "Muuda albumit"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "Muuda piltide järjestust"
+
+#~ msgid "Preview Album"
+#~ msgstr "Albumi eelvaade"
+
+#~ msgid "Delete Album"
+#~ msgstr "Kustuta album"
+
+#~ msgid "Update Album"
+#~ msgstr "Uuenda albumit"
+
+#~ msgid "Delete Video"
+#~ msgstr "Kustuta video"
+
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "Gallery Bank Hinnakujundus"
+
+#~ msgid "Update Settings"
+#~ msgstr "Uuenda seadeid"
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "Pisipildi seaded"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "Pisipildi mõõdud"
+
+#~ msgid "Original"
+#~ msgstr "Originaal"
+
+#~ msgid "Custom"
+#~ msgstr "Kohandatud"
+
+#~ msgid "Width"
+#~ msgstr "Laius"
+
+#~ msgid "Height"
+#~ msgstr "Kõrgus"
+
+#~ msgid "Opacity"
+#~ msgstr "Läbipaistvus"
+
+#~ msgid "Border Size"
+#~ msgstr "Raami paksus"
+
+#~ msgid "Border Radius"
+#~ msgstr "Raami raadius"
+
+#~ msgid "Border Color"
+#~ msgstr "Raami värv"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "Vahe piltide vahel"
+
+#~ msgid "Text Color"
+#~ msgstr "Teksti värv"
+
+#~ msgid "Text-Align"
+#~ msgstr "Tekstijoondus"
+
+#~ msgid "Font-Family"
+#~ msgstr "Font"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "Pealkirja teksti suurus"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "Teksti suurus"
+
+#~ msgid "Description Length"
+#~ msgstr "Kirjelduse pikkus"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "Albumi kaanepildi seaded"
+
+#~ msgid "Cover Size"
+#~ msgstr "Kaanepildi mõõdud"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "Vahe albumite vahel"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "Tekst albumi klikil"
+
+#~ msgid "Filter Settings"
+#~ msgstr "Filtreeri seadeid"
+
+#~ msgid "Filters"
+#~ msgstr "Filtrid"
+
+#~ msgid "Enable"
+#~ msgstr "Luba"
+
+#~ msgid "Disable"
+#~ msgstr "Keela"
+
+#~ msgid "Filter Color"
+#~ msgstr "Filtri värv"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "Filtri teksti värv"
+
+#~ msgid "Font-Size"
+#~ msgstr "Teksti suurus"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "Rollid ja õigused"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "Adminni õigused"
+
+#~ msgid "Full Control"
+#~ msgstr "Täiskontroll"
+
+#~ msgid "Read"
+#~ msgstr "Loe"
+
+#~ msgid "Write"
+#~ msgstr "Kirjuta"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "Toimetaja õigused"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "Autori õigused"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "Kaastöölise õigused"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "Lugeja õigused"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr "Lightboxi seaded"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "Lightboxi tüüp"
+
+#~ msgid "Inline Background"
+#~ msgstr "Joondatud taustapilt"
+
+#~ msgid "Overlay Background"
+#~ msgstr "Ülelaotusega taustapilt"
+
+#~ msgid "Fade In Time"
+#~ msgstr "Sissetulemise aeg"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "Väljumise aeg"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "Facebooki kommentaarid"
+
+#~ msgid "Social Sharing"
+#~ msgstr "Jagamine sotsiaalmeedias"
+
+#~ msgid "Image Title"
+#~ msgstr "Pildi pealkiri"
+
+#~ msgid "Image Description"
+#~ msgstr "Pildi kirjeldus"
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr "Väljakuvatava asetuse seaded"
+
+#~ msgid "Text for Back Button"
+#~ msgstr "\"Tagasi\" nupu tekst"
+
+#~ msgid "Button Color"
+#~ msgstr "Nupu värv"
+
+#~ msgid "Button Text Color"
+#~ msgstr "Nupu teksti värv"
+
+#~ msgid "Album Seperator"
+#~ msgstr "Albumi eraldaja"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr "Piltide lehekülgede numeratsiooni seaded"
+
+#~ msgid "Paging"
+#~ msgstr "Lehekülgede nummerdus"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "Slaidishow seaded"
+
+#~ msgid "Auto Play"
+#~ msgstr "Autoplay"
+
+#~ msgid "Interval"
+#~ msgstr "Intervall"
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "Keele suuna seaded"
+
+#~ msgid "Language Direction"
+#~ msgstr "Keele suund"
+
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr "See funktsioon on saadaval ainult Paide Preemium versioon!"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "Gallery Bank Lühike-koodid"
