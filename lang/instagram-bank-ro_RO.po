@@ -1,0 +1,598 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:27+0530\n"
+"PO-Revision-Date: 2014-07-29 10:59+0530\n"
+"Last-Translator: \n"
+"Language-Team: Tech-Banker <support@tech-banker.com>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "VIZUALIZAȚI TOATE"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "tablou de bord"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "starea sistemului"
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "Setați ca coperta albumului"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "Sterge"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "Activați redirectiona - pe Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Introduceți dumneavoastră titlului"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Introduceți Descriere ta"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Introduceți dumneavoastră Etichete"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "Nu se poate comunica cu Instagram."
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagram nu sa mai întors un 200."
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "Instagram are a revenit date nevalide."
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "Tabloul de bord - Wp Instagram Bank"
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "Adăugați nou  Instagram Albumul "
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "Albumul - Capac"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "Codul Scurt"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "albume Nume  "
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "Contul Instagram"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "Nr de - imagini"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "Editeaza"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "Sigur doriți să ștergeți acest de albume?"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "Înapoi la tabloul de bord"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "Salvați modificările"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr ""
+"albume salvate. Va rugam sa asteptati pentru redirecționarea să se întâmple."
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "albume Detaliu"
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "de albume titlului"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Introdu album Titlu"
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "Introduceți titlul pentru albume dvs. aici"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Instagram - NumeUtilizator "
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Introdu adresa ta de Instagram Utilizator Nume"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "Intră  Contul Instagram la unde a importa imagini"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "descriere"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Introdu dvs. album Descriere"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "Introduceți cele descrierea pentru albume ta aici"
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "Importa imagini de la Instagram"
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr "Instagram tale - Imaginile"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "efectua acțiuni în masă"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "Imagine Detalii"
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "Miniaturi Pagina"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "titlului și Descriere"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "Tag-uri (lista separata prin virgula)"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "Sigur doriți să ștergeți această imaginii?"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "Sigur doriți să ștergeți aceste imagini"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "Wp-Instagram Stare sistem"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "Obține-sistem  raport"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "A trage Sistem  Raport"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "implicită"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "Insera Galllery - Bank Codul scurt"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr ""
+#~ "Selectați un album de mai jos pentru a adauga ea la posta sau pagina ta."
+
+#~ msgid "Gallery Type"
+#~ msgstr "Galerie Tip"
+
+#~ msgid "Albums with Images"
+#~ msgstr "albumele  cu imaginilor"
+
+#~ msgid "Only Images"
+#~ msgstr "numai imaginilor"
+
+#~ msgid "Album Format"
+#~ msgstr "de albume formatul"
+
+#~ msgid "Select Album Format"
+#~ msgstr "Selectați albume formatul"
+
+#~ msgid "Select Album"
+#~ msgstr "Selectați albumul"
+
+#~ msgid "Select an Album"
+#~ msgstr "Selectează un albumul"
+
+#~ msgid "Gallery Format"
+#~ msgstr "Galerie formatul"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "Selectați Galerie Formatare"
+
+#~ msgid "Images in Row"
+#~ msgstr "Imagini în rând"
+
+#~ msgid "Image Width"
+#~ msgstr "imaginii latimea"
+
+#~ msgid "Albums in Row"
+#~ msgstr "albumele la rând"
+
+#~ msgid "Text Format"
+#~ msgstr "Textul Format de"
+
+#~ msgid "Select Format "
+#~ msgstr "Selectează Formatare"
+
+#~ msgid "Special Effects"
+#~ msgstr "uri Efecte speciale"
+
+#~ msgid "Animation Effects"
+#~ msgstr "Efecte de animație"
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "Arată Galerie receptivă"
+
+#~ msgid "Show Album Title"
+#~ msgstr "Afișare de albume titlului"
+
+#~ msgid "Insert Album"
+#~ msgstr "se introduce albumul"
+
+#~ msgid "Cancel"
+#~ msgstr "anula"
+
+#~ msgid "Please select an Album"
+#~ msgstr "Vă rugăm să selectați un albumul"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "vă rog selecta unui albumul -formatul"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "Vă rugăm să selectați o Galerie - Imagini formatul"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "Vă rugăm să selectați un format de text  pentru cele galeria"
+
+#~ msgid "Album Sorting"
+#~ msgstr "Albumul- triere"
+
+#~ msgid "Global Settings"
+#~ msgstr "Setări Globale"
+
+#~ msgid "Purchase Pro Version"
+#~ msgstr "Achiziționa Pro Versiunea"
+
+#~ msgid "Delete Image"
+#~ msgstr "Sterge Imaginii"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "Gallery Bank"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "Adauga Galerie folosind Gallery Bank"
+
+#~ msgid "Back to Albums"
+#~ msgstr "înapoi la albumele"
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr "Published album. Please wait for the redirection to happen."
+
+#~ msgid "Upload Images"
+#~ msgstr "încărca imagini"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr "Browserul dvs. nu are Flash, Silverlight sau suport HTML5."
+
+#~ msgid "Upload Videos"
+#~ msgstr "Încărcați videoclipuri"
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "(Disponibil în versiuni Premium)"
+
+#~ msgid "Video Url"
+#~ msgstr "Url Înregistrare video"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr "Introduceți dumneavoastră Înregistrare video url"
+
+#~ msgid "Upload Video"
+#~ msgstr "Încarcă film"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "dumneavoastră Gallery - Bank  de albume"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr "URL-ul pentru a redirecționa pe clic a unei imagini"
+
+#~ msgid ""
+#~ "You will be only allowed to add 2 galleries. Kindly purchase Premium "
+#~ "Version for full access!"
+#~ msgstr ""
+#~ "Vă va fi permis numai pentru a adauga 2 galerii. Achiziționa cu "
+#~ "amabilitate Premium Versiune pentru acces deplin!"
+
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr ""
+#~ "Această caracteristică este disponibilă doar în Versiunea Premium plătit!"
+
+#~ msgid "Album Preview"
+#~ msgstr "de albume Previzualizare"
+
+#~ msgid "Please Choose"
+#~ msgstr "Vă rugăm să Alegeți"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr "de Re - Ordine De albume"
+
+#~ msgid "Update Order"
+#~ msgstr "de actualizare ordine"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "Sortării ordine are fost actualizate."
+
+#~ msgid "Delete All Albums"
+#~ msgstr "Sterge Toate albumele"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "de purjare imaginilor și De albume"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "Restabili setările din fabrică"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "De albume existente Prezentare"
+
+#~ msgid "Title"
+#~ msgstr "titlului"
+
+#~ msgid "Date"
+#~ msgstr "data"
+
+#~ msgid "Edit Album"
+#~ msgstr "Editează de albume"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "de Re - Ordine Imaginile"
+
+#~ msgid "Preview Album"
+#~ msgstr "albume Avanpremieră "
+
+#~ msgid "Delete Album"
+#~ msgstr "stergeți Albumul"
+
+#~ msgid "Update Album"
+#~ msgstr "de actualizare - Albumului"
+
+#~ msgid "Delete Video"
+#~ msgstr "Sterge Înregistrare video"
+
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "Gallery-Bank Stabilirea pretului"
+
+#~ msgid "Update Settings"
+#~ msgstr "Setări Actualizare"
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "miniaturi setări"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "miniaturi mărime"
+
+#~ msgid "Original"
+#~ msgstr "originale"
+
+#~ msgid "Custom"
+#~ msgstr "particularizate"
+
+#~ msgid "Width"
+#~ msgstr "Latime"
+
+#~ msgid "Height"
+#~ msgstr "Înălțimea"
+
+#~ msgid "Opacity"
+#~ msgstr "opacitatea"
+
+#~ msgid "Border Size"
+#~ msgstr "Dimensiune la frontieră"
+
+#~ msgid "Border Radius"
+#~ msgstr "Raza la frontieră"
+
+#~ msgid "Border Color"
+#~ msgstr " la frontieră Culoare"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "Marja de între Imagini"
+
+#~ msgid "Text Color"
+#~ msgstr "culoare Textul"
+
+#~ msgid "Text-Align"
+#~ msgstr "Textul - alinia"
+
+#~ msgid "Font-Family"
+#~ msgstr "Fonturi - familie"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "Rubrică fonturi - Dimensiune"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "Textul fonturi - Dimensiune"
+
+#~ msgid "Description Length"
+#~ msgstr "Descriere Lungime"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "de albume Coperta Setări"
+
+#~ msgid "Cover Size"
+#~ msgstr "Coperta Dimensiune"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "Marja de între albume"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "Textul pentru  Albume clic"
+
+#~ msgid "Filter Settings"
+#~ msgstr "Setări de filtrare"
+
+#~ msgid "Filters"
+#~ msgstr "Filtre"
+
+#~ msgid "Enable"
+#~ msgstr "Activeaza"
+
+#~ msgid "Disable"
+#~ msgstr "Dezactivează"
+
+#~ msgid "Filter Color"
+#~ msgstr "Filtru - Culoare"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "Filtrului Textul Culoare"
+
+#~ msgid "Font-Size"
+#~ msgstr "Fonturi - marime"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "Roluri și capabilități"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "Privilegii pentru Admin"
+
+#~ msgid "Full Control"
+#~ msgstr "plin comandă"
+
+#~ msgid "Read"
+#~ msgstr "citit"
+
+#~ msgid "Write"
+#~ msgstr "scrie"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "Privilegii în favoarea-editorului"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "Privilegii de pentru Autor"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "de privilegii pentru contribuitor"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "Privilegiile pentru abonatului"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr "Lumina  cutie Setări"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "Lumina cutie Tip"
+
+#~ msgid "Inline Background"
+#~ msgstr "inline fundal"
+
+#~ msgid "Overlay Background"
+#~ msgstr "Fundaluri Suprapunere"
+
+#~ msgid "Fade In Time"
+#~ msgstr "se estompeze-în- timp"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "se estompeze Neexistente Timpul"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "Prietenilor tai Comentarii"
+
+#~ msgid "Social Sharing"
+#~ msgstr "Partajare Socială"
+
+#~ msgid "Image Title"
+#~ msgstr " Imagine Titlu"
+
+#~ msgid "Image Description"
+#~ msgstr "imag Descriere"
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr "Frontal - Sfârșit Dispunerea Setările"
+
+#~ msgid "Text for Back Button"
+#~ msgstr "Textul  pentru  înapoi buton"
+
+#~ msgid "Button Color"
+#~ msgstr "Butonul - Culoare"
+
+#~ msgid "Button Text Color"
+#~ msgstr "Buton Textul Culoare"
+
+#~ msgid "Album Seperator"
+#~ msgstr "de albume separator de"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr "Setări Paginarea pentru Imaginile"
+
+#~ msgid "Paging"
+#~ msgstr "localizare sonoră"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "Diapozitiv Afișare Setări"
+
+#~ msgid "Auto Play"
+#~ msgstr "Tehnică auto Joaca"
+
+#~ msgid "Interval"
+#~ msgstr "intervalului"
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "Limbă Direcție Setări"
+
+#~ msgid "Language Direction"
+#~ msgstr "directia de Limbă"
+
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr ""
+#~ "Această caracteristică este disponibilă doar în Versiunea Premium plătit!"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "Gallery-Bank Coduri scurt"
