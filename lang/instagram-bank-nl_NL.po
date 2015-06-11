@@ -1,0 +1,733 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Bank\n"
+"POT-Creation-Date: 2014-07-29 10:28+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\dev-gallery-bank\\wp-content\\plugins"
+"\\wp-instagram-bank\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front_views/wpib-include-comon-before.php:43
+msgid "VIEW ALL"
+msgstr "Bekijk Alles"
+
+#: lib/wpib-include-menus.php:13 lib/wpib-include-menus.php:19
+#: lib/wpib-include-menus.php:25
+msgid "Instagram Bank"
+msgstr "Instagram Bank"
+
+#: lib/wpib-include-menus.php:14 lib/wpib-include-menus.php:20
+#: lib/wpib-include-menus.php:26
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: lib/wpib-include-menus.php:16 lib/wpib-include-menus.php:22
+#: lib/wpib-include-menus.php:28
+msgid "System Status"
+msgstr "Systeem Status"
+
+#: lib/wpib-instagram-class.php:89 views/wpib-instagram-view.php:179
+#: views/wpib-instagram-view.php:185
+msgid "Set as album cover"
+msgstr "Instellen als albumhoes"
+
+#: lib/wpib-instagram-class.php:90 views/wpib-dashboard.php:100
+#: views/wpib-instagram-view.php:150 views/wpib-instagram-view.php:189
+#: views/wpib-instagram-view.php:215
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: lib/wpib-instagram-class.php:91 views/wpib-instagram-view.php:193
+msgid "Enable redirect on Instagram"
+msgstr "Staat stellen omleiden op Instagram"
+
+#: lib/wpib-instagram-class.php:97 views/wpib-instagram-view.php:200
+msgid "Enter your Title"
+msgstr "Voer Titel in"
+
+#: lib/wpib-instagram-class.php:98 views/wpib-instagram-view.php:201
+msgid "Enter your Description"
+msgstr "Voer jouw Omschrijving"
+
+#: lib/wpib-instagram-class.php:101 views/wpib-instagram-view.php:204
+msgid "Enter your Tags"
+msgstr "Voer uw tags in"
+
+#: lib/wpib-instagram-class.php:213
+msgid "Unable to communicate with Instagram."
+msgstr "Niet in staat te communiceren met Instagram."
+
+#: lib/wpib-instagram-class.php:216
+msgid "Instagram did not return a 200."
+msgstr "Instagram heeft een 200 niet terug."
+
+#: lib/wpib-instagram-class.php:223
+msgid "Instagram has returned invalid data."
+msgstr "Instagram heeft ongeldige gegevens geretourneerd."
+
+#: views/wpib-dashboard.php:40
+msgid "Dashboard - Wp Instagram Bank"
+msgstr "Dashboard van - Wp Instagram Bank"
+
+#: views/wpib-dashboard.php:47 views/wpib-instagram-view.php:85
+msgid "Add New Instagram Album"
+msgstr "toevoegen Nieuwe Instagram bekijken Album"
+
+#: views/wpib-dashboard.php:53
+msgid "Album Cover"
+msgstr "bekijken Album Dekking van"
+
+#: views/wpib-dashboard.php:54
+msgid "Shortcode"
+msgstr "Korte code"
+
+#: views/wpib-dashboard.php:55
+msgid "Album Name"
+msgstr "bekijken Album Naam"
+
+#: views/wpib-dashboard.php:56
+msgid "Instagram Account"
+msgstr "Instagram rekening"
+
+#: views/wpib-dashboard.php:57
+msgid "No. of Images"
+msgstr "Aantal beelden"
+
+#: views/wpib-dashboard.php:99
+msgid "Edit"
+msgstr "Bewerken"
+
+#: views/wpib-dashboard.php:151
+msgid "Are you sure you want to delete this Album?"
+msgstr "Bent u er zeker van dat u dit Album wilt verwijderen?"
+
+#: views/wpib-instagram-view.php:89 views/wpib-instagram-view.php:225
+msgid "Back to Dashboard"
+msgstr "Terug naar Dashboard van"
+
+#: views/wpib-instagram-view.php:90 views/wpib-instagram-view.php:226
+msgid "Save Changes"
+msgstr "Wijzigingen Opslaan"
+
+#: views/wpib-instagram-view.php:94
+msgid "Album Saved. Kindly wait for the redirect to happen."
+msgstr ""
+"bekijken Album opgeslagen. Vriendelijk wachten op de omleiding te gebeuren."
+
+#: views/wpib-instagram-view.php:101
+msgid "Album Detail"
+msgstr "bekijken Album Afbeelding in detail"
+
+#: views/wpib-instagram-view.php:107
+msgid "Album Title"
+msgstr "Album Titel"
+
+#: views/wpib-instagram-view.php:109
+msgid "Enter Your Album Title"
+msgstr "Voer Uw bekijken Album van titel"
+
+#: views/wpib-instagram-view.php:110
+msgid "Enter the Tiltle for your Album here"
+msgstr "Voer de titel voor uw bekijken Album hier"
+
+#: views/wpib-instagram-view.php:116
+msgid "Instagram UserName"
+msgstr "Instagram Gebruikersbenaming"
+
+#: views/wpib-instagram-view.php:118
+msgid "Enter Your Instagram Username"
+msgstr "Voer uw Instagram gebruikersnaam"
+
+#: views/wpib-instagram-view.php:119
+msgid "Enter Instagram account from where to import images"
+msgstr "Voer Instagram account vanaf waar aan invoer afbeeldingen"
+
+#: views/wpib-instagram-view.php:124
+msgid "Description"
+msgstr "Omschrijving"
+
+#: views/wpib-instagram-view.php:126
+msgid "Enter Your Album Description"
+msgstr "Voer Uw bekijken Album Beschrijving"
+
+#: views/wpib-instagram-view.php:127
+msgid "Enter the description for your Album here"
+msgstr "Voer de beschrijving van je album hier"
+
+#: views/wpib-instagram-view.php:132
+msgid "Import Images from Instagram"
+msgstr "Importeer Beelden uit Instagram"
+
+#: views/wpib-instagram-view.php:144
+msgid "Your Instagram Images"
+msgstr "Uw Instagram Afbeeldingen"
+
+#: views/wpib-instagram-view.php:149 views/wpib-instagram-view.php:214
+msgid "Bulk Action"
+msgstr "ActieBulk"
+
+#: views/wpib-instagram-view.php:157
+msgid "Image Details"
+msgstr "Afbeelding Afbeelding in detail"
+
+#: views/wpib-instagram-view.php:158
+msgid "Thumbnails"
+msgstr "Miniaturen"
+
+#: views/wpib-instagram-view.php:159
+msgid "Title & Description"
+msgstr "Titel & Omschrijving"
+
+#: views/wpib-instagram-view.php:160
+msgid "Tags(comma separated list)"
+msgstr "Tags te (komma gescheiden lijst)"
+
+#: views/wpib-instagram-view.php:334
+msgid "Are you sure you want to delete this Image?"
+msgstr "Bent u er zeker van dat u de afbeelding wilt verwijderen?"
+
+#: views/wpib-instagram-view.php:358
+msgid "Are you sure you want to delete these Images"
+msgstr "Weet u zeker dat u deze afbeeldingen te verwijderen"
+
+#: views/wpib-system-status.php:28
+msgid "Wp-Instagram System Status"
+msgstr "Wp-Instagram Systeem Statuut"
+
+#: views/wpib-system-status.php:32
+msgid "Get System Report"
+msgstr "Systeemrapport"
+
+#: views/wpib-system-status.php:36
+msgid "Close System Report"
+msgstr "Sluit Systeemrapport"
+
+#: views/wpib-system-status.php:125
+msgid "Default"
+msgstr "Default"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "Gallery Bank shortcode invoegen"
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr "Selecteer een album en voeg het toe aan uw post of pagina."
+
+#~ msgid "Gallery Type"
+#~ msgstr "Galerij type"
+
+#~ msgid "Albums with Images"
+#~ msgstr "Albums met afbeeldingen"
+
+#~ msgid "Only Images"
+#~ msgstr "Alleen afbeeldingen"
+
+#~ msgid "Album Format"
+#~ msgstr "Album formaat"
+
+#~ msgid "Select Album Format"
+#~ msgstr "Selecteer album formaat"
+
+#~ msgid "Select Album"
+#~ msgstr "Selecteer album"
+
+#~ msgid "Select an Album"
+#~ msgstr "Selecteer een album"
+
+#~ msgid "Gallery Format"
+#~ msgstr "Galerij Formaat"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "Selecteer galerij formaat"
+
+#~ msgid "Images in Row"
+#~ msgstr "Aantal afbeeldingen in een rij"
+
+#~ msgid "Image Width"
+#~ msgstr "Afbeelding breedte"
+
+#~ msgid "Albums in Row"
+#~ msgstr "Aantal albums in een rij"
+
+#~ msgid "Text Format"
+#~ msgstr "Tekst formaat"
+
+#~ msgid "Select Format "
+#~ msgstr "Selecteer een formaat"
+
+#~ msgid "Special Effects"
+#~ msgstr "Speciale effecten"
+
+#~ msgid "Animation Effects"
+#~ msgstr "Animatie effecten"
+
+#~ msgid "Show Responsive Gallery"
+#~ msgstr "Toon responsive galerij"
+
+#~ msgid "Show Album Title"
+#~ msgstr "Toon album titel"
+
+#~ msgid "Insert Album"
+#~ msgstr "Album Toevoegen"
+
+#~ msgid "Cancel"
+#~ msgstr "Annuleren"
+
+#~ msgid "Please select an Album"
+#~ msgstr "Selecteer een Album"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "Selecteer een Album Formaat"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "Selecteer een Galerij Afbeeldingen Formaat"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "Selecteer een Text Formaat voor de Galerij"
+
+#~ msgid "<img src=\""
+#~ msgstr "<img src=\""
+
+#~ msgid "/wp-admin/admin.php?page=gallery_bank"
+#~ msgstr "/wp-admin/admin.php?page=gallery_bank"
+
+#~ msgid "Album Sorting"
+#~ msgstr "Album Sortering"
+
+#~ msgid "Global Settings"
+#~ msgstr "Globale Instellingen"
+
+#~ msgid "Purchase Pro Version"
+#~ msgstr "Kopen Pro Versie"
+
+#~ msgid "Delete Image"
+#~ msgstr "Verwijder Afbeelding"
+
+#~ msgid "Gallery Bank"
+#~ msgstr "Gallery Bank"
+
+#~ msgid "Add Gallery using Gallery Bank"
+#~ msgstr "Voeg Galerij toe met Gallery Bank"
+
+#~ msgid "Back to Albums"
+#~ msgstr "Terug naar Albums"
+
+#~ msgid "Album Published. Kindly wait for the redirect to happen."
+#~ msgstr "Album Gepubliceerd. U wordt doorverwezen"
+
+#~ msgid "Upload Images"
+#~ msgstr "Afbeeldingen Uploaden"
+
+#~ msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
+#~ msgstr "Je browser ondersteunt geen Flash, Silverlight of HTML5."
+
+#~ msgid "Upload Videos"
+#~ msgstr "Video's Uploaden"
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "(Verkrijgbaar in Premie versies)"
+
+#~ msgid "Video Url"
+#~ msgstr "Video Url"
+
+#~ msgid "Enter your Video Url"
+#~ msgstr "Voer uw Video Url in"
+
+#~ msgid "Upload Video"
+#~ msgstr "Video Uploaden"
+
+#~ msgid "Your Gallery Bank Album"
+#~ msgstr "Uw Gallery Bank Album"
+
+#~ msgid "Url to Redirect on click of an Image"
+#~ msgstr "Url voor Redirect bij klikken op een Afbeelding"
+
+#~ msgid ""
+#~ "You will be only allowed to add 2 galleries. Kindly purchase Premium "
+#~ "Version for full access!"
+#~ msgstr ""
+#~ "Je zal alleen worden toegestaan ​​2 galerijen toe te voegen. Gelieve te "
+#~ "kopen Premium versie voor volledige toegang!"
+
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr "Deze functie is alleen beschikbaar in de betaalde Premium versie!"
+
+#~ msgid "Album Preview"
+#~ msgstr "Album Voorbeeld"
+
+#~ msgid "Please Choose"
+#~ msgstr "Kies"
+
+#~ msgid "Re-Order Albums"
+#~ msgstr "Rangschik Albums"
+
+#~ msgid "Update Order"
+#~ msgstr "Update Rangschikking"
+
+#~ msgid "Sorting Order has been updated."
+#~ msgstr "De Rangschikking is geüpdate"
+
+#~ msgid "Delete All Albums"
+#~ msgstr "Verwijder Alle Albums"
+
+#~ msgid "Purge Images & Albums"
+#~ msgstr "Ruim Afbeeldingen en Albums op"
+
+#~ msgid "Restore Factory Settings"
+#~ msgstr "Terug naar Fabrieksinstellingen"
+
+#~ msgid "Existing Albums Overview"
+#~ msgstr "Overzicht Bestaande Albums"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Date"
+#~ msgstr "datum"
+
+#~ msgid "Edit Album"
+#~ msgstr "Bewerk Album"
+
+#~ msgid "Re-Order Images"
+#~ msgstr "Hergroepeer Afbeeldingen"
+
+#~ msgid "Preview Album"
+#~ msgstr "Bekijk Voorbeeld Album"
+
+#~ msgid "Delete Album"
+#~ msgstr "Verwijder Album"
+
+#~ msgid "Update Album"
+#~ msgstr "Update Album"
+
+#~ msgid "Delete Video"
+#~ msgstr "Verwijder Video"
+
+#~ msgid "Gallery Bank Pricing"
+#~ msgstr "Gallery Bank prijsstelling"
+
+#~ msgid "Update Settings"
+#~ msgstr "Update Instellingen"
+
+#~ msgid "Thumbnail Settings"
+#~ msgstr "Miniatuurinstellingen"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "Miniatuurgrootte"
+
+#~ msgid "Original"
+#~ msgstr "Origineel"
+
+#~ msgid "Custom"
+#~ msgstr "Custom"
+
+#~ msgid "Width"
+#~ msgstr "Breedte"
+
+#~ msgid "Height"
+#~ msgstr "Hoogte"
+
+#~ msgid "Opacity"
+#~ msgstr "Opacity"
+
+#~ msgid "Border Size"
+#~ msgstr "Randdikte"
+
+#~ msgid "Border Radius"
+#~ msgstr "Straal Rand"
+
+#~ msgid "Border Color"
+#~ msgstr "Randkleur"
+
+#~ msgid "Margin Between Images"
+#~ msgstr "Marge tussen Afbeeldingen"
+
+#~ msgid "Text Color"
+#~ msgstr "Tekstkleur"
+
+#~ msgid "Text-Align"
+#~ msgstr "Tekst Align"
+
+#~ msgid "Font-Family"
+#~ msgstr "Lettertype"
+
+#~ msgid "Heading Font-Size"
+#~ msgstr "Titel Tekstgrootte"
+
+#~ msgid "Text Font-Size"
+#~ msgstr "Tekstgrootte"
+
+#~ msgid "Description Length"
+#~ msgstr "Lengte Omschrijving"
+
+#~ msgid "Album Cover Settings"
+#~ msgstr "Instellingen Albumhoes"
+
+#~ msgid "Cover Size"
+#~ msgstr "Grootte Albumhoes"
+
+#~ msgid "Margin Between Albums"
+#~ msgstr "Marge tussen Albums"
+
+#~ msgid "Text for Album Click"
+#~ msgstr "Tekst voor klik op Album"
+
+#~ msgid "Filter Settings"
+#~ msgstr "Filter Instellingen"
+
+#~ msgid "Filters"
+#~ msgstr "Filters"
+
+#~ msgid "Enable"
+#~ msgstr "Inschakelen"
+
+#~ msgid "Disable"
+#~ msgstr "Uitschakelen"
+
+#~ msgid "Filter Color"
+#~ msgstr "Filterkleur"
+
+#~ msgid "Filter Text Color"
+#~ msgstr "Filter Tekstkleur"
+
+#~ msgid "Font-Size"
+#~ msgstr "Lettergrootte"
+
+#~ msgid "Roles & Capabilities"
+#~ msgstr "Rollen & Mogelijkheden"
+
+#~ msgid "Privileges for Admin"
+#~ msgstr "Privileges voor Admin"
+
+#~ msgid "Full Control"
+#~ msgstr "Volledige Controle"
+
+#~ msgid "Read"
+#~ msgstr "Lees"
+
+#~ msgid "Write"
+#~ msgstr "Schrijf"
+
+#~ msgid "Privileges for Editor"
+#~ msgstr "Privileges voor Bewerker"
+
+#~ msgid "Privileges for Author"
+#~ msgstr "Privileges voor Auteur"
+
+#~ msgid "Privileges for Contributor"
+#~ msgstr "Privileges voor Bijdrager"
+
+#~ msgid "Privileges for Subscriber"
+#~ msgstr "Privileges voor Abonnee"
+
+#~ msgid "Lightbox Settings"
+#~ msgstr "Instellingen Lightbox"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "Soort Lightbox"
+
+#~ msgid "Inline Background"
+#~ msgstr "Inline Achtergrond"
+
+#~ msgid "Overlay Background"
+#~ msgstr "Overlay Achtergrond"
+
+#~ msgid "Fade In Time"
+#~ msgstr "Tijd Fade In"
+
+#~ msgid "Fade Out Time"
+#~ msgstr "Tijd Fade Out"
+
+#~ msgid "Facebook Comments"
+#~ msgstr "Facebook Commentaar"
+
+#~ msgid "Social Sharing"
+#~ msgstr "Delen Social Media "
+
+#~ msgid "Image Title"
+#~ msgstr "Titel Afbeelding"
+
+#~ msgid "Image Description"
+#~ msgstr "Beschrijving Afbeelding"
+
+#~ msgid "Front - End Layout Settings"
+#~ msgstr "Layout Settings"
+
+#~ msgid "Text for Back Button"
+#~ msgstr "Tekst voor Terugknop"
+
+#~ msgid "Button Color"
+#~ msgstr "Kleur Knop"
+
+#~ msgid "Button Text Color"
+#~ msgstr "Tekstkleur Knop"
+
+#~ msgid "Album Seperator"
+#~ msgstr "Album Afscheider"
+
+#~ msgid "Pagination Settings for Images"
+#~ msgstr "Pagina-instellingen voor Afbeeldingen"
+
+#~ msgid "Paging"
+#~ msgstr "Paging"
+
+#~ msgid "Slide Show Settings"
+#~ msgstr "Slide Show Instellingen"
+
+#~ msgid "Auto Play"
+#~ msgstr "Automatisch afspelen"
+
+#~ msgid "Interval"
+#~ msgstr "Interval"
+
+#~ msgid "Language Direction Settings"
+#~ msgstr "Taal Richtinginstellingen"
+
+#~ msgid "Language Direction"
+#~ msgstr "Taalrichting"
+
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr "Deze functie is alleen beschikbaar in de betaalde Premium versie!"
+
+#~ msgid "Gallery Bank Short-Codes"
+#~ msgstr "Gallery Bank Short-Codes"
+
+#~ msgid "Licensing"
+#~ msgstr "Licentie"
+
+#~ msgid " Rotate Image"
+#~ msgstr "Afbeelding draaien"
+
+#~ msgid "Select Gallery"
+#~ msgstr "Selecteer Galerij"
+
+#~ msgid "Select Gallery Format"
+#~ msgstr "Selecteer Galerij Formaat"
+
+#~ msgid "Images In Row"
+#~ msgstr "Aantal Afbeeldingen in een Rij"
+
+#~ msgid "Select Text Format"
+#~ msgstr "Selecteer een Tekst Formaat"
+
+#~ msgid "Special Effect"
+#~ msgstr "Speciaal Effect"
+
+#~ msgid "Select Special Effect"
+#~ msgstr "Selecteer Speciaal Effect"
+
+#~ msgid "Animation Effect"
+#~ msgstr "Animatie Effect"
+
+#~ msgid "Responsive Gallery"
+#~ msgstr "Responsive Galerij"
+
+#~ msgid "Upload Images "
+#~ msgstr "uploaden beelden"
+
+#~ msgid "Your Wordpress Version doesn\"t support Wp-media."
+#~ msgstr "Uw Wordpress versie ondersteunt geen Wp-media."
+
+#~ msgid "Attention! A new vesion of Gallery Bank is available for download."
+#~ msgstr "Let op! Er is een nieuwe versie van Gallery Bank beschikbaar."
+
+#~ msgid "Click"
+#~ msgstr "Klik"
+
+#~ msgid "here"
+#~ msgstr "hier"
+
+#~ msgid "to upgrade your version of Gallery Bank."
+#~ msgstr "om uw versie van Gallery Bank te upgraden"
+
+#~ msgid "Date of Creation"
+#~ msgstr "Datum Aanmaak"
+
+#~ msgid "Are you sure you want to delete all Albums?"
+#~ msgstr "Bent u er zeker van dat u alle Albums wilt verwijderen?"
+
+#~ msgid "Are you sure you want to Restore Factory Settings?"
+#~ msgstr "Bent u er zeker van dat u terug wilt naar Fabrieksinstellingen?"
+
+#~ msgid "Are you sure you want to Purge all Images & Albums?"
+#~ msgstr ""
+#~ "Bent u er zeker van dat u alle Afbeeldingen en Albums wilt Opruimen?"
+
+#~ msgid "Upload Thumbnails "
+#~ msgstr "uploaden Miniaturen"
+
+#~ msgid "Gallery Bank Documentation"
+#~ msgstr "Gallery Bank Documentatie"
+
+#~ msgid "Gallery Bank Licensing Module"
+#~ msgstr "Gallery Bank Licentiemodule"
+
+#~ msgid "Update"
+#~ msgstr "Update"
+
+#~ msgid "Success! Settings have been updated."
+#~ msgstr "Gelukt! De instellingen zijn geüpdate."
+
+#~ msgid "Restore Settings"
+#~ msgstr "Herstel Instellingen"
+
+#~ msgid "Settings has been updated."
+#~ msgstr "De instellingen zijn geüpdate."
+
+#~ msgid "Success! Settings have been restored."
+#~ msgstr "Gelukt!  De instellingen zijn hersteld."
+
+#~ msgid "Show Albums"
+#~ msgstr "Toon Albums"
+
+#~ msgid "Responsive"
+#~ msgstr "responsief"
+
+#~ msgid "With Albums in Row"
+#~ msgstr "Met Albums in rij"
+
+#~ msgid "Image Uploader Settings"
+#~ msgstr "Afbeelding Uploader Instellingen"
+
+#~ msgid "Uploader for Images"
+#~ msgstr "afbeelding Uploader"
+
+#~ msgid "WP Media"
+#~ msgstr "WP Media"
+
+#~ msgid "Change Uploading Image Name"
+#~ msgstr "Verandering uploaden Naam afbeelding"
+
+#~ msgid "Image url location"
+#~ msgstr "Afbeelding url locatie"
+
+#~ msgid "Open in New Window"
+#~ msgstr "Openen in nieuw venster"
+
+#~ msgid "Same Window"
+#~ msgstr "zelfde venster"
+
+#~ msgid "Are you sure you want to restore settings?"
+#~ msgstr "Weet u zeker dat u alle instellingen wilt herstellen?"
+
+#~ msgid "Self"
+#~ msgstr "dezelfde pagina"
+
+#~ msgid "Documentation"
+#~ msgstr "Documentatie"
+
+#~ msgid "Video Thumbnails"
+#~ msgstr "Video Miniaturen"
+
+#~ msgid "Video Thumbnail Path"
+#~ msgstr "Video Miniatuurpad"
+
+#~ msgid "Enter your Video Thumbnail Url"
+#~ msgstr "Geef uw Videominiatuur URL in"
